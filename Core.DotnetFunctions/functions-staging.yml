@@ -1,0 +1,65 @@
+trigger:
+  batch: true
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - Core.DotnetFunctions/**/*
+
+pr: none
+
+pool:
+  vmImage: windows-latest
+
+variables:
+  CACHE_RESTORED: false
+env:
+  AZURE_FUNCTIONAPP_NAME: f92core-dotnet-functions
+  AZURE_FUNCTIONAPP_PACKAGE_PATH: .\published
+  CONFIGURATION: Release
+  DOTNET_CORE_VERSION: 6.0.x
+  WORKING_DIRECTORY: . 
+steps:
+  uses: 
+    - actions/checkout@master
+    - name: 
+        Setup .NET Core
+      uses: actions/setup-dotnet@v1
+      with:
+        dotnet-version: ${{ env.DOTNET_CORE_VERSION }}
+    - name: Restore
+      run: dotnet restore "${{ env.WORKING_DIRECTORY }}"
+    - name: Build
+      run: dotnet build "${{ env.WORKING_DIRECTORY }}" --configuration ${{ env.CONFIGURATION }} --no-restore
+    - name: Publish
+      run: dotnet publish "${{ env.WORKING_DIRECTORY }}" --configuration ${{ env.CONFIGURATION }} --no-build --output "${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}"
+    - name: Publish Artifacts
+      uses: actions/upload-artifact@v1.0.0
+      with:
+        name: functionapp
+        path: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+  deploy:
+    runs-on: windows-latest
+    needs: build
+    steps:
+    - name: Download artifact from build job
+      uses: actions/download-artifact@v2
+      with:
+        name: functionapp
+        path: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+    - name: Deploy to Azure Function App
+      uses: Azure/functions-action@v1
+      with:
+        app-name: ${{ env.AZURE_FUNCTIONAPP_NAME }}
+        publish-profile: ${{ secrets.f92core_dotnet_functions_1EDA }}
+        package: ${{ env.AZURE_FUNCTIONAPP_PACKAGE_PATH }}
+        task: AzureFunctionApp@1
+        inputs:
+          azureSubscription: "New York Life (3420c08a-ba08-48d8-93f5-f139de540eec)"
+          appType: "functionApp"
+          appName: "f92core-dotnet-functions"
+          deployToSlotOrASE: true
+          slotName: "staging"
+          #package: "$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip"
+          deploymentMethod: "auto"

@@ -1,0 +1,1 @@
+Contains specs for different block types used throughout Core pages.

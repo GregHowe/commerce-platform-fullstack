@@ -1,0 +1,83 @@
+{
+	"key": "hero",
+	"label": "Hero Sections",
+	"presets": [
+		{
+			"key": "left",
+			"label": "Left Aligned",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "hero",
+					"variants": {
+						"text-align": "text-left",
+						"image-align": "image-left"
+					}
+				}
+			]
+		},
+		{
+			"key": "right",
+			"label": "Right Aligned",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "hero",
+					"variants": {
+						"text-align": "text-left",
+						"image-align": "image-right"
+					}
+				}
+			]
+		},
+		{
+			"key": "contact",
+			"label": "Contact Hero",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "columns",
+							"variants": {
+								"bg-color": "transparent",
+								"hidden": false,
+								"layout": null,
+								"vertical-alignment": null,
+								"order": null,
+								"offset": null
+							},
+							"blocks": [
+								{
+									"type": "contact-card",
+									"variants": {
+										"align-content": null,
+										"hidden": false,
+										"photo-placement": null,
+										"padding": null,
+										"bg-color": "light",
+										"padding-top": "pt-large",
+										"padding-x": "px-large",
+										"padding-bottom": "pb-large",
+										"text-align": "align-left"
+									},
+									"instagram": null,
+									"youtube": null,
+									"logo": null,
+									"description": null
+								}
+							],
+							"locked": null,
+							"allowTypes": null,
+							"restrictTypes": null,
+							"column-count": 2
+						}
+					],
+					"backgroundMediaSrc": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/176/uploads/background-image.png"
+				}
+			]
+		}
+	]
+}

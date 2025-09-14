@@ -1,0 +1,16 @@
+﻿namespace Core.CoreLib.Models.Database.Core
+{
+    public class Preset
+    {
+        public int Id { get; set; }
+        public string Type { get; set; }
+        public string? Title { get; set; }
+        public string? Description { get; set; }
+        public string? ClientCode { get; set; }
+        public string? Settings { get; set; }
+        public bool IsPrivate { get; set; }
+        public bool IsDeleted { get; set; }
+        public int? BrandId { get; set; }
+        public int? SiteId { get; set; }
+    }
+}

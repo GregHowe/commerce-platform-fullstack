@@ -1,0 +1,2063 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreBlockHero default settings 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="breadcrumb"
+    >
+      <ul
+        class="breadcrumb__list"
+      >
+        <li
+          class="breadcrumb__list-item"
+        >
+          <!---->
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              page
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              hierarchy
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              current
+            </span>
+          </nuxtlink-stub>
+        </li>
+      </ul>
+    </nav>
+     
+    <div
+      class="block block_columns block_columns_contained block_columns_left block_columns_pt-small block_columns_transparent"
+      is-first-child="true"
+      is-last-child="true"
+      target="_blank"
+    >
+      <div
+        class="block__body block__body--empty"
+      >
+        <div
+          class="block__container block__section_main block__section_main--2_column"
+        >
+          <div
+            class="block block_rows block_rows_transparent"
+            is-first-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body bg-color-transparent block__body--empty"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              />
+            </div>
+              
+            <!---->
+          </div>
+          <div
+            class="block block_rows block_rows_px-medium block_rows_transparent"
+            id="c1_default"
+            is-last-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body padding-horizontal-px-medium bg-color-transparent"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              >
+                <div
+                  class="block block_text block_text_overline block_text_left"
+                  is-first-child="true"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_headline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_subline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_rich-text block_rich-text_left"
+                  is-last-child="true"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                    index="3"
+                    nested-level="2"
+                  />
+                    
+                  <!---->
+                </div>
+              </div>
+            </div>
+              
+            <!---->
+          </div>
+        </div>
+      </div>
+        
+      <!---->
+    </div>
+     
+    <div
+      class="block block_button block_button_scroll"
+      target="_blank"
+    >
+      <div
+        class="block__body"
+        index="0"
+        nested-level="0"
+      >
+        <a
+          class="button"
+          role="button"
+        >
+          <span
+            class="button_icon--custom"
+          >
+            <!---->
+          </span>
+           
+          <span
+            class="button_label button_icon--down"
+          >
+            <span
+              class="button_label_text"
+            >
+              Keep Scrolling
+            </span>
+             
+            <span
+              class="button_icon button_i"
+              icon="down-arrow"
+            />
+          </span>
+        </a>
+      </div>
+        
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockHero displays all three buttons when urls are supplied 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="breadcrumb"
+    >
+      <ul
+        class="breadcrumb__list"
+      >
+        <li
+          class="breadcrumb__list-item"
+        >
+          <!---->
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              page
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              hierarchy
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              current
+            </span>
+          </nuxtlink-stub>
+        </li>
+      </ul>
+    </nav>
+     
+    <div
+      class="block block_columns block_columns_contained block_columns_left block_columns_pt-small block_columns_transparent"
+      is-first-child="true"
+      is-last-child="true"
+      target="_blank"
+    >
+      <div
+        class="block__body block__body--empty"
+      >
+        <div
+          class="block__container block__section_main block__section_main--2_column"
+        >
+          <div
+            class="block block_rows block_rows_transparent"
+            is-first-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body bg-color-transparent block__body--empty"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              />
+            </div>
+              
+            <!---->
+          </div>
+          <div
+            class="block block_rows block_rows_px-medium block_rows_transparent"
+            id="c1_has-buttonz"
+            is-last-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body padding-horizontal-px-medium bg-color-transparent"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              >
+                <div
+                  class="block block_text block_text_overline block_text_left"
+                  is-first-child="true"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_headline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_subline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_rich-text block_rich-text_left"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                    index="3"
+                    nested-level="2"
+                  />
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_container block_container_columns block_container_transparent"
+                  id="c2_has-buttonz"
+                  is-last-child="true"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                  >
+                    <!---->
+                     
+                    <!---->
+                     
+                    <!---->
+                     
+                    <div
+                      class="block__section_main"
+                    >
+                      <div
+                        class="block block_button block_button_primary"
+                        id="b1_has-buttonz"
+                        is-first-child="true"
+                        parent-is-horizontal="true"
+                        target="_blank"
+                      >
+                        <div
+                          class="block__body"
+                          index="0"
+                          nested-level="3"
+                        >
+                          <a
+                            class="button"
+                            href="https://google.com"
+                            role="button"
+                          >
+                            <span
+                              class="button_icon--custom"
+                            >
+                              <!---->
+                            </span>
+                             
+                            <span
+                              class="button_label button_icon--down"
+                            >
+                              <span
+                                class="button_label_text"
+                              >
+                                Primary Button Label
+                              </span>
+                               
+                              <span
+                                class="button_icon button_i"
+                                icon="down-arrow"
+                              />
+                            </span>
+                          </a>
+                        </div>
+                          
+                        <!---->
+                      </div>
+                      <div
+                        class="block block_button block_button_secondary"
+                        id="b2_has-buttonz"
+                        parent-is-horizontal="true"
+                        target="_blank"
+                      >
+                        <div
+                          class="block__body"
+                          index="1"
+                          nested-level="3"
+                        >
+                          <a
+                            class="button"
+                            href="https://google.com"
+                            role="button"
+                          >
+                            <span
+                              class="button_icon--custom"
+                            >
+                              <!---->
+                            </span>
+                             
+                            <span
+                              class="button_label button_icon--down"
+                            >
+                              <span
+                                class="button_label_text"
+                              >
+                                Secondary Button Label
+                              </span>
+                               
+                              <span
+                                class="button_icon button_i"
+                                icon="down-arrow"
+                              />
+                            </span>
+                          </a>
+                        </div>
+                          
+                        <!---->
+                      </div>
+                      <div
+                        class="block block_button block_button_tertiary"
+                        id="b3_has-buttonz"
+                        is-last-child="true"
+                        parent-is-horizontal="true"
+                        target="_blank"
+                      >
+                        <div
+                          class="block__body"
+                          index="2"
+                          nested-level="3"
+                        >
+                          <a
+                            class="button"
+                            role="button"
+                          >
+                            <span
+                              class="button_icon--custom"
+                            >
+                              <!---->
+                            </span>
+                             
+                            <span
+                              class="button_label button_icon--down"
+                            >
+                              <span
+                                class="button_label_text"
+                              >
+                                Tertiary Button Label
+                              </span>
+                               
+                              <span
+                                class="button_icon button_i"
+                                icon="down-arrow"
+                              />
+                            </span>
+                          </a>
+                        </div>
+                          
+                        <!---->
+                      </div>
+                    </div>
+                     
+                    <!---->
+                  </div>
+                    
+                  <!---->
+                </div>
+              </div>
+            </div>
+              
+            <!---->
+          </div>
+        </div>
+      </div>
+        
+      <!---->
+    </div>
+     
+    <div
+      class="block block_button block_button_scroll"
+      target="_blank"
+    >
+      <div
+        class="block__body"
+        index="0"
+        nested-level="0"
+      >
+        <a
+          class="button"
+          role="button"
+        >
+          <span
+            class="button_icon--custom"
+          >
+            <!---->
+          </span>
+           
+          <span
+            class="button_label button_icon--down"
+          >
+            <span
+              class="button_label_text"
+            >
+              Keep Scrolling
+            </span>
+             
+            <span
+              class="button_icon button_i"
+              icon="down-arrow"
+            />
+          </span>
+        </a>
+      </div>
+        
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockHero displays background image if set 1`] = `
+<div>
+  <div
+    class="block__body"
+    style="background-image: url(https://picsum.photos/200/300.jpg); background-position: center; background-repeat: no-repeat;"
+  >
+    <!---->
+     
+    <div
+      class="block block_columns block_columns_contained block_columns_left block_columns_pt-small block_columns_transparent"
+      is-first-child="true"
+      is-last-child="true"
+      target="_blank"
+    >
+      <div
+        class="block__body block__body--empty"
+      >
+        <div
+          class="block__container block__section_main block__section_main--2_column"
+        >
+          <div
+            class="block block_rows block_rows_transparent"
+            is-first-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body bg-color-transparent block__body--empty"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              />
+            </div>
+              
+            <!---->
+          </div>
+          <div
+            class="block block_rows block_rows_px-medium block_rows_transparent"
+            id="c1_background"
+            is-last-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body padding-horizontal-px-medium bg-color-transparent"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              >
+                <div
+                  class="block block_text block_text_overline block_text_left"
+                  is-first-child="true"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_headline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_subline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_rich-text block_rich-text_left"
+                  is-last-child="true"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                    index="3"
+                    nested-level="2"
+                  />
+                    
+                  <!---->
+                </div>
+              </div>
+            </div>
+              
+            <!---->
+          </div>
+        </div>
+      </div>
+        
+      <!---->
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockHero displays breadcrumb variant 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="breadcrumb breadcrumb__compact"
+    >
+      <ul
+        class="breadcrumb__list"
+      >
+        <li
+          class="breadcrumb__list-item breadcrumb__list-item--compact"
+        >
+          <!---->
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              page
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item breadcrumb__list-item--compact"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              hierarchy
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item breadcrumb__list-item--compact"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              current
+            </span>
+          </nuxtlink-stub>
+        </li>
+      </ul>
+    </nav>
+     
+    <div
+      class="block block_columns block_columns_contained block_columns_left block_columns_pt-small block_columns_transparent"
+      is-first-child="true"
+      is-last-child="true"
+      target="_blank"
+    >
+      <div
+        class="block__body block__body--empty"
+      >
+        <div
+          class="block__container block__section_main block__section_main--2_column"
+        >
+          <div
+            class="block block_rows block_rows_transparent"
+            is-first-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body bg-color-transparent block__body--empty"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              />
+            </div>
+              
+            <!---->
+          </div>
+          <div
+            class="block block_rows block_rows_px-medium block_rows_transparent"
+            id="c1_has-breadcrumb-variant"
+            is-last-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body padding-horizontal-px-medium bg-color-transparent"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              >
+                <div
+                  class="block block_text block_text_overline block_text_left"
+                  is-first-child="true"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_headline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_subline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_rich-text block_rich-text_left"
+                  is-last-child="true"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                    index="3"
+                    nested-level="2"
+                  />
+                    
+                  <!---->
+                </div>
+              </div>
+            </div>
+              
+            <!---->
+          </div>
+        </div>
+      </div>
+        
+      <!---->
+    </div>
+     
+    <div
+      class="block block_button block_button_scroll"
+      target="_blank"
+    >
+      <div
+        class="block__body"
+        index="0"
+        nested-level="0"
+      >
+        <a
+          class="button"
+          role="button"
+        >
+          <span
+            class="button_icon--custom"
+          >
+            <!---->
+          </span>
+           
+          <span
+            class="button_label button_icon--down"
+          >
+            <span
+              class="button_label_text"
+            >
+              Keep Scrolling
+            </span>
+             
+            <span
+              class="button_icon button_i"
+              icon="down-arrow"
+            />
+          </span>
+        </a>
+      </div>
+        
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockHero displays image on right 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="breadcrumb"
+    >
+      <ul
+        class="breadcrumb__list"
+      >
+        <li
+          class="breadcrumb__list-item"
+        >
+          <!---->
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              page
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              hierarchy
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              current
+            </span>
+          </nuxtlink-stub>
+        </li>
+      </ul>
+    </nav>
+     
+    <div
+      class="block block_columns block_columns_contained block_columns_right block_columns_pt-small block_columns_transparent"
+      is-first-child="true"
+      is-last-child="true"
+      target="_blank"
+    >
+      <div
+        class="block__body block__body--empty"
+      >
+        <div
+          class="block__container block__section_main block__section_main--2_column"
+        >
+          <div
+            class="block block_rows block_rows_transparent"
+            is-first-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body bg-color-transparent"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              >
+                <div
+                  class="block block_media block_media_contain block_media_transparent"
+                  id="i1_has-image"
+                  is-first-child="true"
+                  is-last-child="true"
+                  target="_blank"
+                >
+                  <div
+                    index="0"
+                    nested-level="2"
+                  >
+                    <div
+                      class="block block_image block_image_contain block_image_transparent"
+                      id="i1_has-image"
+                      target="_blank"
+                    >
+                      <div
+                        class="block__body"
+                        index="0"
+                        nested-level="0"
+                      >
+                        <figure
+                          class="block__section_content"
+                        >
+                          <img
+                            src="https://picsum.photos/200/300.jpg"
+                            style="height: auto; width: 100%;"
+                          />
+                        </figure>
+                      </div>
+                        
+                      <!---->
+                    </div>
+                  </div>
+                    
+                  <!---->
+                </div>
+              </div>
+            </div>
+              
+            <!---->
+          </div>
+          <div
+            class="block block_rows block_rows_px-medium block_rows_transparent"
+            id="c1_has-image"
+            is-last-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body padding-horizontal-px-medium bg-color-transparent"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              >
+                <div
+                  class="block block_text block_text_overline block_text_left"
+                  is-first-child="true"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_headline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_subline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_rich-text block_rich-text_left"
+                  is-last-child="true"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                    index="3"
+                    nested-level="2"
+                  />
+                    
+                  <!---->
+                </div>
+              </div>
+            </div>
+              
+            <!---->
+          </div>
+        </div>
+      </div>
+        
+      <!---->
+    </div>
+     
+    <div
+      class="block block_button block_button_scroll"
+      target="_blank"
+    >
+      <div
+        class="block__body"
+        index="0"
+        nested-level="0"
+      >
+        <a
+          class="button"
+          role="button"
+        >
+          <span
+            class="button_icon--custom"
+          >
+            <!---->
+          </span>
+           
+          <span
+            class="button_label button_icon--down"
+          >
+            <span
+              class="button_label_text"
+            >
+              Keep Scrolling
+            </span>
+             
+            <span
+              class="button_icon button_i"
+              icon="down-arrow"
+            />
+          </span>
+        </a>
+      </div>
+        
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockHero displays image when url is supplied 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="breadcrumb"
+    >
+      <ul
+        class="breadcrumb__list"
+      >
+        <li
+          class="breadcrumb__list-item"
+        >
+          <!---->
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              page
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              hierarchy
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              current
+            </span>
+          </nuxtlink-stub>
+        </li>
+      </ul>
+    </nav>
+     
+    <div
+      class="block block_columns block_columns_contained block_columns_left block_columns_pt-small block_columns_transparent"
+      is-first-child="true"
+      is-last-child="true"
+      target="_blank"
+    >
+      <div
+        class="block__body block__body--empty"
+      >
+        <div
+          class="block__container block__section_main block__section_main--2_column"
+        >
+          <div
+            class="block block_rows block_rows_transparent"
+            is-first-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body bg-color-transparent"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              >
+                <div
+                  class="block block_media block_media_contain block_media_transparent"
+                  id="i1_has-image"
+                  is-first-child="true"
+                  is-last-child="true"
+                  target="_blank"
+                >
+                  <div
+                    index="0"
+                    nested-level="2"
+                  >
+                    <div
+                      class="block block_image block_image_contain block_image_transparent"
+                      id="i1_has-image"
+                      target="_blank"
+                    >
+                      <div
+                        class="block__body"
+                        index="0"
+                        nested-level="0"
+                      >
+                        <figure
+                          class="block__section_content"
+                        >
+                          <img
+                            src="https://picsum.photos/200/300.jpg"
+                            style="height: auto; width: 100%;"
+                          />
+                        </figure>
+                      </div>
+                        
+                      <!---->
+                    </div>
+                  </div>
+                    
+                  <!---->
+                </div>
+              </div>
+            </div>
+              
+            <!---->
+          </div>
+          <div
+            class="block block_rows block_rows_px-medium block_rows_transparent"
+            id="c1_has-image"
+            is-last-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body padding-horizontal-px-medium bg-color-transparent"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              >
+                <div
+                  class="block block_text block_text_overline block_text_left"
+                  is-first-child="true"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_headline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_subline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_rich-text block_rich-text_left"
+                  is-last-child="true"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                    index="3"
+                    nested-level="2"
+                  />
+                    
+                  <!---->
+                </div>
+              </div>
+            </div>
+              
+            <!---->
+          </div>
+        </div>
+      </div>
+        
+      <!---->
+    </div>
+     
+    <div
+      class="block block_button block_button_scroll"
+      target="_blank"
+    >
+      <div
+        class="block__body"
+        index="0"
+        nested-level="0"
+      >
+        <a
+          class="button"
+          role="button"
+        >
+          <span
+            class="button_icon--custom"
+          >
+            <!---->
+          </span>
+           
+          <span
+            class="button_label button_icon--down"
+          >
+            <span
+              class="button_label_text"
+            >
+              Keep Scrolling
+            </span>
+             
+            <span
+              class="button_icon button_i"
+              icon="down-arrow"
+            />
+          </span>
+        </a>
+      </div>
+        
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockHero displays text when supplied 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="breadcrumb"
+    >
+      <ul
+        class="breadcrumb__list"
+      >
+        <li
+          class="breadcrumb__list-item"
+        >
+          <!---->
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              page
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              hierarchy
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              current
+            </span>
+          </nuxtlink-stub>
+        </li>
+      </ul>
+    </nav>
+     
+    <div
+      class="block block_columns block_columns_contained block_columns_left block_columns_pt-small block_columns_transparent"
+      is-first-child="true"
+      is-last-child="true"
+      target="_blank"
+    >
+      <div
+        class="block__body block__body--empty"
+      >
+        <div
+          class="block__container block__section_main block__section_main--2_column"
+        >
+          <div
+            class="block block_rows block_rows_transparent"
+            is-first-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body bg-color-transparent block__body--empty"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              />
+            </div>
+              
+            <!---->
+          </div>
+          <div
+            class="block block_rows block_rows_px-medium block_rows_transparent"
+            id="c1_texty"
+            is-last-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body padding-horizontal-px-medium bg-color-transparent"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              >
+                <div
+                  class="block block_text block_text_overline block_text_left"
+                  is-first-child="true"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                    index="0"
+                    nested-level="2"
+                  >
+                    
+	overline content
+
+                  </div>
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_headline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                    index="1"
+                    nested-level="2"
+                  >
+                    
+	headliney type stuff
+
+                  </div>
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_subline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                    index="2"
+                    nested-level="2"
+                  >
+                    
+	very subliney
+
+                  </div>
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_rich-text block_rich-text_left"
+                  is-last-child="true"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                    index="3"
+                    nested-level="2"
+                  >
+                    when writing test content, I often sort of ramble.
+                  </div>
+                    
+                  <!---->
+                </div>
+              </div>
+            </div>
+              
+            <!---->
+          </div>
+        </div>
+      </div>
+        
+      <!---->
+    </div>
+     
+    <div
+      class="block block_button block_button_scroll"
+      target="_blank"
+    >
+      <div
+        class="block__body"
+        index="0"
+        nested-level="0"
+      >
+        <a
+          class="button"
+          role="button"
+        >
+          <span
+            class="button_icon--custom"
+          >
+            <!---->
+          </span>
+           
+          <span
+            class="button_label button_icon--down"
+          >
+            <span
+              class="button_label_text"
+            >
+              Keep Scrolling
+            </span>
+             
+            <span
+              class="button_icon button_i"
+              icon="down-arrow"
+            />
+          </span>
+        </a>
+      </div>
+        
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockHero displays video in iframe when video embed url is supplied 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="breadcrumb"
+    >
+      <ul
+        class="breadcrumb__list"
+      >
+        <li
+          class="breadcrumb__list-item"
+        >
+          <!---->
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              page
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              hierarchy
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              current
+            </span>
+          </nuxtlink-stub>
+        </li>
+      </ul>
+    </nav>
+     
+    <div
+      class="block block_columns block_columns_contained block_columns_left block_columns_pt-small block_columns_transparent"
+      is-first-child="true"
+      is-last-child="true"
+      target="_blank"
+    >
+      <div
+        class="block__body block__body--empty"
+      >
+        <div
+          class="block__container block__section_main block__section_main--2_column"
+        >
+          <div
+            class="block block_rows block_rows_transparent"
+            is-first-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body bg-color-transparent"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              >
+                <div
+                  class="block block_media block_media_contain block_media_transparent"
+                  id="i1_has-video"
+                  is-first-child="true"
+                  is-last-child="true"
+                  target="_blank"
+                >
+                  <div
+                    index="0"
+                    nested-level="2"
+                  >
+                    <div
+                      class="block block_video block_video_contain block_video_transparent"
+                      id="i1_has-video"
+                      target="_blank"
+                    >
+                      <div
+                        class="block__body"
+                        index="0"
+                        nested-level="0"
+                      >
+                        <div
+                          class="block__section_content"
+                        >
+                          <iframe
+                            class="block__section_content--player"
+                            src="https://www.youtube.com/embed/lMh0NRwqElg"
+                            type="text/html"
+                          />
+                        </div>
+                      </div>
+                        
+                      <!---->
+                    </div>
+                  </div>
+                    
+                  <!---->
+                </div>
+              </div>
+            </div>
+              
+            <!---->
+          </div>
+          <div
+            class="block block_rows block_rows_px-medium block_rows_transparent"
+            id="c1_has-video"
+            is-last-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body padding-horizontal-px-medium bg-color-transparent"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              >
+                <div
+                  class="block block_text block_text_overline block_text_left"
+                  is-first-child="true"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_headline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_subline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_rich-text block_rich-text_left"
+                  is-last-child="true"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                    index="3"
+                    nested-level="2"
+                  />
+                    
+                  <!---->
+                </div>
+              </div>
+            </div>
+              
+            <!---->
+          </div>
+        </div>
+      </div>
+        
+      <!---->
+    </div>
+     
+    <div
+      class="block block_button block_button_scroll"
+      target="_blank"
+    >
+      <div
+        class="block__body"
+        index="0"
+        nested-level="0"
+      >
+        <a
+          class="button"
+          role="button"
+        >
+          <span
+            class="button_icon--custom"
+          >
+            <!---->
+          </span>
+           
+          <span
+            class="button_label button_icon--down"
+          >
+            <span
+              class="button_label_text"
+            >
+              Keep Scrolling
+            </span>
+             
+            <span
+              class="button_icon button_i"
+              icon="down-arrow"
+            />
+          </span>
+        </a>
+      </div>
+        
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockHero does not show keep scrolling if turned off 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <!---->
+     
+    <div
+      class="block block_columns block_columns_contained block_columns_left block_columns_pt-small block_columns_transparent"
+      is-first-child="true"
+      is-last-child="true"
+      target="_blank"
+    >
+      <div
+        class="block__body block__body--empty"
+      >
+        <div
+          class="block__container block__section_main block__section_main--2_column"
+        >
+          <div
+            class="block block_rows block_rows_transparent"
+            is-first-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body bg-color-transparent block__body--empty"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              />
+            </div>
+              
+            <!---->
+          </div>
+          <div
+            class="block block_rows block_rows_px-medium block_rows_transparent"
+            id="c1_no-scroll"
+            is-last-child="true"
+            parent-is-horizontal="true"
+            target="_blank"
+          >
+            <div
+              class="block__body padding-horizontal-px-medium bg-color-transparent"
+              style="height: auto;"
+            >
+              <div
+                class="block__container block__section_main"
+              >
+                <div
+                  class="block block_text block_text_overline block_text_left"
+                  is-first-child="true"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_headline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_text block_text_subline block_text_left block_text_bold"
+                  target="_blank"
+                >
+                  <!---->
+                    
+                  <!---->
+                </div>
+                <div
+                  class="block block_rich-text block_rich-text_left"
+                  is-last-child="true"
+                  target="_blank"
+                >
+                  <div
+                    class="block__body"
+                    index="3"
+                    nested-level="2"
+                  />
+                    
+                  <!---->
+                </div>
+              </div>
+            </div>
+              
+            <!---->
+          </div>
+        </div>
+      </div>
+        
+      <!---->
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockHero uses ForgeControlBlock if isEditable 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <nav
+      aria-label="breadcrumb"
+      class="breadcrumb"
+    >
+      <ul
+        class="breadcrumb__list"
+      >
+        <li
+          class="breadcrumb__list-item"
+        >
+          <!---->
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              page
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              hierarchy
+            </span>
+          </nuxtlink-stub>
+        </li>
+        <li
+          class="breadcrumb__list-item"
+        >
+          <span
+            class="breadcrumb__list-item--separator"
+          >
+            
+				&gt;
+			
+          </span>
+           
+          <nuxtlink-stub
+            aria-current="true"
+          >
+            <span
+              class="breadcrumb__list-item--title"
+            >
+              current
+            </span>
+          </nuxtlink-stub>
+        </li>
+      </ul>
+    </nav>
+     
+    <forgecontrolblock-stub
+      index="0"
+      is-editable="true"
+      is-first-child="true"
+      is-last-child="true"
+      settings="[object Object]"
+    />
+     
+    <div
+      class="block block_button block_button_scroll"
+      target="_blank"
+    >
+      <div
+        class="block__body"
+        index="0"
+        nested-level="0"
+      >
+        <a
+          class="button"
+          role="button"
+        >
+          <span
+            class="button_icon--custom"
+          >
+            <!---->
+          </span>
+           
+          <span
+            class="button_label button_icon--down"
+          >
+            <span
+              class="button_label_text"
+            >
+              Keep Scrolling
+            </span>
+             
+            <span
+              class="button_icon button_i"
+              icon="down-arrow"
+            />
+          </span>
+        </a>
+      </div>
+        
+      <!---->
+    </div>
+  </div>
+</div>
+`;

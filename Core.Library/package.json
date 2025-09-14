@@ -1,0 +1,58 @@
+{
+	"name": "@fusion92/core2.0-library",
+	"version": "0.0.0",
+	"private": true,
+	"files": [
+		"dist"
+	],
+	"main": "dist/core-library.common.js",
+	"scripts": {
+		"serve": "vue-cli-service serve",
+		"build": "vue-cli-service build",
+		"deploy:lib": "vue-cli-service build --target lib --name core-library src/main.js",
+		"lint": "vue-cli-service lint",
+		"test": "jest"
+	},
+	"dependencies": {
+		"core-js": "^3.8.3",
+		"lodash": "^4.17.21",
+		"vue": "^2.6.14",
+		"vuex": "^4.1.0"
+	},
+	"devDependencies": {
+		"@babel/core": "^7.18.13",
+		"@babel/eslint-parser": "^7.18.9",
+		"@babel/preset-env": "^7.18.10",
+		"@testing-library/jest-dom": "^5.16.5",
+		"@testing-library/user-event": "^14.4.3",
+		"@testing-library/vue": "5",
+		"@vue/cli-plugin-babel": "^5.0.8",
+		"@vue/cli-plugin-eslint": "^5.0.8",
+		"@vue/cli-service": "^5.0.8",
+		"@vue/test-utils": "^1.3.0",
+		"axios": "^1.3.0",
+		"babel-core": "^7.0.0-bridge.0",
+		"babel-jest": "^28.1.3",
+		"eslint": "^8.23.0",
+		"eslint-config-prettier": "^8.5.0",
+		"eslint-loader": "^4.0.2",
+		"eslint-plugin-prettier": "^4.2.1",
+		"eslint-plugin-vue": "^9.4.0",
+		"jest": "^29.0.1",
+		"jest-environment-jsdom": "^29.0.1",
+		"mustache": "^4.2.0",
+		"prettier": "^2.7.1",
+		"sass": "^1.54.8",
+		"sass-loader": "^10.1.1",
+		"vee-validate": "3",
+		"vue-jest": "^3.0.7",
+		"vue-template-compiler": "^2.7.10",
+		"vue-the-mask": "^0.11.1",
+		"webpack": "^4.46.0"
+	},
+	"browserslist": [
+		"> 1%",
+		"last 2 versions",
+		"not dead"
+	]
+}

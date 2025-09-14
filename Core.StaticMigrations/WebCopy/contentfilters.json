@@ -1,0 +1,58 @@
+{
+  "Images": [
+    "image/*"
+  ],
+  "Video": [
+    "video/*"
+  ],
+  "Audio": [
+    "audio/*"
+  ],
+  "Fonts": [
+    "font/*"
+  ],
+  "Archives": [
+    "application/zip",
+    "application/x-7z-compressed",
+    "application/x-arj",
+    "application/x-bzip",
+    "application/x-bzip2",
+    "application/gzip",
+    "application/vnd.rar",
+    "application/x-tar",
+    ".zipx"
+  ],
+  "Documents": [
+    "application/vnd.openxmlformats*",
+    "application/msword*",
+    "application/vnd.ms-excel*",
+    "application/vnd.ms-powerpoint*",
+    "application/x-msaccess*",
+    "application/pdf",
+    "text/plain",
+    "text/csv",
+    "pplication/vnd.oasis.opendocument*",
+    "application/rtf",
+    "application/vnd.visio"
+  ],
+  "E-books": [
+    "application/pdf",
+    "application/epub+zip",
+    "application/vnd.amazon.ebook",
+    "application/vnd.comicbook+zip",
+    "application/vnd.comicbook-rar",
+    "application/vnd.ms-htmlhelp",
+    ".fb2",
+    ".fb2.zip",
+    ".fbz",
+    "text/plain",
+    "application/rtf",
+    ".mobi"
+  ],
+  "Torrent": [
+    "application/x-bittorrent"
+  ],
+  "Other": [
+    "application/octet-stream"
+  ]
+}

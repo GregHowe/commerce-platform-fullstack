@@ -1,0 +1,17 @@
+{
+	"bindings": [
+		{
+			"authLevel": "function",
+			"type": "httpTrigger",
+			"direction": "in",
+			"name": "req",
+			"route": "api/pipelinequeue",
+			"methods": ["get"]
+		},
+		{
+			"type": "http",
+			"direction": "out",
+			"name": "res"
+		}
+	]
+}

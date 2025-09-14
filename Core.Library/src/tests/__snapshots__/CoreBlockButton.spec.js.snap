@@ -1,0 +1,145 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreBlockButton if newTab is set, make sure button target matches 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <a
+      class="button"
+      role="button"
+      target="_blank"
+    >
+      <span
+        class="button_icon--custom"
+      >
+        <!---->
+      </span>
+       
+      <span
+        class="button_label button_icon--down"
+      >
+        <span
+          class="button_label_text"
+        >
+          Button Label
+        </span>
+         
+        <span
+          class="button_icon button_i"
+          icon="down-arrow"
+        />
+      </span>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockButton if url is an internal link, nuxt link is used for routing 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <a
+      class="button"
+      role="button"
+      test-id="nuxtlink-stub"
+      to="/internal-link"
+    >
+      <span
+        class="button_icon--custom"
+      >
+        <!---->
+      </span>
+       
+      <span
+        class="button_label button_icon--down"
+      >
+        <span
+          class="button_label_text"
+        >
+          Button Label
+        </span>
+         
+        <span
+          class="button_icon button_i"
+          icon="down-arrow"
+        />
+      </span>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockButton if url is set, make sure button href matches 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <a
+      class="button"
+      href="https://www.google.com"
+      role="button"
+    >
+      <span
+        class="button_icon--custom"
+      >
+        <!---->
+      </span>
+       
+      <span
+        class="button_label button_icon--down"
+      >
+        <span
+          class="button_label_text"
+        >
+          Button Label
+        </span>
+         
+        <span
+          class="button_icon button_i"
+          icon="down-arrow"
+        />
+      </span>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockButton left arrow icon is shown is shown if passed into prop 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <a
+      class="button"
+      role="button"
+    >
+      <span
+        class="button_icon--custom"
+      >
+        <span
+          class="button_icon"
+          icon="left-arrow"
+          name="buttonIcon"
+        />
+      </span>
+       
+      <span
+        class="button_label button_icon--down"
+      >
+        <span
+          class="button_label_text"
+        >
+          Button Label
+        </span>
+         
+        <span
+          class="button_icon button_i"
+          icon="down-arrow"
+        />
+      </span>
+    </a>
+  </div>
+</div>
+`;

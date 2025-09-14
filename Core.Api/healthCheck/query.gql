@@ -1,0 +1,7 @@
+query GetThemes {
+	preset_themes {
+		_doc,
+		title,
+		styles
+  	}
+}

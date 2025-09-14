@@ -1,0 +1,1549 @@
+{
+	"fields": [
+		{
+			"key": "id",
+			"label": "ID",
+			"type": "id",
+			"readonly": true,
+			"hidden": true
+		},
+		{
+			"key": "type",
+			"label": "Type",
+			"type": "string",
+			"readonly": true,
+			"hidden": true
+		},
+		{
+			"key": "variants",
+			"label": "Variants",
+			"type": "json",
+			"readonly": true,
+			"hidden": true
+		},
+		{
+			"key": "linkUrl",
+			"label": "Link URL",
+			"type": "string"
+		},
+		{
+			"key": "newWindow",
+			"label": "Open in New Window",
+			"type": "boolean"
+		},
+		{
+			"key": "linkInternal",
+			"label": "Internal Link",
+			"type": "boolean"
+		}
+	],
+	"variants": [
+		{
+			"key": "text-align",
+			"label": "Text Alignment",
+			"options": ["align-left", "align-center", "align-right"]
+		},
+		{
+			"key": "padding-top",
+			"label": "Padding Top",
+			"options": [
+				"pt-none",
+				"pt-small",
+				"pt-medium",
+				"pt-large",
+				"pt-huge"
+			]
+		},
+		{
+			"key": "padding-bottom",
+			"label": "Padding Bottom",
+			"options": [
+				"pb-none",
+				"pb-small",
+				"pb-medium",
+				"pb-large",
+				"pb-huge"
+			]
+		},
+		{
+			"key": "padding-x",
+			"label": "Padding Horizontal",
+			"options": [
+				"px-none",
+				"px-small",
+				"px-medium",
+				"px-large",
+				"px-huge"
+			]
+		},
+		{
+			"key": "padding-all",
+			"label": "Padding All",
+			"options": ["p-none", "p-small", "p-medium", "p-large", "p-huge"]
+		}
+	],
+	"types": {
+		"columns": {
+			"requireChild": true,
+			"isPageLevel": true,
+			"fields": [
+				{
+					"key": "blocks",
+					"label": "Blocks",
+					"type": "json",
+					"rules": { "json": true },
+					"hidden": true
+				},
+				{
+					"key": "locked",
+					"label": "Locked",
+					"type": "boolean",
+					"hidden": true,
+					"hint": "Stops users from selecting this container."
+				},
+				{
+					"key": "allowTypes",
+					"label": "Allowed Block Types",
+					"type": "string",
+					"hidden": true,
+					"hint": "if you want to restrict this container to only accept certain block types, put the types here separated by comma."
+				},
+				{
+					"key": "restrictTypes",
+					"label": "Restricted Block Types",
+					"type": "string",
+					"hidden": true,
+					"hint": "if you want to restrict this container to NOT accept certain block types, put the types here separated by comma."
+				},
+				{
+					"key": "column-count",
+					"label": "Column Count",
+					"type": "integer",
+					"hint": "values between 2-6 should work"
+				}
+			],
+			"variants": [
+				{
+					"key": "bg-color",
+					"label": "Background Color",
+					"options": [
+						"light",
+						"dark",
+						"primary",
+						"white",
+						"transparent"
+					]
+				},
+				{
+					"key": "layout",
+					"label": "Layout",
+					"options": ["full-width", "full-bleed", "contained"]
+				},
+				{
+					"key": "vertical-alignment",
+					"label": "Vertical Alignment",
+					"options": ["y-center", "y-bottom"]
+				},
+				{
+					"key": "order",
+					"label": "Column Order",
+					"options": ["reverse"]
+				},
+				{
+					"key": "offset",
+					"label": "Column Offset",
+					"options": ["offset-left", "offset-right"]
+				}
+			]
+		},
+		"container": {
+			"requireChild": true,
+			"fields": [
+				{
+					"key": "hasAccordion",
+					"label": "Has Accordion",
+					"type": "boolean"
+				},
+				{
+					"key": "blocks",
+					"label": "Blocks",
+					"type": "json",
+					"rules": { "json": true },
+					"hidden": true
+				},
+				{
+					"key": "locked",
+					"label": "Locked",
+					"type": "boolean",
+					"hidden": true,
+					"hint": "Stops users from adding or removing blocks from this container."
+				},
+				{
+					"key": "allowTypes",
+					"label": "Allowed Block Types",
+					"type": "string",
+					"hidden": true,
+					"hint": "if you want to restrict this container to only accept certain block types, put the types here separated by comma."
+				},
+				{
+					"key": "restrictTypes",
+					"label": "Restricted Block Types",
+					"type": "string",
+					"hidden": true,
+					"hint": "if you want to restrict this container to NOT accept certain block types, put the types here separated by comma."
+				}
+			],
+			"variants": [
+				{
+					"key": "layout",
+					"label": "Layout Mode",
+					"options": ["carousel", "tabbed", "toggle"]
+				},
+				{
+					"key": "layout-width",
+					"label": "Layout Width",
+					"options": ["full-width", "full-bleed", "contained"]
+				},
+				{
+					"key": "bg-color",
+					"label": "Background Color",
+					"options": [
+						"light",
+						"dark",
+						"primary",
+						"white",
+						"transparent"
+					]
+				},
+				{
+					"key": "vertical-alignment",
+					"label": "Vertical Alignment",
+					"options": ["y-center", "y-bottom"]
+				},
+				{
+					"key": "child-width",
+					"label": "Child Width",
+					"options": ["full-size", "slim"]
+				}
+			]
+		},
+		"grid": {
+			"requireChild": true,
+			"isPageLevel": true,
+			"fields": [
+				{
+					"key": "blocks",
+					"label": "Blocks",
+					"type": "json",
+					"rules": { "json": true },
+					"hidden": true
+				},
+				{
+					"key": "locked",
+					"label": "Locked",
+					"type": "boolean",
+					"hidden": true,
+					"hint": "Stops users from adding or removing blocks from this container."
+				},
+				{
+					"key": "allowTypes",
+					"label": "Allowed Block Types",
+					"type": "string",
+					"hidden": true,
+					"hint": "if you want to restrict this container to only accept certain block types, put the types here separated by comma."
+				},
+				{
+					"key": "restrictTypes",
+					"label": "Restricted Block Types",
+					"type": "string",
+					"hidden": true,
+					"hint": "if you want to restrict this container to NOT accept certain block types, put the types here separated by comma."
+				},
+				{
+					"key": "column-count",
+					"label": "Column Count",
+					"type": "integer",
+					"hint": "values between 2-6 should work"
+				},
+				{
+					"key": "image",
+					"label": "Background Image",
+					"type": "image",
+					"hint": "Choose background image",
+					"rules": {
+						"mimes": [
+							"image/jpeg",
+							"image/png",
+							"image/svg",
+							"image/gif",
+							"image/bmp"
+						],
+						"maxSize": 5000
+					}
+				}
+			],
+			"variants": [
+				{
+					"key": "vertical-alignment",
+					"label": "Vertical Alignment",
+					"options": ["y-center", "y-bottom"]
+				}
+			]
+		},
+		"rows": {
+			"requireChild": true,
+			"isPageLevel": true,
+			"fields": [
+				{
+					"key": "blocks",
+					"label": "Blocks",
+					"type": "json",
+					"rules": { "json": true },
+					"hidden": true
+				},
+				{
+					"key": "locked",
+					"label": "Locked",
+					"type": "boolean",
+					"hidden": true,
+					"hint": "Stops users from adding or removing blocks from this container."
+				},
+				{
+					"key": "allowTypes",
+					"label": "Allowed Block Types",
+					"type": "string",
+					"hidden": true,
+					"hint": "if you want to restrict this container to only accept certain block types, put the types here separated by comma."
+				},
+				{
+					"key": "restrictTypes",
+					"label": "Restricted Block Types",
+					"type": "string",
+					"hidden": true,
+					"hint": "if you want to restrict this container to NOT accept certain block types, put the types here separated by comma."
+				},
+				{
+					"key": "rowHeight",
+					"label": "Row Height",
+					"type": "string",
+					"default": "auto"
+				},
+				{
+					"key": "backgroundMediaSrc",
+					"label": "Background Media",
+					"type": "media",
+					"acceptTypes": ["image", "video"]
+				}
+			],
+			"variants": [
+				{
+					"key": "bg-color",
+					"label": "Background Color",
+					"options": [
+						"light",
+						"dark",
+						"primary",
+						"white",
+						"transparent"
+					]
+				},
+				{
+					"key": "layout",
+					"label": "Layout",
+					"options": ["full-width", "full-bleed", "contained"]
+				},
+				{
+					"key": "align-items",
+					"label": "Align Items",
+					"options": ["center"]
+				}
+			]
+		},
+		"content-card": {
+			"fields": [
+				{
+					"key": "media",
+					"label": "Content Media",
+					"type": "media",
+					"acceptTypes": ["image", "video"],
+					"rules": {
+						"mimes": [
+							"image/jpeg",
+							"image/png",
+							"image/svg",
+							"image/gif",
+							"image/bmp"
+						],
+						"maxSize": 5000
+					}
+				},
+				{
+					"key": "overline",
+					"label": "Overline",
+					"type": "string",
+					"rules": { "max": 255 }
+				},
+				{
+					"key": "headline",
+					"label": "Headline",
+					"type": "string",
+					"rules": { "max": 255 }
+				},
+				{
+					"key": "richText",
+					"label": "Body",
+					"type": "rich-text",
+					"rules": { "max": 255 }
+				},
+				{
+					"key": "primaryButton",
+					"label": "Primary Button",
+					"type": "boolean",
+					"default": false
+				},
+				{
+					"key": "primaryUrl",
+					"label": "Primary Button Url",
+					"type": "select-link",
+					"requireSettings": [
+						{
+							"key": "primaryButton",
+							"values": [true]
+						}
+					]
+				},
+				{
+					"key": "primaryLabel",
+					"label": "Primary Button Label",
+					"type": "string",
+					"default": "Primary Button",
+					"rules": { "max": 50 },
+					"requireSettings": [
+						{
+							"key": "primaryButton",
+							"values": [true]
+						}
+					]
+				},
+				{
+					"key": "primaryBtnNewTab",
+					"label": "Primary Button New Tab",
+					"type": "boolean",
+					"requireSettings": [
+						{
+							"key": "primaryButton",
+							"values": [true]
+						}
+					]
+				},
+				{
+					"key": "secondaryButton",
+					"label": "Secondary Button",
+					"type": "boolean",
+					"default": false
+				},
+				{
+					"key": "secondaryLabel",
+					"label": "Secondary Button Label",
+					"type": "string",
+					"default": "Secondary Button",
+					"rules": { "max": 50 },
+					"requireSettings": [
+						{
+							"key": "secondaryButton",
+							"values": [true]
+						}
+					]
+				},
+				{
+					"key": "secondaryUrl",
+					"label": "Secondary Button Url",
+					"type": "select-link",
+					"requireSettings": [
+						{
+							"key": "secondaryButton",
+							"values": [true]
+						}
+					]
+				},
+				{
+					"key": "secondaryBtnNewTab",
+					"label": "Secondary Button New Tab",
+					"type": "boolean",
+					"requireSettings": [
+						{
+							"key": "secondaryButton",
+							"values": [true]
+						}
+					]
+				},
+				{
+					"key": "disclosure",
+					"label": "Disclosure",
+					"type": "string",
+					"rules": { "max": 255 }
+				}
+			],
+			"variants": [
+				{
+					"key": "align-image",
+					"label": "Image Location",
+					"options": ["image-right", "image-left"]
+				},
+				{
+					"key": "background",
+					"label": "Background Style",
+					"options": ["bg-color", "bg-dark", "bg-light"]
+				}
+			]
+		},
+
+		"contact-card": {
+			"fields": [
+				{
+					"key": "photo",
+					"label": "Contact Photo",
+					"type": "image",
+					"default": "{{{ user.ddcUserData.photoURLProfile }}}",
+					"rules": {
+						"mimes": [
+							"image/jpeg",
+							"image/png",
+							"image/svg",
+							"image/gif",
+							"image/bmp"
+						],
+						"maxSize": 5000
+					}
+				},
+				{
+					"key": "facebook",
+					"label": "Facebook",
+					"type": "url",
+					"rules": { "url": true },
+					"default": "{{{ user.ddcUserData.facebookUrlTxt }}}"
+				},
+				{
+					"key": "linkedin",
+					"label": "LinkedIn",
+					"type": "url",
+					"rules": { "url": true },
+					"default": "{{{ user.ddcUserData.lnkdinUrlTxt }}}"
+				},
+				{
+					"key": "instagram",
+					"label": "Instagram",
+					"type": "url",
+					"rules": { "url": true }
+				},
+				{
+					"key": "twitter",
+					"label": "Twitter",
+					"type": "url",
+					"rules": { "url": true },
+					"default": "{{{ user.ddcUserData.twitterUrlTxt }}}"
+				},
+				{
+					"key": "youtube",
+					"label": "Youtube",
+					"type": "url",
+					"rules": { "url": true }
+				},
+				{
+					"key": "logo",
+					"label": "Company Logo",
+					"type": "image",
+					"rules": {
+						"mimes": [
+							"image/jpeg",
+							"image/png",
+							"image/svg",
+							"image/gif",
+							"image/bmp"
+						],
+						"maxSize": 5000
+					}
+				},
+				{
+					"key": "name",
+					"label": "Name",
+					"default": "{{ #user.ddcUserData.dba1Nm }}{{{ user.ddcUserData.dba1Nm }}} {{{ user.ddcUserData.dba2Nm }}}{{ /user.ddcUserData.dba1Nm }}{{ ^user.ddcUserData.dba1Nm }}{{{ user.ddcUserData.mktrLglFirstNm }}} {{{ user.ddcUserData.mktrLglMiddleNm }}} {{{ user.ddcUserData.mktrLglLastName }}} {{{ user.ddcUserData.mktrLglSfxCode }}}{{ /user.ddcUserData.dba1Nm }}",
+					"rules:": "required",
+					"type": "string"
+				},
+				{
+					"key": "title",
+					"label": "Title",
+					"default": "{{ #user.ddcUserData.dbaTitle }}{{{ user.ddcUserData.dbaTitle }}}{{ /user.ddcUserData.dbaTitle }}{{ ^user.ddcUserData.dbaTitle }}{{{ user.ddcUserData.agentTitleExternalDesc }}}{{ /user.ddcUserData.dbaTitle }}",
+					"rules:": "required",
+					"type": "string"
+				},
+				{
+					"key": "description",
+					"label": "Description",
+					"type": "string"
+				},
+				{
+					"key": "email",
+					"label": "Email",
+					"default": "{{ #dba1EmailAddrTxt }}{{{ dba1EmailAddrTxt }}}{{ /dba1EmailAddrTxt }}{{ ^dba1EmailAddrTxt }}{{{ user.ddcUserData.busEmailId }}}{{ /dba1EmailAddrTxt }}",
+					"type": "email"
+				},
+				{
+					"key": "landline",
+					"label": "Cell Phone Number",
+					"default": "{{{ user.ddcUserData.busPhoneNum }}}{{#user.ddcUserData.busPhoneExtnNum}} ext. {{{ user.ddcUserData.busPhoneExtnNum }}}{{/user.ddcUserData.busPhoneExtnNum}}",
+					"type": "phone"
+				},
+				{
+					"key": "mobile",
+					"label": "Additional Cell Phone Number",
+					"default": "{{{ user.ddcUserData.cellPhoneNum }}}",
+					"type": "phone"
+				},
+				{
+					"key": "fax",
+					"label": "Fax Number",
+					"default": "{{{ user.ddcUserData.faxNumber }}}",
+					"type": "phone"
+				},
+				{
+					"key": "address",
+					"label": "Address",
+					"default": {
+						"line1": "{{{ user.ddcUserData.busLocAddrLn1tx }}}",
+						"line2": "{{{ user.ddcUserData.busLocAddrLn2Tx }}}",
+						"city": "{{{ user.ddcUserData.busLocAddrCityNm }}}",
+						"state": "{{{ user.ddcUserData.busLocAddrStateCode }}}",
+						"zip": "{{{ user.ddcUserData.busLocAddrZipCode }}}"
+					},
+					"type": "address"
+				}
+			],
+			"variants": [
+				{
+					"key": "align-content",
+					"label": "Content Alignment",
+					"options": ["align-left", "align-center", "align-right"]
+				},
+				{
+					"key": "photo-placement",
+					"label": "Photo Placement",
+					"options": ["left", "top", "right", "background"]
+				},
+				{
+					"key": "padding",
+					"label": "Image Padding",
+					"options": ["padding", "no-padding"]
+				},
+				{
+					"key": "bg-color",
+					"label": "Background Color",
+					"options": ["light", "dark"]
+				}
+			]
+		},
+		"breadcrumbs": {},
+		"video": {
+			"fields": [
+				{
+					"key": "src",
+					"label": "Video URL",
+					"type": "video",
+					"rules": { "url": true, "required": true }
+				}
+			]
+		},
+		"file": {
+			"fields": [
+				{
+					"key": "src",
+					"label": "File",
+					"type": "file",
+					"rules": {
+						"maxSize": 5000,
+						"mimes": [
+							"application/pdf",
+							"text/html",
+							"text/plain",
+							"text/csv"
+						]
+					}
+				}
+			]
+		},
+		"hero": {
+			"fields": [
+				{
+					"key": "showBreadcrumb",
+					"label": "Show Breadcrumb",
+					"type": "boolean",
+					"default": true
+				},
+				{
+					"key": "sideMediaSrc",
+					"label": "Side Media",
+					"type": "media",
+					"acceptTypes": ["image", "video"]
+				},
+				{
+					"key": "backgroundMediaSrc",
+					"label": "Background Media",
+					"type": "media",
+					"acceptTypes": ["image", "video"]
+				},
+				{
+					"key": "overline",
+					"label": "Overline",
+					"type": "string",
+					"default": "Overline",
+					"rules": { "max": 255 }
+				},
+				{
+					"key": "headline",
+					"label": "Headline",
+					"type": "string",
+					"default": "Headline lorem ipsum dolor sit",
+					"rules": { "max": 255 }
+				},
+				{
+					"key": "subline",
+					"label": "Subline",
+					"type": "string",
+					"default": "Subline Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+					"rules": { "max": 255 }
+				},
+				{
+					"key": "bodyText",
+					"label": "Content",
+					"type": "rich-text",
+					"default": "Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+					"rules": { "max": 255 }
+				},
+				{
+					"key": "button-primary-label",
+					"label": "Primary Label",
+					"type": "string",
+					"default": "Primary Button",
+					"rules": { "max": 50 }
+				},
+				{
+					"key": "button-primary-url",
+					"label": "Primary Button URL",
+					"type": "select-link"
+				},
+				{
+					"key": "button-primary-newTab",
+					"label": "Open Primary Button in New Tab",
+					"type": "boolean"
+				},
+				{
+					"key": "button-secondary-label",
+					"label": "Secondary Label",
+					"type": "string",
+					"default": "Secondary Button",
+					"rules": { "max": 50 }
+				},
+				{
+					"key": "button-secondary-url",
+					"label": "Secondary Button URL",
+					"type": "select-link"
+				},
+				{
+					"key": "button-secondary-newTab",
+					"label": "Open Secondary Button in New Tab",
+					"type": "boolean"
+				},
+				{
+					"key": "button-tertiary-label",
+					"label": "Tertiary Label",
+					"type": "string",
+					"default": "Tertiary Button",
+					"rules": { "max": 50 }
+				},
+				{
+					"key": "button-tertiary-url",
+					"label": "Tertiary Button URL",
+					"type": "url",
+					"rules": { "url": true }
+				},
+				{
+					"key": "button-tertiary-newTab",
+					"label": "Open Tertiary Button in New Tab",
+					"type": "boolean"
+				},
+				{
+					"key": "showKeepScrolling",
+					"label": "Show Keep Scrolling Button",
+					"type": "boolean",
+					"default": false
+				}
+			],
+			"variants": [
+				{
+					"key": "breadcrumbVariant",
+					"label": "Breadcrumb Variant",
+					"options": ["base", "compact", "none"]
+				},
+				{
+					"key": "text-align",
+					"label": "Text Align",
+					"options": ["text-left", "text-center", "text-right"]
+				},
+				{
+					"key": "image-align",
+					"label": "Image Align",
+					"options": ["image-left", "image-right", "image-center"]
+				},
+				{
+					"key": "vertical-align",
+					"label": "Vertical Align",
+					"options": ["y-center", "y-bottom", "y-top"]
+				}
+			]
+		},
+		"contact-hero": {
+			"fields": [
+				{
+					"key": "backgroundMediaSrc",
+					"label": "Background Media",
+					"type": "media",
+					"acceptTypes": ["image", "video"]
+				},
+				{
+					"key": "photo",
+					"label": "Contact Photo",
+					"type": "image",
+					"default": "{{{ user.ddcUserData.photoURLProfile }}}",
+					"rules": {
+						"mimes": [
+							"image/jpeg",
+							"image/png",
+							"image/svg",
+							"image/gif",
+							"image/bmp"
+						],
+						"maxSize": 5000
+					}
+				},
+				{
+					"key": "facebook",
+					"label": "Facebook",
+					"type": "url",
+					"rules": { "url": true },
+					"default": "{{{ user.ddcUserData.facebookUrlTxt }}}"
+				},
+				{
+					"key": "linkedin",
+					"label": "LinkedIn",
+					"type": "url",
+					"rules": { "url": true },
+					"default": "{{{ user.ddcUserData.lnkdinUrlTxt }}}"
+				},
+				{
+					"key": "instagram",
+					"label": "Instagram",
+					"type": "url",
+					"rules": { "url": true }
+				},
+				{
+					"key": "twitter",
+					"label": "Twitter",
+					"type": "url",
+					"rules": { "url": true },
+					"default": "{{{ user.ddcUserData.twitterUrlTxt }}}"
+				},
+				{
+					"key": "youtube",
+					"label": "Youtube",
+					"type": "url",
+					"rules": { "url": true }
+				},
+				{
+					"key": "logo",
+					"label": "Company Logo",
+					"type": "image",
+					"rules": {
+						"mimes": [
+							"image/jpeg",
+							"image/png",
+							"image/svg",
+							"image/gif",
+							"image/bmp"
+						],
+						"maxSize": 5000
+					}
+				},
+				{
+					"key": "name",
+					"label": "Name",
+					"default": "{{{ user.ddcUserData.mktrLglFirstNm }}} {{{ user.ddcUserData.mktrLglMiddleNm }}} {{{ user.ddcUserData.mktrLglLastName }}} {{{ user.ddcUserData.mktrLglSfxCode }}}",
+					"rules:": "required",
+					"type": "string"
+				},
+				{
+					"key": "title",
+					"label": "Title",
+					"default": "{{{ user.ddcUserData.agentTitleExternalDesc }}}",
+					"rules:": "required",
+					"type": "string"
+				},
+				{
+					"key": "description",
+					"label": "Description",
+					"type": "string"
+				},
+				{
+					"key": "email",
+					"label": "Email",
+					"default": "{{{ user.ddcUserData.busEmailId }}}",
+					"type": "email"
+				},
+				{
+					"key": "landline",
+					"label": "Cell Phone Number",
+					"default": "{{{ user.ddcUserData.busPhoneNum }}}{{#user.ddcUserData.busPhoneExtnNum}} ext. {{{ user.ddcUserData.busPhoneExtnNum }}}{{/user.ddcUserData.busPhoneExtnNum}}",
+					"type": "phone"
+				},
+				{
+					"key": "mobile",
+					"label": "Additional Cell Phone Number",
+					"default": "{{{ user.ddcUserData.cellPhoneNum }}}",
+					"type": "phone"
+				},
+				{
+					"key": "fax",
+					"label": "Fax Number",
+					"default": "{{{ user.ddcUserData.faxNumber }}}",
+					"type": "phone"
+				},
+				{
+					"key": "address",
+					"label": "Address",
+					"default": {
+						"line1": "{{{ user.ddcUserData.busLocAddrLn1tx }}}",
+						"line2": "{{{ user.ddcUserData.busLocAddrLn2Tx }}}",
+						"city": "{{{ user.ddcUserData.busLocAddrCityNm }}}",
+						"state": "{{{ user.ddcUserData.busLocAddrStateCode }}}",
+						"zip": "{{{ user.ddcUserData.busLocAddrZipCode }}}"
+					},
+					"type": "address"
+				}
+			],
+			"variants": [
+				{
+					"key": "align-content",
+					"label": "Content Alignment",
+					"options": ["align-left", "align-center", "align-right"]
+				},
+				{
+					"key": "padding",
+					"label": "Image Padding",
+					"options": ["padding", "no-padding"]
+				},
+				{
+					"key": "bg-color",
+					"label": "Background Color",
+					"options": ["light", "dark"]
+				}
+			]
+		},
+		"image": {
+			"fields": [
+				{
+					"key": "src",
+					"label": "Image",
+					"type": "image",
+					"rules": {
+						"mimes": [
+							"image/jpeg",
+							"image/png",
+							"image/svg",
+							"image/gif",
+							"image/bmp"
+						],
+						"maxSize": 5000
+					}
+				},
+				{
+					"key": "width",
+					"label": "Width",
+					"type": "string",
+					"rules": { "max": 50 }
+				},
+				{
+					"key": "height",
+					"label": "Height",
+					"type": "string",
+					"rules": { "max": 50 }
+				},
+				{
+					"key": "alt",
+					"label": "Alt Text",
+					"type": "string",
+					"rules": { "max": 255 }
+				}
+			],
+			"variants": [
+				{
+					"key": "sizing",
+					"label": "Sizing",
+					"options": ["cover", "contain"]
+				},
+				{
+					"key": "alignment",
+					"label": "Image Align",
+					"options": [
+						"image-align-left",
+						"image-align-center",
+						"image-align-right"
+					]
+				}
+			]
+		},
+		"media": {
+			"fields": [
+				{
+					"key": "src",
+					"label": "Media Type",
+					"type": "media",
+					"rules": { "url": true }
+				}
+			]
+		},
+		"social-links": {
+			"fields": [
+				{
+					"key": "headline",
+					"label": "Headline",
+					"type": "string",
+					"rules": { "max": 255 }
+				},
+				{
+					"key": "username",
+					"label": "Username",
+					"type": "string",
+					"rules": { "max": 100 }
+				},
+				{
+					"key": "facebook",
+					"label": "Facebook",
+					"type": "url",
+					"default": "{{{ user.ddcUserData.facebookUrlTxt }}}",
+					"rules": { "url": true }
+				},
+				{
+					"key": "linkedin",
+					"label": "LinkedIn",
+					"type": "url",
+					"default": "{{{ user.ddcUserData.lnkdinUrlTxt }}}",
+					"rules": { "url": true }
+				},
+				{
+					"key": "instagram",
+					"label": "Instagram",
+					"type": "url",
+					"rules": { "url": true }
+				},
+				{
+					"key": "twitter",
+					"label": "Twitter",
+					"type": "url",
+					"default": "{{{ user.ddcUserData.twitterUrlTxt }}}",
+					"rules": { "url": true }
+				},
+				{
+					"key": "youtube",
+					"label": "Youtube",
+					"type": "url",
+					"rules": { "url": true }
+				}
+			],
+			"variants": [
+				{
+					"key": "align",
+					"label": "Content Align",
+					"options": ["align-left", "align-center", "align-right"]
+				},
+				{
+					"key": "style",
+					"label": "Style",
+					"options": ["slim", "contrast", "background"]
+				}
+			]
+		},
+		"html": {
+			"fields": [
+				{
+					"label": "Custom HTML",
+					"type": "html",
+					"key": "html"
+				}
+			]
+		},
+		"text": {
+			"fields": [
+				{
+					"key": "tag",
+					"label": "Tag to Use",
+					"type": "select",
+					"attrs": {
+						"items": ["div", "h1", "h2", "h3", "h4", "h5", "h6"]
+					},
+					"default": "div"
+				},
+				{
+					"key": "text",
+					"label": "Content",
+					"type": "string",
+					"default": "Your text here.",
+					"rules": { "max": 255 }
+				}
+			],
+			"variants": [
+				{
+					"key": "size",
+					"label": "Size",
+					"options": ["overline", "title", "subtitle", "footnote"]
+				},
+				{
+					"key": "weight",
+					"label": "Weight",
+					"options": ["bold"]
+				},
+				{
+					"key": "style",
+					"label": "Style",
+					"options": ["italic"]
+				},
+				{
+					"key": "align",
+					"label": "Alignment",
+					"options": ["left", "center", "right"]
+				}
+			]
+		},
+		"divider": {
+			"variants": [
+				{
+					"key": "style",
+					"label": "Style",
+					"options": ["dashed", "dotted", "double", "spacer"]
+				},
+				{
+					"key": "size",
+					"label": "Size",
+					"options": ["small", "large", "huge"]
+				},
+				{
+					"key": "color",
+					"label": "Color",
+					"options": [
+						"primary",
+						"secondary",
+						"dark",
+						"dark-alt",
+						"light",
+						"light-alt",
+						"contrast"
+					]
+				}
+			]
+		},
+		"button": {
+			"fields": [
+				{
+					"key": "label",
+					"label": "Label",
+					"type": "string",
+					"default": "Button Label",
+					"rules": { "max": 50 }
+				},
+				{
+					"key": "icon",
+					"label": "Icon",
+					"type": "icon"
+				},
+				{
+					"key": "url",
+					"label": "Link to",
+					"type": "select-link"
+				},
+				{
+					"key": "newTab",
+					"label": "New Tab",
+					"type": "boolean"
+				}
+			],
+			"variants": [
+				{
+					"key": "style",
+					"label": "Style",
+					"options": [
+						"primary",
+						"secondary",
+						"tertiary",
+						"link",
+						"scroll",
+						"text"
+					]
+				},
+				{
+					"key": "icon-placement",
+					"label": "Icon Placement",
+					"options": ["icon-right"]
+				},
+				{
+					"key": "invert",
+					"label": "Invert Colors"
+				},
+				{
+					"key": "outline",
+					"label": "Outline"
+				}
+			]
+		},
+		"icon": {
+			"fields": [
+				{
+					"key": "icon",
+					"label": "Icon",
+					"type": "icon"
+				}
+			],
+			"variants": [
+				{
+					"key": "size",
+					"label": "Size",
+					"options": ["small", "medium", "large", "huge"]
+				}
+			]
+		},
+		"pencil-banner": {
+			"fields": [
+				{
+					"key": "bodyCopy",
+					"label": "Body Copy",
+					"type": "rich-text",
+					"default": "For more information about NYLIFE Securities LLC and its investment professionals,",
+					"rules": { "max": 255 }
+				},
+				{
+					"key": "buttonText",
+					"label": "Button Text",
+					"type": "string",
+					"default": "Click here",
+					"rules": { "max": 50 }
+				},
+				{
+					"key": "buttonLink",
+					"label": "Link Button To",
+					"type": "url",
+					"default": "https://brokercheck.finra.org/",
+					"rules": { "url": true }
+				},
+				{
+					"key": "newTab",
+					"label": "Open In New Tab",
+					"type": "boolean"
+				},
+				{
+					"key": "closeButton",
+					"label": "Enable Close Button",
+					"type": "boolean"
+				}
+			],
+			"variants": [
+				{
+					"key": "alignment",
+					"label": "Content Alignment",
+					"default": "left",
+					"options": ["left", "center"]
+				}
+			]
+		},
+		"rich-text": {
+			"fields": [
+				{
+					"key": "richText",
+					"label": "Body",
+					"type": "rich-text"
+				}
+			],
+			"variants": [
+				{
+					"key": "size",
+					"label": "Size",
+					"options": ["disclosure"]
+				}
+			]
+		},
+		"form": {
+			"fields": [
+				{
+					"key": "formType",
+					"label": "Form Type",
+					"type": "select",
+					"attrs": {
+						"items": [
+							"agentNewsletter",
+							"agentConsumer",
+							"agentCustom",
+							"goConsumer",
+							"goRecruiter"
+						]
+					}
+				},
+				{
+					"key": "languageFieldset",
+					"label": "Language",
+					"type": "boolean",
+					"requireSettings": [
+						{
+							"key": "formType",
+							"values": [
+								"agentConsumer",
+								"goConsumer",
+								"goRecruiter",
+								"agentCustom"
+							]
+						}
+					]
+				},
+				{
+					"key": "bestTimeFieldset",
+					"label": "Best Time to Call",
+					"type": "boolean",
+					"requireSettings": [
+						{
+							"key": "formType",
+							"values": [
+								"agentConsumer",
+								"goConsumer",
+								"goRecruiter",
+								"agentCustom"
+							]
+						}
+					]
+				},
+				{
+					"key": "bestMethodFieldset",
+					"label": "Best Contact Method",
+					"type": "boolean",
+					"requireSettings": [
+						{
+							"key": "formType",
+							"values": [
+								"agentConsumer",
+								"goConsumer",
+								"goRecruiter",
+								"agentCustom"
+							]
+						}
+					]
+				},
+				{
+					"key": "linkedinFieldset",
+					"label": "LinkedIn",
+					"type": "boolean",
+					"requireSettings": [
+						{
+							"key": "formType",
+							"values": [
+								"agentConsumer",
+								"goConsumer",
+								"goRecruiter",
+								"agentCustom"
+							]
+						}
+					]
+				},
+				{
+					"key": "interestsFieldset",
+					"label": "Interest",
+					"type": "boolean",
+					"requireSettings": [
+						{
+							"key": "formType",
+							"values": [
+								"goConsumer",
+								"goRecruiter",
+								"agentConsumer",
+								"agentCustom"
+							]
+						}
+					]
+				},
+				{
+					"key": "openTextFieldset",
+					"label": "Open Text Field",
+					"type": "boolean",
+					"requireSettings": [
+						{
+							"key": "formType",
+							"values": ["agentCustom"]
+						}
+					]
+				},
+				{
+					"key": "openTextLabel",
+					"label": "Open Text Label",
+					"type": "string",
+					"rules": { "max": 35 },
+					"requireSettings": [
+						{
+							"key": "formType",
+							"values": ["agentCustom"]
+						},
+						{
+							"key": "openTextFieldset",
+							"values": [true]
+						}
+					]
+				}
+			],
+			"variants": []
+		},
+		"accordion": {
+			"requireChild": true,
+			"fields": [
+				{
+					"key": "accordionText",
+					"label": "Accordion Text",
+					"type": "string",
+					"default": "Accordion",
+					"rules": { "max": 50 }
+				},
+				{
+					"key": "hasAccordion",
+					"default": true,
+					"hidden": true
+				},
+				{
+					"key": "locked",
+					"default": false,
+					"hidden": true
+				}
+			]
+		},
+		"toggle": {
+			"requireChild": true,
+			"fields": [
+				{
+					"key": "label-1",
+					"type": "string",
+					"label": "Label One",
+					"default": "Toggle",
+					"rules": { "max": 50 }
+				},
+				{
+					"key": "label-2",
+					"type": "string",
+					"label": "Label Two",
+					"default": "Toggle",
+					"rules": { "max": 50 }
+				},
+				{
+					"key": "locked",
+					"default": false,
+					"hidden": true
+				}
+			],
+			"variants": [
+				{
+					"key": "layout",
+					"type": "boolean",
+					"default": "toggle",
+					"hidden": true
+				}
+			]
+		},
+		"tabs": {
+			"requireChild": true,
+			"fields": [
+				{
+					"key": "labels",
+					"label": "Labels",
+					"default": ["Tab"]
+				},
+				{
+					"key": "locked",
+					"default": false,
+					"hidden": true
+				}
+			],
+			"variants": [
+				{
+					"key": "layout",
+					"type": "boolean",
+					"default": "tabbed",
+					"hidden": true
+				}
+			]
+		},
+		"calendly": {
+			"requireChild": true,
+			"fields": [
+				{
+					"key": "displayType",
+					"label": "Display Type",
+					"type": "select",
+					"attrs": {
+						"items": ["Button", "Link"]
+					}
+				},
+				{
+					"key": "buttonText",
+					"label": "Button Text",
+					"type": "string",
+					"rules": { "max": 50 }
+				},
+				{
+					"key": "calendlyId",
+					"label": "Agent ID",
+					"type": "string",
+					"rules": { "max": 50 }
+				},
+				{
+					"key": "eventType",
+					"label": "Event Type",
+					"type": "select",
+					"attrs": {
+						"items": [
+							"General Discussion",
+							"Intro Appointment",
+							"Review",
+							"Intro to NYL",
+							"Quick Checkin",
+							"First Interview",
+							"Custom Event"
+						]
+					}
+				},
+				{
+					"key": "customEvent",
+					"label": "Custom Event",
+					"type": "string",
+					"rules": { "max": 50 }
+				}
+			]
+		},
+		"map": {
+			"fields": [
+				{
+					"key": "address",
+					"label": "Business Address",
+					"type": "address",
+					"default": {
+						"line1": "{{{ user.ddcUserData.busLocAddrLn1tx }}}",
+						"line2": "{{{ user.ddcUserData.busLocAddrLn2Tx }}}",
+						"line3": "{{{ user.ddcUserData.busLocAddrLn3tx }}}",
+						"city": "{{{ user.ddcUserData.busLocAddrCityNm }}}",
+						"state": "{{{ user.ddcUserData.busLocAddrStateCode }}}",
+						"zip": "{{{ user.ddcUserData.busLocAddrZipCode }}}"
+					}
+				}
+			]
+		}
+	}
+}

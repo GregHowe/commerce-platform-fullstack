@@ -1,0 +1,331 @@
+/* sets the defaults */
+:root {
+	/* font pairing */
+	--core__font_primary: "Georgia", Arial, sans-serif; /* headings, etc. */
+	--core__font_secondary: "Effra Pro", Arial, sans-serif; /* headings, etc. */
+	--core__font_tertiary: "Tahoma", Arial, sans-serif; /* headings, etc. */
+
+	/* theme colors */
+
+	--core__color_new-york-life-blue: #0079c2;
+	--core__color_white: #fff;
+	--core__color_black: #000;
+
+	--core__color_blue-extra-light: #3a7ca6;
+	--core__color_blue-light: #23648c;
+	--core__color_blue-medium: #1d5273;
+	--core__color_blue-dark: #0d3c59;
+	--core__color_blue-extra-dark: #002840;
+
+	/* functional greys */
+	--core__color_grey-10: #f5f8fa;
+	--core__color_grey-20: #e7ecef;
+	--core__color_grey-30: #dae1e5;
+	--core__color_grey-40: #bdc5ca;
+	--core__color_grey-50: #a8b1b7;
+	--core__color_grey-60: #939da4;
+	--core__color_grey-70: #6c787f;
+	--core__color_grey-80: #58656d;
+	--core__color_grey-90: #3e4d57;
+	--core__color_cool-black: #243641;
+	--core__color_functional: var(--core__color_grey-10);
+
+	/* Tertiary – Brand */
+	--core__color_light-rose: #ecc2cf;
+	--core__color_medium-rose: #b56f85;
+	--core__color_dark-rose: #754a62;
+	--core__color_light-twilight: #c1c2d6;
+	--core__color_medium-twilight: #5a5c8e;
+	--core__color_dark-twilight: #313372;
+	--core__color_light-pine: #bbddd2;
+	--core__color_medium-pine: #4b8b7f;
+	--core__color_dark-pine: #264640;
+	--core__color_light-palm: #ccd8bf;
+	--core__color_medium-palm: #6b9160;
+	--core__color_dark-palm: #364432;
+
+	/* functional greys */
+	--core__color_success-green: #24882d;
+	--core__color_error-red: #c02321;
+	--core__color_visited-state: #5c4c79;
+	--core__color_focus-state: #ef7000;
+	--core__color_inactive-grey: #747474;
+
+	/* Third Party Colors */
+	--core__color_facebook: #3b5998;
+	--core__color_linkedin: #0077b5;
+	--core__color_twitter: #55acee;
+
+	/* Primary Colors */
+	--core__color_primary: var(--core__color_blue-dark);
+	--core__color_secondary: var(--core__color_cool-black);
+	--core__color_tertiary: var(--core__color_white);
+	--core__color_dark: var(--core__color_black);
+	--core__color_blue-transparent: rgba(62, 77, 87, 0.8);
+
+	/* Quaternary */
+	--core__color_quaternary: #243641;
+
+	--core__color_light: var(--core__color_functional);
+	--_core__overline_color: #3e4d57;
+
+	/* font colors */
+	--core__font_color_primary: var(--core__color_primary);
+	--core__font_color_secondary: var(--core__color_cool-black);
+
+	/* button font */
+	--_core__button_font-family: var(--core__font_secondary);
+	--_core__button_font-size: 16px;
+	--_core__button_font-weight: normal;
+	--_core__button_letter-spacing: 0;
+	--_core__button_text-transform: none;
+
+	/* headings styling */
+	--_core__heading_color: var(--core__font_color_primary);
+	--_core__heading_color--h1: var(--core__font_color_primary);
+	--_core__heading_color--h2: var(--core__font_color_primary);
+	--_core__heading_color--h3: var(--core__font_color_primary);
+	--_core__heading_color--h4: var(--core__font_color_primary);
+	--_core__heading_color--h5: var(--core__font_color_primary);
+	--_core__heading_color--h6: var(--core__font_color_primary);
+
+	--_core__heading_font-family--h1: var(--core__font_primary);
+	--_core__heading_font-family--h2: var(--core__font_primary);
+	--_core__heading_font-family--h3: var(--core__font_secondary);
+	--_core__heading_font-family--h4: var(--core__font_secondary);
+	--_core__heading_font-family--h5: var(--core__font_secondary);
+	--_core__heading_font-family--h6: var(--core__font_secondary);
+
+	--_core__heading_font-size--h1: 58px;
+	--_core__heading_font-size--h2: 42px;
+	--_core__heading_font-size--h3: 28px;
+	--_core__heading_font-size--h4: 24px;
+	--_core__heading_font-size--h5: 22px;
+	--_core__heading_font-size--h6: 14px;
+
+	--_core__heading_font-weight--h1: normal;
+	--_core__heading_font-weight--h2: normal;
+	--_core__heading_font-weight--h3: medium;
+	--_core__heading_font-weight--h4: medium;
+	--_core__heading_font-weight--h5: medium;
+	--_core__heading_font-weight--h6: medium;
+
+	--_core__heading_letter-spacing--h1: 0;
+	--_core__heading_letter-spacing--h2: 0;
+	--_core__heading_letter-spacing--h3: 0;
+	--_core__heading_letter-spacing--h4: 0;
+	--_core__heading_letter-spacing--h5: 0;
+	--_core__heading_letter-spacing--h6: 2px;
+
+	--_core__heading_line-height--h1: 64px;
+	--_core__heading_line-height--h2: 48px;
+	--_core__heading_line-height--h3: 32px;
+	--_core__heading_line-height--h4: 28px;
+	--_core__heading_line-height--h5: 28px;
+	--_core__heading_line-height--h6: 16px;
+
+	--_core__heading_text-transform--h1: none;
+	--_core__heading_text-transform--h2: none;
+	--_core__heading_text-transform--h3: none;
+	--_core__heading_text-transform--h4: none;
+	--_core__heading_text-transform--h5: none;
+	--_core__heading_text-transform--h6: uppercase;
+
+	/* body styling */
+	--_core__body_color: var(--core__color_quaternary);
+	--_core__body_font-family: var(--core__font_secondary);
+	--_core__body_font-size: 16px;
+	--_core__body_font-weight: normal;
+	--_core__body_letter-spacing: 0;
+	--_core__body_line-height: 24px;
+	--_core__body_max-width: 100vw;
+	--_core__body_text-align: left;
+	--_core__body_justify-content: flex-start;
+	--_core__body_text-transform: none;
+
+	/* button border */
+	--_core__button_border-color: transparent;
+	--_core__button_border-style: solid;
+	--_core__button_border-width: 2px;
+
+	/* button outline */
+	--_core__button_outline-color: var(--core__color_focus);
+	--_core__button_outline-offset: 2px;
+	--_core__button_outline-style: dashed;
+	--_core__button_outline-width: 2px;
+
+	/* button shape */
+	--_core__button_border-radius: 40px;
+	--_core__button_padding: 10px 40px;
+
+	/* navbar */
+	--_core__navbar_background: var(--_core__nav_background);
+	--_core__navbar_color: var(--_core__nav_color);
+
+	/* nav */
+	--_core__nav_background: var(--core__color_blue-transparent);
+	--_core__nav_border-color: var(--_core__nav_background);
+	--_core__nav_border-style: solid;
+	--_core__nav_border-width: 2px;
+	--_core__nav_border-radius: 8px;
+	--_core__nav_color: var(--core__color_secondary--darkest);
+	--_core__nav_height: 100px;
+	--_core__nav_min-width: 180px;
+
+	/* nav title */
+	--_core__nav-title_color: var(--core__color_white);
+	--_core__nav-title_font-family: var(--core__font_secondary);
+	--_core__nav-title_font-size: 22px;
+	--_core__nav-title_font-weight: normal;
+	--_core__nav-title_letter-spacing: 0;
+	--_core__nav-title_line-height: 28px;
+	--_core__nav-subtitle_color: var(--_core__nav-title_color);
+	--_core__nav-subtitle_font-family: var(--_core__nav-title_font-family);
+	--_core__nav-subtitle_font-size: 14px;
+	--_core__nav-subtitle_font-weight: normal;
+	--_core__nav-subtitle_letter-spacing: 2px;
+	--_core__nav-subtitle_line-height: 16px;
+
+	/* nav link */
+	--_core__nav-link_background: transparent;
+	--_core__nav-link_color: var(--core__color_white);
+	--_core__nav-link_font-family: var(--core__font_secondary);
+	--_core__nav-link_font-size: 18px;
+	--_core__nav-link_font-weight: normal;
+	--_core__nav-link_letter-spacing: 0;
+	--_core__nav-link_line-height: 24px;
+
+	/* nav link hover */
+	--_core__nav-link_background--hover: transparent;
+	--_core__nav-link_color--hover: var(--core__color_secondary--darkest);
+	--_core__nav-link_font-weight--hover: bold;
+
+	/* nav subnav */
+	--_core__subnav_background: var(--core__color_blue-medium);
+
+	/* nav sublink */
+	--_core__nav-sublink_background: var(--_core__nav-link_background);
+	--_core__nav-sublink_color: var(--_core__nav-link_color);
+	--_core__nav-sublink_font-family: var(--_core__nav-link_font-family);
+	--_core__nav-sublink_font-size: var(--_core__nav-link_font-size);
+	--_core__nav-sublink_font-weight: var(--_core__nav-link_font-weight);
+	--_core__nav-sublink_letter-spacing: var(--_core__nav-link_letter-spacing);
+	--_core__nav-sublink_line-height: var(--_core__nav-link_line-height);
+
+	/* nav sublink hover */
+	--_core__nav-sublink_background--hover: var(--core__color_blue-extra-dark);
+	--_core__nav-sublink_color--hover: var(--_core__nav-sublink_color);
+	--_core__nav-sublink_font-weight--hover: bold;
+
+	/* content links */
+	--_core__link_color: var(--core__color_midnight);
+	--_core__link_text-decoration: underline;
+
+	/* content dividers */
+	--_core__divider_color: var(--core__color_light);
+
+	/* form defaults */
+	--_core__input_background: var(--core__color_light-alt);
+	--_core__input-border-radus: var(--_core__button_border-radius);
+	--_core__input_color: var(--core__color_midnight);
+	--_core__input-font-family: var(--core__font_secondary);
+
+	/* container styles */
+	--_core__container_background: var(--core__color_white);
+	--_core__container_background-light: var(--core__color_grey--20);
+	--_core__container_background-dark: var(--core__color_secondary);
+	--_core__container_background: var(--core__color_white);
+	--_core__container_max-width: 1024px; /* constrains the content area */
+	--_core__container_font-family: var(--core__font_secondary);
+
+	/* page sections */
+	--_core__section_background: transparent;
+	--_core__section_border-color: var(--core__color_grey--40);
+	--_core__section_border-style: solid;
+	--_core__section_border-width: 2px;
+	--_core__section_max-width: 1024px;
+	--_core__section_gutter: 24px;
+
+	/* Pencil Banner */
+	--_core__pencil-banner_background: var(--core__color_grey--20);
+	--_core__pencil-banner_font-family: var(--core__font_primary);
+	--_core__pencil-banner_color: var(--core__color_grey--100);
+	--_core__pencil-banner_font-size: 18px;
+
+	/* Breadcrumb Banner */
+	--_core__breadcrumb_background: var(--core__color_secondary);
+	--_core__breadcrumb_font-family: var(--core__font_primary);
+	--_core__breadcrumb_color: var(--core__color_white);
+	--_core__breadcrumb_hover-color: var(--core__color_functional);
+
+	--_core__breadcrumb_font-size: 14px;
+
+	/* Footer */
+	--core__footer-font-family: var(--core__font_secondary);
+	--core__footer-font_color: var(--core__color_secondary);
+	--core__footer_nav-font_color: var(--core__color_white);
+	--core__footer-background_color: var(--core__color_secondary);
+	--_core__container_footer-border-color: var(
+		--core__color_new-york-life-blue
+	);
+	--core__footer-disclosure-link_color: #007ac2;
+	--core__footer-disclosure-link_text-decoration: underline;
+
+	/* Buttons */
+	--_core__button-primary_border-radius: 40px;
+
+	/* Contact Card */
+	--_core__contactcard_container_background: var(
+		--core__color_blue-transparent
+	);
+	--_core__contactcard_font-color: var(--core__color_white);
+	--_core__contactcard_font-family: var(--core__font_secondary);
+
+	/* Contact Card hero*/
+	--_core__contactcardhero_container_background: var(
+		--core__color_blue-transparent
+	);
+
+	/* Content Card */
+	--_core__content_card-padding: 0;
+	--_core__content_card-text-padding: 20px;
+	--_core__content_card-background-color: var(--core__color_secondary);
+	--_core__content_card-font-color: var(--core__color_white);
+	--_core__content_card-link-color: var(--core__color_white);
+
+	/*
+	==================
+		OLD VARIABLES
+		---
+		these vars were in the original theme
+		and left here in case any deployed site still has in use
+	*/
+
+	/* content headers */
+	--_core__header_color: var(--core__color_black);
+	--_core__header_font-family: var(--core__font_primary);
+	--_core__header_font-size: 1.571rem;
+	--_core__header_line-height: 2rem;
+	--_core__header_text-transform: none;
+
+	/* content overline */
+	--_core__overline_font-family: var(--core__font_secondary);
+	--_core__overline_font-size: 0.9rem;
+	--_core__overline_line-height: 1.1;
+	--_core__overline_text-transform: uppercase;
+
+	/* content subline */
+	--_core__subline_color: var(--_core__header_color);
+	--_core__subline_font-family: var(--_core__header_font-family);
+	--_core__subline_font-size: 1.8rem;
+	--_core__subline_line-height: 1.2;
+	--_core__subline_text-transform: none;
+
+	/* content disclosure */
+	--_core__disclosure_color: var(--_core__container_color);
+	--_core__disclosure_font-family: var(--core__font_secondary);
+	--_core__disclosure_font-size: 0.8rem;
+	--_core__disclosure_font-style: italic;
+	--_core__disclosure_line-height: 1.4;
+	--_core__disclosure_text-transform: none;
+}

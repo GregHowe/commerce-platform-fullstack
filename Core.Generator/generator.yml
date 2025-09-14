@@ -1,0 +1,104 @@
+trigger: none
+pr: none
+
+parameters:
+    - name: generatorBrandId
+      type: string
+      default: ""
+    - name: generatorSiteId
+      type: string
+      default: ""
+    - name: timestamp
+      type: string
+      default: ""
+
+pool:
+    vmImage: windows-latest
+
+variables:
+    CACHE_RESTORED: false
+
+steps:
+    - task: NodeTool@0
+      inputs:
+          versionSpec: "16.x"
+      displayName: "Install Node.js"
+
+    # - task: Cache@2
+    #   inputs:
+    #       key: 'yarn | "$(Agent.OS)" | ./Core.Generator/yarn.lock'
+    #       restoreKeys: |
+    #           yarn | "$(Agent.OS)"
+    #       path: $(Build.SourcesDirectory)/Core.Generator/node_modules
+    #       cacheHitVar: CACHE_RESTORED
+    #   displayName: Cache Yarn
+
+    #- task: AzureKeyVault@2
+    #inputs:
+    #azureSubscription: 'New York Life (3420c08a-ba08-48d8-93f5-f139de540eec)'
+    #KeyVaultName: 'coresitebuilderDev'
+    #SecretsFilter: '*'
+    #RunAsPreJob: true
+
+    - task: DeleteFiles@1
+      displayName: Delete NUXT Cache Directory
+      inputs:
+          SourceFolder: $(Build.SourcesDirectory)/Core.Generator
+          Contents: "node_modules"
+
+    - script: |
+          yarn install
+      displayName: Yarn Install
+      workingDirectory: $(Build.SourcesDirectory)/Core.Generator
+
+    - script: |
+          yarn generate
+      displayName: Generate Static Site
+      workingDirectory: $(Build.SourcesDirectory)/Core.Generator
+      continueOnError: false
+      env:
+          GeneratorUsername: "$(GeneratorUsername)"
+          GeneratorPassword: "$(GeneratorPassword)"
+          generatorBrandId: ${{parameters.generatorBrandId}}
+          generatorSiteId: ${{parameters.generatorSiteId}}
+          NUXT_ENV_API_BASE_URL: https://nyl-integration.fusion92core.com/api
+          NUXT_ENV_GOOGLE_MAPS_KEY: "AIzaSyCIKQ94Rk9oaxIDpt83U7XzKYebFcGBAoE"
+          NUXT_ENV_GOOGLE_RECAPTCHA_SITE_KEY: "6LdhkRklAAAAACikikgABh155ITdV4-svXxa_l0M"
+
+    - bash: |
+          FILE=./dist/Brand-${{parameters.generatorBrandId}}-Site-${{parameters.generatorSiteId}}/index.html
+          if [ -f "$FILE" ]; then
+              echo "$FILE exists."
+          else
+              echo "$FILE does not exist."
+              exit 1
+          fi
+      displayName: Check if index.html exists
+      workingDirectory: $(Build.SourcesDirectory)/Core.Generator
+
+    - task: AzureFileCopy@2
+      displayName: "Azure Blob File Copy"
+      inputs:
+          SourcePath: "$(Build.SourcesDirectory)/Core.Generator/dist/Brand-${{parameters.generatorBrandId}}-Site-${{parameters.generatorSiteId}}"
+          azureSubscription: "NYL-DevOps"
+          BlobPrefix: brands/${{parameters.generatorBrandId}}/websites/${{ parameters.generatorSiteId }}/builds/${{ parameters.timestamp }}
+          Destination: AzureBlob
+          storage: agentdeployments
+          ContainerName: "$web"
+
+    - script: |
+          az login --service-principal -u $(spID) -p=$(spSecret) --tenant 0d66fcaf-b6f5-48c2-8db7-914b77ffe53d
+      displayName: "CLI Login"
+
+    - script: |
+          az cdn endpoint create --resource-group NewYorkLife --profile-name core-basic --name f92core-${{parameters.generatorBrandId}}-${{ parameters.generatorSiteId }}-staging --origin agentdeployments.z19.web.core.windows.net --enable-compression --origin-host-header agentdeployments.z19.web.core.windows.net
+      displayName: "Create CDN Endpoint"
+      continueOnError: true
+
+    - script: |
+          az cdn endpoint update --resource-group NewYorkLife --profile-name core-basic --name f92core-${{parameters.generatorBrandId}}-${{ parameters.generatorSiteId }}-staging --origin-path /brands/${{ parameters.generatorBrandId }}/websites/${{ parameters.generatorSiteId }}/builds/${{ parameters.timestamp }}
+      displayName: "Update CDN Endpoint"
+
+    - script: |
+          az cdn endpoint purge --resource-group NewYorkLife --profile-name core-basic --name f92core-${{parameters.generatorBrandId}}-${{ parameters.generatorSiteId }}-staging --content-paths "/*"
+      displayName: "Purge CDN Endpoint"

@@ -1,0 +1,483 @@
+{
+	"fields": [
+		{
+			"label": "ID",
+			"type": "string",
+			"key": "id",
+			"readonly": true,
+			"hidden": true
+		},
+		{
+			"label": "Title",
+			"type": "string",
+			"key": "title",
+			"rules": { "max": 255 }
+		},
+		{
+			"label": "SEO Title",
+			"type": "string",
+			"key": "seoTitle",
+			"rules": { "max": 255 }
+		},
+		{
+			"label": "SEO Description",
+			"type": "string",
+			"key": "seoDescription",
+			"rules": { "max": 255 }
+		},
+		{
+			"label": "Hide Site from Search Engines",
+			"type": "boolean",
+			"key": "seoIsPrivate"
+		},
+		{
+			"label": "Favicon",
+			"type": "image",
+			"key": "favicon",
+			"default": "",
+			"rules": {
+				"mimes": ["image/x-icon", "image/vnd.microsoft.icon"],
+				"maxSize": 2000
+			}
+		},
+		{
+			"label": "Home Page",
+			"type": "select-home-page",
+			"key": "homepageId"
+		},
+		{
+			"label": "Custom Styles",
+			"type": "css",
+			"key": "style"
+		},
+		{
+			"label": "Main Navigation",
+			"type": "navigation",
+			"sections": [
+				{
+					"label": "Content",
+					"icon": "movie-strip",
+					"fields": [
+						{
+							"label": "Logo",
+							"type": "image",
+							"key": "logo",
+							"default": "{{{ user.ddcUserData.dba1LogoTxt }}}",
+							"rules": {
+								"mimes": [
+									"image/jpeg",
+									"image/png",
+									"image/svg",
+									"image/gif",
+									"image/bmp"
+								],
+								"maxSize": 2000
+							}
+						},
+						{
+							"label": "Logo Alt Text",
+							"type": "string",
+							"key": "logoAltText",
+							"default": "",
+							"rules": {
+								"max": 100
+							}
+						},
+						{
+							"label": "Logo Link",
+							"type": "url",
+							"key": "logoLink",
+							"default": "",
+							"rules": {
+								"url": true
+							}
+						},
+						{
+							"label": "Show Username/Title",
+							"type": "boolean",
+							"key": "showUsernameAndTitle"
+						},
+						{
+							"label": "User Name",
+							"type": "string",
+							"key": "name",
+							"default": "{{ #user.ddcUserData.dba1Nm }}{{{ user.ddcUserData.dba1Nm }}} {{{ user.ddcUserData.dba2Nm }}}{{ /user.ddcUserData.dba1Nm }}{{ ^user.ddcUserData.dba1Nm }}{{{ user.ddcUserData.mktrLglFirstNm }}} {{{ user.ddcUserData.mktrLglMiddleNm }}} {{{ user.ddcUserData.mktrLglLastName }}} {{{ user.ddcUserData.mktrLglSfxCode }}}{{ /user.ddcUserData.dba1Nm }}",
+							"rules": {
+								"max": 100
+							}
+						},
+						{
+							"label": "Agent Title",
+							"type": "string",
+							"key": "jobTitle",
+							"default": "{{ #user.ddcUserData.dbaTitle }}{{{ user.ddcUserData.dbaTitle }}}{{ /user.ddcUserData.dbaTitle }}{{ ^user.ddcUserData.dbaTitle }}{{{ user.ddcUserData.agentTitleExternalDesc }}}{{ /user.ddcUserData.dbaTitle }}",
+							"rules": {
+								"max": 100
+							}
+						},
+						{
+							"label": "Button",
+							"type": "boolean",
+							"key": "button",
+							"default": false
+						},
+						{
+							"label": "Button Text",
+							"type": "string",
+							"key": "buttonText",
+							"default": "",
+							"rules": {
+								"max": 100
+							},
+							"requireSettings": [
+								{
+									"key": "button",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"label": "Button Link",
+							"type": "url",
+							"key": "buttonLink",
+							"default": "",
+							"rules": {
+								"url": true
+							},
+							"requireSettings": [
+								{
+									"key": "button",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"label": "Open Link in New Window",
+							"type": "boolean",
+							"key": "buttonTarget",
+							"default": true,
+							"requireSettings": [
+								{
+									"key": "button",
+									"values": [true]
+								}
+							]
+						}
+					]
+				},
+				{
+					"label": "Design",
+					"icon": "painters-palette",
+					"fields": [
+						{
+							"label": "Logo Options",
+							"type": "select",
+							"key": "logoStyle",
+							"default": "medium",
+							"attrs": {
+								"items": ["large", "medium", "small"]
+							}
+						},
+						{
+							"label": "Menu Alignment",
+							"type": "select",
+							"key": "menuAlignment",
+							"default": "left",
+							"attrs": {
+								"items": ["left", "center", "right"]
+							}
+						}
+					]
+				}
+			]
+		},
+		{
+			"label": "Footer",
+			"type": "footer",
+			"sections": [
+				{
+					"label": "Content",
+					"icon": "movie-strip",
+					"fields": [
+						{
+							"label": "Show Footer?",
+							"type": "boolean",
+							"key": "showFooter",
+							"default": true
+						},
+						{
+							"label": "Logo",
+							"type": "image",
+							"key": "logo",
+							"default": "{{{ user.ddcUserData.dba1LogoTxt }}}",
+							"rules": {
+								"mimes": [
+									"image/jpeg",
+									"image/png",
+									"image/svg",
+									"image/gif",
+									"image/bmp"
+								],
+								"maxSize": 2000
+							},
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"label": "Logo Alt Text",
+							"type": "string",
+							"key": "logoAltText",
+							"default": "",
+							"rules": {
+								"max": 100
+							},
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"label": "Logo Link",
+							"type": "url",
+							"key": "logoLink",
+							"default": "",
+							"rules": {
+								"url": true
+							},
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"label": "Name",
+							"type": "string",
+							"key": "nameFooter",
+							"default": "{{ #user.ddcUserData.dba1Nm }}{{{ user.ddcUserData.dba1Nm }}} {{{ user.ddcUserData.dba2Nm }}}{{ /user.ddcUserData.dba1Nm }}{{ ^user.ddcUserData.dba1Nm }}{{{ user.ddcUserData.mktrLglFirstNm }}} {{{ user.ddcUserData.mktrLglMiddleNm }}} {{{ user.ddcUserData.mktrLglLastName }}} {{{ user.ddcUserData.mktrLglSfxCode }}}{{ /user.ddcUserData.dba1Nm }}",
+							"rules": {
+								"max": 100
+							},
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"label": "Job Title",
+							"type": "string",
+							"key": "jobTitleFooter",
+							"default": "{{ #user.ddcUserData.dbaTitle }}{{{ user.ddcUserData.dbaTitle }}}{{ /user.ddcUserData.dbaTitle }}{{ ^user.ddcUserData.dbaTitle }}{{{ user.ddcUserData.agentTitleExternalDesc }}}{{ /user.ddcUserData.dbaTitle }}",
+							"rules": {
+								"max": 100
+							},
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"key": "showBanner",
+							"label": "Show Footer Banner",
+							"type": "boolean",
+							"default": true,
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"key": "banner",
+							"type": "pencil-banner",
+							"label": "Footer Banner",
+							"default": {
+								"bodyCopy": "For more information about NYLIFE Securities LLC and its investment professionals.",
+								"buttonText": "Click here",
+								"buttonLink": "https://brokercheck.finra.org/"
+							},
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								},
+								{
+									"key": "showBanner",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"key": "showSignUpForm",
+							"label": "Show Email Sign Up Form",
+							"type": "boolean",
+							"default": false,
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"key": "signUpFormDisclosure",
+							"label": "Add Required Disclosure",
+							"type": "content",
+							"default": "",
+							"rules": { "max": 255 },
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								},
+								{
+									"key": "showSignUpForm",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"key": "facebook",
+							"label": "Facebook",
+							"type": "url",
+							"default": "{{{ user.ddcUserData.facebookUrlTxt }}}",
+							"rules": { "url": true },
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"key": "linkedin",
+							"label": "LinkedIn",
+							"type": "url",
+							"default": "{{{ user.ddcUserData.lnkdinUrlTxt }}}",
+							"rules": { "url": true },
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"key": "instagram",
+							"label": "Instagram",
+							"type": "url",
+							"default": "",
+							"rules": { "url": true },
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"key": "twitter",
+							"label": "Twitter",
+							"type": "url",
+							"default": "{{{ user.ddcUserData.twitterUrlTxt }}}",
+							"rules": { "url": true },
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"key": "youtube",
+							"label": "YouTube",
+							"type": "url",
+							"default": "",
+							"rules": { "url": true },
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+            {
+              "key": "copyright",
+              "label": "Copyright",
+              "type": "richText",
+              "default": "<p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"/copyright\">Copyright {{ year }}. New York Life Insurance Company. All Rights Reserved.</a></p><p><a target=\"_blank\" rel=\"noopener noreferrer nofollow\" href=\"https://www.newyorklife.com/about/privacy-policy \">Privacy Policy</a></p>{{ #user.registeredRep }}<p>NYLIFE Securities LLC, Member\n<a href=\"http://www.finra.org\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">FINRA</a>/<a href=\"https://www.sipc.org\" target=\"_blank\" rel=\"noopener noreferrer nofollow\">SIPC</a>.</p><p><strong><em>For additional information, visit <a href=\"https://www.newyorklife.com/assets/docs/pdfs/nyl-internet/nylifesecurities/customer-relationship-summary.pdf\" rel=\"noopener noreferrer nofollow\" target=\"_blank\">Customer Relationship Summary.pdf</a></em></strong></p>{{ /user.registeredRep }}",
+              "requireSettings": [
+                {
+                  "key": "showFooter",
+                  "values": [true]
+                }
+              ]
+            },
+            {
+              "key": "address",
+              "label": "Address",
+              "type": "richText",
+              "default": "{{{user.streetAddress}}} {{{user.city}}}, {{{user.state}}} {{{user.postalCode}}}",
+              "requireSettings": [
+                {
+                  "key": "showFooter",
+                  "values": [true]
+                }
+              ]
+            },
+						{
+							"key": "showDisclosures",
+							"label": "Show Disclosures",
+							"type": "boolean",
+							"default": false,
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						},
+						{
+							"key": "disclosures",
+							"label": "Disclosures",
+							"default": [],
+							"requireSettings": [
+								{
+									"key": "showFooter",
+									"values": [true]
+								}
+							]
+						}
+          ]
+				},
+				{
+					"label": "Design",
+					"icon": "painters-palette",
+					"fields": [
+						{
+							"label": "Logo Options",
+							"type": "select",
+							"key": "logoStyle",
+							"default": "both",
+							"attrs": {
+								"items": ["none", "only", "both"]
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

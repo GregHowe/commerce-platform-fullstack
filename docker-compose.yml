@@ -1,0 +1,47 @@
+version: "3.3"
+services:
+  backend:
+    container_name: backend
+    build:
+      dockerfile: ./Core.Backend/Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - SB_ENV=dev
+
+  dotnetfunctions:
+    container_name: dotnetfunctions
+    build:
+      dockerfile: ./Core.DotnetFunctions/Dockerfile
+
+  generator:
+    container_name: generator
+    build:
+      dockerfile: ./Dockerfile_Generator
+    environment:
+      - AZURE_TENANT_ID=0d66fcaf-b6f5-48c2-8db7-914b77ffe53d
+      - AZURE_CLIENT_ID=ed8dc400-6483-4bee-8675-e17f38558adb
+      - AZURE_CLIENT_SECRET=aEV8Q~HP.RjL9T8J9.C4zlZgFbO4BZAIkVMy8b29
+
+  sitebuilder:
+    container_name: sitebuilder
+    working_dir: /app/Core.Builder
+    volumes:
+      - ./Core.Builder:/app/Core.Builder
+      - /app/Core.Builder/node_modules
+      - /app/Core.Builder/.nuxt
+    build:
+      dockerfile: ./Core.Builder/Dockerfile
+    restart: on-failure
+    ports:
+      - "80:80"
+    command: "yarn dev"
+    networks:
+      - nuxt-network
+    environment:
+      - CHOKIDAR_USEPOLLING=true # for hot browser refreshes while in dev
+      - API_BASE_URL=http://localhost:8080
+
+networks:
+  nuxt-network:
+    driver: bridge

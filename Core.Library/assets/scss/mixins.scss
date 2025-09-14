@@ -1,0 +1,107 @@
+/* breakpoints //// these need to stay consistent with the corresponding values in _pageId.vue */
+$breakpoint_sm: 640;
+$breakpoint_md: 768;
+$breakpoint_lg: 1024;
+$breakpoint_xl: 1280;
+
+@mixin breakpoint_up($breakpoint_key, $selector: &) {
+	//the name of the mixin is devices
+
+	@if $breakpoint_key == xl {
+		@media only screen and (min-width: ($breakpoint_xl + "px ")) {
+			@content;
+		}
+		.page.page--xl {
+			#{$selector} {
+				@content;
+			}
+		}
+	}
+
+	@if $breakpoint_key == lg {
+		@media only screen and (min-width: ($breakpoint_lg + "px ")) {
+			@content;
+		}
+		.page.page--lg {
+			#{$selector} {
+				@content;
+			}
+		}
+	}
+
+	@if $breakpoint_key == md {
+		@media only screen and (min-width: ($breakpoint_md + "px ")) {
+			@content;
+		}
+		.page.page--md {
+			#{$selector} {
+				@content;
+			}
+		}
+	}
+
+	@if $breakpoint_key == sm {
+		@media only screen and (min-width: ($breakpoint_sm + "px ")) {
+			@content;
+		}
+		.page.page--sm {
+			#{$selector} {
+				@content;
+			}
+		}
+	}
+}
+
+@mixin breakpoint_down($breakpoint_key, $selector: &) {
+	//the name of the mixin is devices
+
+	@if $breakpoint_key == xl {
+		@media only screen and (max-width: (($breakpoint_xl - 1)+"px")) {
+			@content;
+		}
+		.page.page--lg,
+		.page.page--md,
+		.page.page--sm,
+		.page.page--xs {
+			#{$selector} {
+				@content;
+			}
+		}
+	}
+
+	@if $breakpoint_key == lg {
+		@media only screen and (max-width: (($breakpoint_lg - 1)+"px")) {
+			@content;
+		}
+		.page.page--md,
+		.page.page--sm,
+		.page.page--xs {
+			#{$selector} {
+				@content;
+			}
+		}
+	}
+
+	@if $breakpoint_key == md {
+		@media only screen and (max-width: (($breakpoint_md - 1)+"px")) {
+			@content;
+		}
+		.page.page--sm,
+		.page.page--xs {
+			#{$selector} {
+				@content;
+			}
+		}
+	}
+
+	@if $breakpoint_key == sm {
+		@media only screen and (max-width: (($breakpoint_sm - 1)+"px")) {
+			@content;
+		}
+		.page.page--xs {
+			#{$selector} {
+				@content;
+			}
+		}
+	}
+}

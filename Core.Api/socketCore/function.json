@@ -1,0 +1,19 @@
+{
+	"bindings": [
+		{
+			"topicName": "publishing",
+			"subscriptionName": "SocketServer",
+			"connection": "AzureWebJobsServiceBus",
+			"name": "coreEvent",
+			"type": "serviceBusTrigger",
+			"direction": "in",
+			"autoCompleteMessages": "true"
+		},
+		{
+			"type": "webPubSub",
+			"name": "actions",
+			"hub": "CORE",
+			"direction": "out"
+		}
+	]
+}

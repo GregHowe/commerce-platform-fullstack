@@ -1,0 +1,22 @@
+query GetAccount($accountId: String) {
+    custom_agents(_doc: $accountId) {
+        _doc
+        firstname
+        lastname
+        tier
+        address1
+        address2
+        city
+        state
+        zip
+        phone
+        email
+        profilepic {
+            id
+            type
+            length
+            filename
+            uri
+        }
+    }
+}

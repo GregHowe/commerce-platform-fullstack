@@ -1,0 +1,449 @@
+{
+	"key": "contact",
+	"label": "Contact Layouts",
+	"presets": [
+		{
+			"key": "contact",
+			"label": "Contact Page",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "hero",
+					"variants": {
+						"text-align": "text-left",
+						"image-align": "image-right"
+					}
+				},
+				{
+					"type": "divider",
+					"variants": {
+						"style": "spacer",
+						"size": "large"
+					}
+				},
+				{
+					"type": "columns",
+					"variants": {},
+					"column-count": 2,
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "image",
+									"variants": {
+										"sizing": null,
+										"hidden": false
+									},
+									"src": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/57/uploads/image%202%20%281%29.png",
+									"width": null,
+									"height": null,
+									"alt": null
+								}
+							]
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "title",
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Request An Appointment"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": "left"
+									},
+									"richText": "<p>Subline Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>"
+								},
+								{
+									"type": "columns",
+									"variants": {
+										"vertical-alignment": null,
+										"hidden": false,
+										"order": null,
+										"offset": null
+									},
+									"blocks": [
+										{
+											"type": "calendly",
+											"variants": {},
+											"blocks": [
+												{
+													"type": null,
+													"variants": {}
+												}
+											],
+											"displayType": "Link",
+											"buttonText": "External Link",
+											"calendlyId": null,
+											"eventType": null,
+											"customEvent": null
+										},
+										{
+											"type": "calendly",
+											"variants": {},
+											"blocks": [
+												{
+													"type": null,
+													"variants": {}
+												}
+											],
+											"displayType": "Link",
+											"buttonText": "External Link",
+											"calendlyId": null,
+											"eventType": null,
+											"customEvent": null
+										}
+									],
+									"locked": null,
+									"allowTypes": null,
+									"restrictTypes": null,
+									"column-count": null
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": "disclosure",
+										"hidden": false,
+										"align": "left"
+									},
+									"richText": "<p>Disclosure Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "divider",
+					"variants": {
+						"style": "spacer",
+						"size": "large"
+					}
+				},
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "rows",
+							"variants": {
+								"bg-color": null,
+								"hidden": false,
+								"layout": null
+							},
+							"blocks": [
+								{
+									"type": "rows",
+									"variants": {
+										"bg-color": null,
+										"hidden": false,
+										"layout": null
+									},
+									"blocks": [
+										{
+											"type": "text",
+											"variants": {
+												"size": "overline",
+												"hidden": false,
+												"weight": "bold",
+												"style": null,
+												"align": "center"
+											},
+											"text": "Overline"
+										}
+									],
+									"locked": null,
+									"allowTypes": null,
+									"restrictTypes": null
+								}
+							],
+							"locked": null,
+							"allowTypes": null,
+							"restrictTypes": null
+						},
+						{
+							"type": "text",
+							"variants": {
+								"size": "title",
+								"hidden": false,
+								"weight": "bold",
+								"style": null,
+								"align": "center"
+							},
+							"text": "Our Team"
+						},
+						{
+							"type": "rich-text",
+							"variants": {
+								"size": null,
+								"hidden": false,
+								"align": null
+							},
+							"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+						}
+					]
+				},
+				{
+					"type": "divider",
+					"variants": {
+						"style": "spacer",
+						"size": "large"
+					}
+				},
+				{
+					"type": "columns",
+					"variants": {},
+					"column-count": 3,
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "contact-card",
+									"variants": {
+										"align-content": "align-left",
+										"hidden": false,
+										"photo-placement": "top",
+										"padding": "no-padding",
+										"bg-color": null
+									},
+									"photo": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/28/uploads/image%202%20%281%29.png",
+									"instagram": null,
+									"youtube": null,
+									"logo": null,
+									"description": "Enter Description"
+								}
+							]
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "contact-card",
+									"variants": {
+										"align-content": "align-left",
+										"hidden": false,
+										"photo-placement": "top",
+										"padding": "no-padding",
+										"bg-color": null
+									},
+									"photo": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/28/uploads/image%202%20%281%29.png",
+									"instagram": null,
+									"youtube": null,
+									"logo": null,
+									"description": "Enter Description"
+								}
+							]
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "contact-card",
+									"variants": {
+										"align-content": "align-left",
+										"hidden": false,
+										"photo-placement": "top",
+										"padding": "no-padding",
+										"bg-color": null
+									},
+									"photo": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/28/uploads/image%202%20%281%29.png",
+									"instagram": null,
+									"youtube": null,
+									"logo": null,
+									"description": "Enter Description"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "divider",
+					"variants": {
+						"style": "spacer",
+						"size": "large"
+					}
+				},
+				{
+					"type": "content-card",
+					"overline": "Signup",
+					"headline": "Field Agent Consumer Form"
+				},
+				{
+					"type": "divider",
+					"variants": {
+						"style": "spacer",
+						"size": "large"
+					}
+				},
+				{
+					"type": "form",
+					"formType": "agentConsumer",
+					"interestsFieldset": true
+				},
+				{
+					"type": "divider",
+					"variants": {
+						"style": "spacer",
+						"size": "large"
+					}
+				},
+				{
+					"type": "columns",
+					"variants": {},
+					"column-count": 2,
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "overline",
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "overline"
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": "title",
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Title"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": "left"
+									},
+									"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+								},
+								{
+									"type": "columns",
+									"variants": {
+										"vertical-alignment": null,
+										"hidden": false,
+										"order": null,
+										"offset": "offset-right"
+									},
+									"blocks": [
+										{
+											"type": "button",
+											"variants": {
+												"style": "primary",
+												"hidden": false,
+												"icon-placement": null,
+												"invert": null,
+												"outline": null
+											},
+											"label": "Primary",
+											"icon": null,
+											"url": null,
+											"newTab": null
+										},
+										{
+											"type": "button",
+											"variants": {
+												"style": "secondary",
+												"hidden": false,
+												"icon-placement": null,
+												"invert": null,
+												"outline": null
+											},
+											"label": "Secondary",
+											"icon": null,
+											"url": null,
+											"newTab": null
+										}
+									]
+								}
+							]
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"key": "image",
+									"label": "Background Image",
+									"type": "image",
+									"hint": "Choose background image",
+									"rules": {
+										"mimes": [
+											"image/jpeg",
+											"image/png",
+											"image/svg",
+											"image/gif",
+											"image/bmp"
+										],
+										"maxSize": 2000
+									},
+									"src": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/28/uploads/image%202%20%281%29.png"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "divider",
+					"variants": {
+						"style": "spacer",
+						"size": "large"
+					}
+				},
+				{
+					"type": "rows",
+					"variants": {},
+					"column-count": 1,
+					"blocks": [
+						{
+							"type": "text",
+							"variants": {
+								"size": "footnote",
+								"hidden": false,
+								"weight": null,
+								"style": null,
+								"align": "left"
+							},
+							"text": "Disclosure"
+						},
+						{
+							"type": "rich-text",
+							"variants": {
+								"size": "disclosure",
+								"hidden": false,
+								"align": null
+							},
+							"richText": "<p> *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Text Link</p>"
+						}
+					]
+				},
+				{
+					"type": "divider",
+					"variants": {
+						"style": "spacer",
+						"size": "large"
+					}
+				}
+			]
+		}
+	]
+}

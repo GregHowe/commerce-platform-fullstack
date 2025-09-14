@@ -1,0 +1,34 @@
+<template>
+	<svg
+		width="48"
+		height="48"
+		viewBox="0 0 48 48"
+		fill="none"
+		xmlns="http://www.w3.org/2000/svg"
+	>
+		<rect
+			x="1"
+			y="1"
+			width="46"
+			height="46"
+			rx="23"
+			fill="none"
+		/>
+		<path
+			d="M21.9155 32.5821L29.9155 24.5822L21.9155 16.5822"
+			stroke="var(--core__color_primary)"
+			stroke-width="2"
+			stroke-linecap="round"
+			stroke-linejoin="round"
+		/>
+		<rect
+			x="1"
+			y="1"
+			width="46"
+			height="46"
+			rx="23"
+			stroke="var(--core__color_primary)"
+			stroke-width="2"
+		/>
+	</svg>
+</template>

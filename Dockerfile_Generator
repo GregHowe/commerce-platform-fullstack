@@ -1,0 +1,29 @@
+FROM node:16
+
+WORKDIR /usr/src/app
+RUN mkdir -p /usr/src/app/Core.Generator
+RUN mkdir -p /usr/src/app/Core.GeneratorDaemon
+RUN mkdir -p /usr/src/app/Core.Library
+COPY ./Core.GeneratorDaemon/package*.json /usr/src/app/Core.GeneratorDaemon
+COPY ./Core.Generator/package*.json /usr/src/app/Core.Generator
+COPY ./Core.Library/package*.json /usr/src/app/Core.Library
+RUN ls
+WORKDIR /usr/src/app/Core.Generator
+RUN yarn install
+COPY ./Core.Generator /usr/src/app/Core.Generator
+COPY ./Core.GeneratorDaemon /usr/src/app/Core.GeneratorDaemon
+COPY ./Core.Builder /usr/src/app/Core.Builder
+COPY ./Core.Library /usr/src/app/Core.Library
+WORKDIR /usr/src/app/Core.GeneratorDaemon
+RUN yarn install
+COPY . .
+
+ENV API_BASE_URL=https://nyl-integration.fusion92core.com/api
+ENV KEY_VAULT_NAME=coresitebuilderDev
+ENV TEST_BRAND_ID=3
+ENV TEST_SITE_ID=41
+# SET THESE ON THE CONTAINER
+ENV AZURE_TENANT_ID=
+ENV AZURE_CLIENT_ID=
+ENV AZURE_CLIENT_SECRET=
+CMD ["node", "index.js"]

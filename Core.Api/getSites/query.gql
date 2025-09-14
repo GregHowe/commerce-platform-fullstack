@@ -1,0 +1,8 @@
+query GetUserSites {
+	frontend_sites {
+		_doc
+		user_id
+		title
+		isDeleted
+	}
+}

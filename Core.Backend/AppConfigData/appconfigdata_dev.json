@@ -1,0 +1,263 @@
+{
+  "items": [
+    {
+      "key": "AllowDebug",
+      "value": "true",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "AzureAd:CallbackPath",
+      "value": "/signin-oidc",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "AzureAd:ClientId",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/ClientId\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "AzureAd:ClientSecret",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/ClientSecret\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "AzureAd:Domain",
+      "value": "NYLCorePlatform.onmicrosoft.com",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "AzureAd:Instance",
+      "value": "https://login.microsoftonline.com/",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "AzureAd:TenantId",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/TenantId\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "AzureWebJobsServiceBus",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/AzureWebJobsServiceBus\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "ConnectionStrings:Azure",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/COREDB-CONNECTION-STRING\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "ConnectionStrings:AzureStorage",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/AZURE-STORAGE-CONNECTION-STRING\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "ConnectionStrings:CoreDb",
+      "value": "Data Source=localhost;Initial Catalog=CoreDb;Integrated Security=True;",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "ConnectionStrings:MS_PAT",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/MS-PAT\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "ConnectionStrings:SBUserIngest",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/AzureWebJobsServiceBus\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "Database:ConnectionString:uri",
+      "value": "https://.vault.azure.net/secrets/db-secret",
+      "label": null,
+      "content_type": null,
+      "tags": {}
+    },
+    {
+      "key": "GoogleRecaptcha:ApiUrl",
+      "value": "https://www.google.com/recaptcha/api/siteverify",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "GoogleRecaptcha:Secret",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/GoogleRecaptchaSecret\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "Jwt:Audience",
+      "value": "JWTServicePostmanClient",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "Jwt:Issuer",
+      "value": "JWTAuthenticationServer",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "Jwt:Key",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/Key\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "Jwt:RefreshTokenValidityInDays",
+      "value": "7",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "Jwt:Subject",
+      "value": "JWTServiceAccessToken",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "Jwt:TokenValidityInMinutes",
+      "value": "1440",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "KeyVault:AZURE_CLIENT_ID",
+      "value": "12f06f82-379a-4653-a738-f4030ac78509",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "KeyVault:AZURE_CLIENT_SECRET",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/AzureKeyVaultClientSecret\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "KeyVault:AZURE_TENANT_ID",
+      "value": "0d66fcaf-b6f5-48c2-8db7-914b77ffe53d",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "KeyVault:AzureKeyVaultEndpoint",
+      "value": "https://coresitebuilderdev.vault.azure.net/",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "KeyVault:Core20_Primary_Domain",
+      "value": "nyl-integration.fusion92core.com",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "NYL:CertificateName",
+      "value": "ctlleadform",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "NYL:ClientId",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/NYLClientId\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "NYL:ClientSecret",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/NYLClientSecret\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "NYL:DBASubmissionUrl",
+      "value": "https://mdl.f92clt.ws.newyorklife.com/PRO-MS/eis-dba-mgmt-1-0/api/1.0/dba/",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "NYL:LeadFormSubmissionUrl",
+      "value": "https://mdl.f92clt.ws.newyorklife.com/PRO-MS/clt-leads-pxy/api/insertLeads/",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "NYL:TokenUrl",
+      "value": "https://mdl.f92clt.ws.newyorklife.com/PRO-MS/eis-oauthprovider-prxy/access_token",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "SSORedirect:Path",
+      "value": "https://nyl-integration.fusion92core.com",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "WEBSITE_LOAD_CERTIFICATES",
+      "value": "02E9BE0BED483EC28526F3C57713350EABF00562",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    },
+    {
+      "key": "TestAppConfigPush:MS_PAT",
+      "value": "{\"uri\":\"https://coresitebuilderdev.vault.azure.net/secrets/MS-PAT\"}",
+      "label": null,
+      "content_type": "application/vnd.microsoft.appconfig.keyvaultref+json;charset=utf-8",
+      "tags": {}
+    },
+    {
+      "key": "WEBSITE_LOAD_CERTIFICATES:TestAppConfigPush",
+      "value": "02E9BE0BED483EC28526F3C57713350EABF00562",
+      "label": null,
+      "content_type": "",
+      "tags": {}
+    }
+  ]
+}

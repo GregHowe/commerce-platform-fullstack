@@ -1,0 +1,189 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreBlockSocialLinks if facebook value is set, make sure facebook icon appears and link matches value 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <div
+      class="block__header_group"
+    >
+      <!---->
+    </div>
+     
+    <div
+      class="block__icon_group"
+    >
+      <div
+        class="block__facebook"
+      >
+        <a
+          class="block__link"
+          href="http://facebook.com"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM15 8H13.65C13.112 8 13 8.221 13 8.778V10H15L14.791 12H13V19H10V12H8V10H10V7.692C10 5.923 10.931 5 13.029 5H15V8Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+      </div>
+       
+      <!---->
+       
+      <!---->
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <div
+      class="block__header_group"
+    >
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockSocialLinks if headline is set, make sure headline appears 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <div
+      class="block__header_group"
+    >
+      <div
+        class="block__headline"
+      >
+        
+			text
+		
+      </div>
+    </div>
+     
+    <div
+      class="block__icon_group"
+    >
+      <!---->
+       
+      <!---->
+       
+      <!---->
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <div
+      class="block__header_group"
+    >
+      <!---->
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockSocialLinks if username is set, make sure username appears 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <div
+      class="block__header_group"
+    >
+      <!---->
+    </div>
+     
+    <div
+      class="block__icon_group"
+    >
+      <!---->
+       
+      <!---->
+       
+      <!---->
+       
+      <!---->
+       
+      <!---->
+    </div>
+     
+    <div
+      class="block__header_group"
+    >
+      <div
+        class="block__username"
+      >
+        
+			text
+		
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`CoreBlockSocialLinks if youtube value is set, make sure youtube icon appears and link matches value 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <div
+      class="block__header_group"
+    >
+      <!---->
+    </div>
+     
+    <div
+      class="block__icon_group"
+    >
+      <!---->
+       
+      <!---->
+       
+      <!---->
+       
+      <!---->
+       
+      <div
+        class="block__youtube"
+      >
+        <a
+          class="block__link"
+          href="http://youtube.com"
+        >
+          <svg
+            fill="none"
+            height="24"
+            viewBox="0 0 24 24"
+            width="24"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M12 0C5.373 0 0 5.373 0 12C0 18.627 5.373 24 12 24C18.627 24 24 18.627 24 12C24 5.373 18.627 0 12 0ZM16.441 16.892C14.339 17.036 9.657 17.036 7.558 16.892C5.282 16.736 5.017 15.622 5 12C5.017 8.371 5.285 7.264 7.558 7.108C9.657 6.964 14.34 6.964 16.441 7.108C18.718 7.264 18.982 8.378 19 12C18.982 15.629 18.715 16.736 16.441 16.892ZM10 9.658L14.917 11.996L10 14.342V9.658Z"
+              fill="currentColor"
+            />
+          </svg>
+        </a>
+      </div>
+    </div>
+     
+    <div
+      class="block__header_group"
+    >
+      <!---->
+    </div>
+  </div>
+</div>
+`;

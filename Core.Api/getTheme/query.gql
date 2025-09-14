@@ -1,0 +1,7 @@
+query GetThemes($themeId: String) {
+	preset_themes(_doc: $themeId) {
+		_doc
+		title
+		styles
+	}
+}

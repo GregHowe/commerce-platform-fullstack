@@ -1,0 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+body {
+	background: var(--_core__body_background);
+	min-height: 100vh;
+	margin: 0;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* moved this because it was causing problems w/ sass loader for some reason */
+.page .container {
+	position: relative;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0;
+}
+
+.page .row {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: flex-start;
+	margin: 0;
+	margin-left: calc(var(--_core__container_gutter) / -2);
+	margin-right: calc(var(--_core__container_gutter) / -2);
+}
+
+.page .row.reverse {
+	flex-direction: row-reverse;
+}
+/* end of things that were causing problems w/ sass loader */
+
+.toggle_buttons {
+	display: flex;
+	border-radius: var(--_core__button_border-radius);
+	padding: 1px;
+}

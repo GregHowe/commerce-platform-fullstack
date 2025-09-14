@@ -1,0 +1,10 @@
+[
+	{ "value": "left-arrow", "label": "Left Arrow" },
+	{ "value": "down-arrow", "label": "Down Arrow" },
+	{ "value": "right-arrow", "label": "Right Arrow" },
+	{ "value": "map-pin", "label": "Map Pin" },
+	{ "value": "phone", "label": "Phone" },
+	{ "value": "mobile-phone", "label": "Mobile Phone" },
+	{ "value": "fax", "label": "Fax" },
+	{ "value": "email", "label": "email" }
+]

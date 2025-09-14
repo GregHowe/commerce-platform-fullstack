@@ -1,0 +1,285 @@
+{
+	"key": "container",
+	"label": "Containers",
+	"title": "Select Container",
+	"description": "Select a container for you to add your components into.",
+	"categories": [
+		{
+			"key": "1-column",
+			"label": "1 Column",
+			"presets": [
+				{
+					"key": "base",
+					"label": "Full Width",
+					"description": "Description lorem ipsum dolor sit amet consectetur elit",
+					"blocks": [
+						{
+							"type": "rows"
+						}
+					]
+				},
+				{
+					"key": "contained",
+					"label": "Contained",
+					"description": "Description lorem ipsum dolor sit amet consectetur elit",
+					"blocks": [
+						{
+							"type": "rows",
+							"variants": {
+								"layout": "contained"
+							}
+						}
+					]
+				}
+			]
+		},
+
+		{
+			"key": "2-columns",
+			"label": "2 Columns",
+			"presets": [
+				{
+					"key": "base",
+					"label": "2 Column",
+					"description": "Description lorem ipsum dolor sit amet consectetur elit",
+					"blocks": [
+						{
+							"type": "columns",
+							"column-count": 2,
+							"blocks": [
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								}
+							]
+						}
+					]
+				},
+				{
+					"key": "offset-left",
+					"label": "2 Column Offset Left",
+					"description": "Description lorem ipsum dolor sit amet consectetur elit",
+					"blocks": [
+						{
+							"type": "columns",
+							"column-count": 2,
+							"variants": {
+								"offset": "offset-left"
+							},
+							"blocks": [
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								}
+							]
+						}
+					]
+				},
+				{
+					"key": "offset-right",
+					"label": "2 Column Offset Right",
+					"description": "Description lorem ipsum dolor sit amet consectetur elit",
+					"blocks": [
+						{
+							"type": "columns",
+							"column-count": 2,
+							"variants": {
+								"offset": "offset-right"
+							},
+							"blocks": [
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"key": "3-columns",
+			"label": "3 Columns",
+			"presets": [
+				{
+					"key": "base",
+					"label": "3 Column",
+					"description": "Description lorem ipsum dolor sit amet consectetur elit",
+					"blocks": [
+						{
+							"type": "columns",
+							"column-count": 3,
+							"blocks": [
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								}
+							]
+						}
+					]
+				},
+				{
+					"key": "grid",
+					"label": "3 Column Grid",
+					"description": "Description lorem ipsum dolor sit amet consectetur elit",
+					"blocks": [
+						{
+							"type": "grid",
+							"column-count": 3,
+							"blocks": [
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"key": "4-columns",
+			"label": "4 Columns",
+			"presets": [
+				{
+					"key": "base",
+					"label": "4 Column",
+					"description": "Description lorem ipsum dolor sit amet consectetur elit",
+					"blocks": [
+						{
+							"type": "columns",
+							"column-count": 4,
+							"blocks": [
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								}
+							]
+						}
+					]
+				},
+				{
+					"key": "grid",
+					"label": "4 Column Grid",
+					"description": "Description lorem ipsum dolor sit amet consectetur elit",
+					"blocks": [
+						{
+							"type": "grid",
+							"column-count": 4,
+							"blocks": [
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"key": "tabs",
+			"label": "Tabs",
+			"presets": [
+				{
+					"key": "base",
+					"label": "Tabs",
+					"description": "Description lorem ipsum dolor sit amet consectetur elit",
+					"blocks": [
+						{
+							"type": "tabs",
+							"blocks": [
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"key": "carousel",
+			"label": "Carousel",
+			"presets": [
+				{
+					"key": "base",
+					"label": "Carousel",
+					"description": "Description lorem ipsum dolor sit amet consectetur elit",
+					"blocks": [
+						{
+							"type": "container",
+							"variants": {
+								"layout": "carousel"
+							},
+							"blocks": [
+								{
+									"type": "rows"
+								},
+								{
+									"type": "rows"
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"key": "accordion",
+			"label": "Accordion",
+			"presets": [
+				{
+					"key": "base",
+					"label": "Accordion",
+					"description": "Description lorem ipsum dolor sit amet consectetur elit",
+					"blocks": [
+						{
+							"type": "accordion",
+							"blocks": [
+								{
+									"type": "rows"
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

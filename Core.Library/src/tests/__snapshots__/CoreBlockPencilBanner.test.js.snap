@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreBlockPencilBanner displays entered text 1`] = `
+<div>
+  <div
+    class="block__body"
+    role="banner"
+  >
+    <div
+      class="block__body-container"
+    >
+      <div
+        class="block__body-container_content"
+      >
+        text across a banner
+      </div>
+       
+      <!---->
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockPencilBanner shows button if button text is entered 1`] = `
+<div>
+  <div
+    class="block__body"
+    role="banner"
+  >
+    <div
+      class="block__body-container"
+    >
+      <div
+        class="block__body-container_content"
+      />
+       
+      <div
+        class="block__body-container_button block block_button block_button_text block_button_icon-right"
+        target="_blank"
+      >
+        <div
+          class="block__body"
+          index="0"
+          nested-level="0"
+        >
+          <a
+            class="button"
+            role="button"
+          >
+            <span
+              class="button_icon--custom"
+            >
+              <span
+                class="button_icon"
+                icon="right-arrow"
+                name="buttonIcon"
+              />
+            </span>
+             
+            <span
+              class="button_label button_icon--down"
+            >
+              <span
+                class="button_label_text"
+              >
+                text in a button
+              </span>
+               
+              <span
+                class="button_icon button_i"
+                icon="down-arrow"
+              />
+            </span>
+          </a>
+        </div>
+          
+        <!---->
+      </div>
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockPencilBanner shows close button if setting is true 1`] = `
+<div>
+  <div
+    class="block__body"
+    role="banner"
+  >
+    <div
+      class="block__body-container"
+    >
+      <div
+        class="block__body-container_content"
+      />
+       
+      <!---->
+    </div>
+     
+    <span
+      icon="close"
+    />
+  </div>
+</div>
+`;

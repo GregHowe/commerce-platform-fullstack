@@ -1,0 +1,441 @@
+{
+	"key": "calculator",
+	"label": "Calculator Layouts",
+	"presets": [
+		{
+			"key": "calculators",
+			"label": "Calculators Page",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "hero",
+					"variants": {
+						"text-align": "text-left",
+						"image-align": "image-left",
+						"padding-bottom": "pb-huge"
+					},
+					"showBreadcrumb": true,
+					"overline": "Overline",
+					"headline": "Calculators",
+					"subline": "",
+					"bodyText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>",
+					"button-primary-label": "Primary Button",
+					"button-secondary-label": "Secondary Button",
+					"button-tertiary-label": "Tertiary Button",
+					"showKeepScrolling": true,
+					"backgroundMediaSrc": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/176/uploads/UI%20Overlay%20%281%29.png"
+				},
+				{
+					"type": "rows",
+					"variants": {
+						"padding-bottom": "pb-huge",
+						"padding-top": "pt-huge"
+					},
+					"blocks": [
+						{
+							"type": "rows",
+							"variants": {
+								"bg-color": null,
+								"hidden": false,
+								"layout": null
+							},
+							"blocks": [
+								{
+									"type": "rows",
+									"variants": {
+										"bg-color": null,
+										"hidden": false,
+										"layout": null
+									},
+									"blocks": [
+										{
+											"type": "text",
+											"variants": {
+												"size": "overline",
+												"hidden": false,
+												"weight": "bold",
+												"style": null,
+												"align": "center"
+											},
+											"text": "Overline"
+										}
+									],
+									"locked": null,
+									"allowTypes": null,
+									"restrictTypes": null
+								}
+							],
+							"locked": null,
+							"allowTypes": null,
+							"restrictTypes": null
+						},
+						{
+							"type": "text",
+							"variants": {
+								"size": "title",
+								"hidden": false,
+								"weight": "bold",
+								"style": null,
+								"align": "center"
+							},
+							"text": "Our Team"
+						},
+						{
+							"type": "rich-text",
+							"variants": {
+								"size": null,
+								"hidden": false,
+								"align": null
+							},
+							"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+						}
+					]
+				},
+				{
+					"type": "columns",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"column-count": 2,
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "subtitle",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": "left"
+									},
+									"text": "Life Insurance"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": "left",
+										"padding-bottom": "pb-small"
+									},
+									"richText": "<p>How much Life Insurance do I need?</p>"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "link",
+										"hidden": false,
+										"icon-placement": null,
+										"invert": null,
+										"outline": null,
+										"padding-x": null
+									},
+									"label": "External Link",
+									"icon": null,
+									"url": null,
+									"newTab": null
+								}
+							],
+							"variants": {
+								"padding-bottom": null
+							}
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "subtitle",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": "left"
+									},
+									"text": "Life Insurance"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": "left",
+										"padding-bottom": "pb-small"
+									},
+									"richText": "<p>How much Life Insurance do I need?</p>"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "link",
+										"hidden": false,
+										"icon-placement": null,
+										"invert": null,
+										"outline": null,
+										"padding-x": null
+									},
+									"label": "External Link",
+									"icon": null,
+									"url": null,
+									"newTab": null
+								}
+							],
+							"variants": {
+								"padding-bottom": null
+							}
+						}
+					]
+				},
+				{
+					"type": "columns",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "subtitle",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": "left"
+									},
+									"text": "Life Insurance"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": "left",
+										"padding-bottom": "pb-small"
+									},
+									"richText": "<p>How much Life Insurance do I need?</p>"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "link",
+										"hidden": false,
+										"icon-placement": null,
+										"invert": null,
+										"outline": null,
+										"padding-x": null
+									},
+									"label": "External Link",
+									"icon": null,
+									"url": null,
+									"newTab": null
+								}
+							],
+							"variants": {
+								"padding-bottom": null
+							}
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "subtitle",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": "left"
+									},
+									"text": "Life Insurance"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": "left",
+										"padding-bottom": "pb-small"
+									},
+									"richText": "<p>How much Life Insurance do I need?</p>"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "link",
+										"hidden": false,
+										"icon-placement": null,
+										"invert": null,
+										"outline": null,
+										"padding-x": null
+									},
+									"label": "External Link",
+									"icon": null,
+									"url": null,
+									"newTab": null
+								}
+							],
+							"variants": {
+								"padding-bottom": null
+							}
+						}
+					],
+					"column-count": 2
+				},
+				{
+					"type": "columns",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "subtitle",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": "left"
+									},
+									"text": "Life Insurance"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": "left",
+										"padding-bottom": "pb-small"
+									},
+									"richText": "<p>How much Life Insurance do I need?</p>"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "link",
+										"hidden": false,
+										"icon-placement": null,
+										"invert": null,
+										"outline": null,
+										"padding-x": null
+									},
+									"label": "External Link",
+									"icon": null,
+									"url": null,
+									"newTab": null
+								}
+							],
+							"variants": {
+								"padding-bottom": null
+							}
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "subtitle",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": "left"
+									},
+									"text": "Life Insurance"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": "left",
+										"padding-bottom": "pb-small"
+									},
+									"richText": "<p>How much Life Insurance do I need?</p>"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "link",
+										"hidden": false,
+										"icon-placement": null,
+										"invert": null,
+										"outline": null,
+										"padding-x": null
+									},
+									"label": "External Link",
+									"icon": null,
+									"url": null,
+									"newTab": null
+								}
+							],
+							"variants": {
+								"padding-bottom": null
+							}
+						}
+					],
+					"column-count": 2
+				},
+				{
+					"type": "columns",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "subtitle",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": "left"
+									},
+									"text": "Life Insurance"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": "left",
+										"padding-bottom": "pb-small"
+									},
+									"richText": "<p>How much Life Insurance do I need?</p>"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "link",
+										"hidden": false,
+										"icon-placement": null,
+										"invert": null,
+										"outline": null,
+										"padding-x": null
+									},
+									"label": "External Link",
+									"icon": null,
+									"url": null,
+									"newTab": null
+								}
+							],
+							"variants": {
+								"padding-bottom": null
+							}
+						}
+					],
+					"column-count": 2
+				}
+			]
+		}
+	]
+}

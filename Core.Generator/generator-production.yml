@@ -1,0 +1,32 @@
+trigger: none
+pr: none
+
+parameters:
+- name: CLOUDCMS_BRANDID
+  type: string
+  default: ""
+- name: CLOUDCMS_SITEID
+  type: string
+  default: ""
+- name: CLOUDCMS_PROJECTID
+  type: string
+  default: ""
+- name: TIMESTAMP
+  type: string
+  default: ""
+
+pool:
+  vmImage: windows-latest
+
+steps:
+- script: |
+  az login --service-principal -u $(spID) -p=$(spSecret) --tenant 0d66fcaf-b6f5-48c2-8db7-914b77ffe53d
+displayName: "CLI Login"
+
+- script: |
+  az cdn endpoint update --resource-group NewYorkLife --profile-name core-basic --name ${{parameters.CLOUDCMS_BRANDID}}-${{ parameters.CLOUDCMS_SITEID }} --origin-path /projects/${{ parameters.CLOUDCMS_PROJECTID }}/websites/${{ parameters.CLOUDCMS_SITEID }}/${{ parameters.TIMESTAMP }}
+displayName: 'Update CDN Endpoint'
+
+- script: |
+  az cdn endpoint purge --resource-group NewYorkLife --profile-name core-basic --name ${{parameters.CLOUDCMS_BRANDID}}-${{ parameters.CLOUDCMS_SITEID }} --content-paths "/*"
+displayName: 'Purge CDN Endpoint'

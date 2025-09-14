@@ -1,0 +1,42 @@
+[
+	{
+		"id": "nyl-01",
+		"title": "NYL Theme 1 - Light"
+	},
+	{
+		"id": "nyl-01_dark",
+		"title": "NYL Theme 1 - Dark"
+	},
+	{
+		"id": "nyl-01_eagle",
+		"title": "NYL Theme 1 - Eagle"
+	},
+	{
+		"id": "nyl-02",
+		"title": "NYL Theme 2 - Light"
+	},
+	{
+		"id": "nyl-02_dba",
+		"title": "NYL Theme 2 - DBA"
+	},
+	{
+		"id": "nyl-02_eagle",
+		"title": "NYL Theme 2 - Eagle"
+	},
+	{
+		"id": "nyl-03_red",
+		"title": "NYL Theme 3 - Red"
+	},
+	{
+		"id": "nyl-03_blue",
+		"title": "NYL Theme 3 - Blue"
+	},
+	{
+		"id": "nyl-03_green",
+		"title": "NYL Theme 3 - Green"
+	},
+	{
+		"id": "nyl-03_maroon",
+		"title": "NYL Theme 3 - Maroon"
+	}
+]

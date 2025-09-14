@@ -1,0 +1,312 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreBlockContainer clicking the accordion toggle header opens the accordion body 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <!---->
+     
+    <!---->
+     
+    <div
+      class="block__control block__control_accordion"
+    >
+      
+	Accordion
+	
+      <span
+        icon="circle-minus"
+      />
+    </div>
+     
+    <div
+      class="block__section_main"
+      style=""
+    >
+      <div
+        class="block block_null block_null_base"
+        id="1w1w1w"
+        is-first-child="true"
+        is-last-child="true"
+        target="_blank"
+      >
+        <div
+          class="block__body"
+          index="0"
+          nested-level="1"
+          style="display: flex; align-content: center; justify-content: center; padding: 1rem;"
+        >
+          <div
+            class="block__section_content"
+          >
+            [ Choose Block Type ]
+          </div>
+        </div>
+          
+        <!---->
+      </div>
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockContainer displays 2 different toggle labels dynamically 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <div
+      class="block_container_toggle__buttons--container"
+    >
+      <div
+        class="block_container_toggle__buttons"
+      >
+        <button
+          class="active"
+        >
+          
+			toggle one
+		
+        </button>
+        <button
+          class=""
+        >
+          
+			toggle tow
+		
+        </button>
+      </div>
+    </div>
+     
+    <!---->
+     
+    <!---->
+     
+    <div
+      class="block__section_main"
+    >
+      <div
+        class="block block_null block_null_base block__child--active"
+        id="1"
+        is-first-child="true"
+        parent-is-horizontal="true"
+        target="_blank"
+      >
+        <div
+          class="block__body"
+          index="0"
+          nested-level="1"
+          style="display: flex; align-content: center; justify-content: center; padding: 1rem;"
+        >
+          <div
+            class="block__section_content"
+          >
+            [ Choose Block Type ]
+          </div>
+        </div>
+          
+        <!---->
+      </div>
+      <div
+        class="block block_null block_null_base"
+        id="2"
+        is-last-child="true"
+        parent-is-horizontal="true"
+        target="_blank"
+      >
+        <div
+          class="block__body"
+          index="1"
+          nested-level="1"
+          style="display: flex; align-content: center; justify-content: center; padding: 1rem;"
+        >
+          <div
+            class="block__section_content"
+          >
+            [ Choose Block Type ]
+          </div>
+        </div>
+          
+        <!---->
+      </div>
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockContainer displays accordion when hasAccordion is true 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <!---->
+     
+    <!---->
+     
+    <div
+      class="block__control block__control_accordion"
+    >
+      
+	Accordion
+	
+      <span
+        icon="circle-plus"
+      />
+    </div>
+     
+    <div
+      class="block__section_main"
+      style="display: none;"
+    />
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockContainer displays empty horizontal blocks for each toggle button 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <div
+      class="block_container_toggle__buttons--container"
+    >
+      <div
+        class="block_container_toggle__buttons"
+      >
+        <button
+          class="active"
+        >
+          
+			Toggle
+		
+        </button>
+        <button
+          class=""
+        >
+          
+			Toggle
+		
+        </button>
+      </div>
+    </div>
+     
+    <!---->
+     
+    <!---->
+     
+    <div
+      class="block__section_main"
+    >
+      <div
+        class="block block_null block_null_base block__child--active"
+        id="1"
+        is-first-child="true"
+        parent-is-horizontal="true"
+        target="_blank"
+      >
+        <div
+          class="block__body"
+          index="0"
+          nested-level="1"
+          style="display: flex; align-content: center; justify-content: center; padding: 1rem;"
+        >
+          <div
+            class="block__section_content"
+          >
+            [ Choose Block Type ]
+          </div>
+        </div>
+          
+        <!---->
+      </div>
+      <div
+        class="block block_null block_null_base"
+        id="2"
+        is-last-child="true"
+        parent-is-horizontal="true"
+        target="_blank"
+      >
+        <div
+          class="block__body"
+          index="1"
+          nested-level="1"
+          style="display: flex; align-content: center; justify-content: center; padding: 1rem;"
+        >
+          <div
+            class="block__section_content"
+          >
+            [ Choose Block Type ]
+          </div>
+        </div>
+          
+        <!---->
+      </div>
+    </div>
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockContainer displays entered text in accordion header 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <!---->
+     
+    <!---->
+     
+    <div
+      class="block__control block__control_accordion"
+    >
+      
+	text over troubled accordions
+	
+      <span
+        icon="circle-plus"
+      />
+    </div>
+     
+    <div
+      class="block__section_main"
+      style="display: none;"
+    />
+     
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockContainer displays toggle container classes when layout variant is set to toggle 1`] = `
+<div>
+  <div
+    class="block__body"
+  >
+    <div
+      class="block_container_toggle__buttons--container"
+    >
+      <div
+        class="block_container_toggle__buttons"
+      />
+    </div>
+     
+    <!---->
+     
+    <!---->
+     
+    <div
+      class="block__section_main"
+    />
+     
+    <!---->
+  </div>
+</div>
+`;

@@ -1,0 +1,1370 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreBlockForm if best time to call value is set, best time to call dropdown is present 1`] = `
+"<div class="block__body">
+  <div class="container">
+    <div class="form">
+      <form>
+        <div class="row">
+          <div class="col form-field"><label for="first-name" class="required">
+              First Name
+            </label> <input id="first-name" type="text" name="first-name" required="required" autocomplete="off" class=""> <small class="text-error">
+
+            </small></div>
+          <div class="col form-field"><label for="last-name" class="required">
+              Last Name
+            </label> <input id="last-name" type="text" name="last-name" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="street-address" class="required">
+              Street Address
+            </label> <input id="street-address" type="text" name="street-address" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col-6 form-field"><label for="city" class="required">
+              City
+            </label> <input id="city" type="text" name="city" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+          <div class="col-2 form-field"><label for="state" class="required">
+              State
+            </label> <select id="state" name="state" required="required" autocomplete="off" class="form-select">
+              <option value="">--</option>
+              <option value="AL">
+                Alabama
+              </option>
+              <option value="AK">
+                Alaska
+              </option>
+              <option value="AZ">
+                Arizona
+              </option>
+              <option value="AR">
+                Arkansas
+              </option>
+              <option value="CA">
+                California
+              </option>
+              <option value="CO">
+                Colorado
+              </option>
+              <option value="CT">
+                Connecticut
+              </option>
+              <option value="DC">
+                District of Columbia
+              </option>
+              <option value="DE">
+                Delaware
+              </option>
+              <option value="FL">
+                Florida
+              </option>
+              <option value="GA">
+                Georgia
+              </option>
+              <option value="HI">
+                Hawaii
+              </option>
+              <option value="ID">
+                Idaho
+              </option>
+              <option value="IL">
+                Illinois
+              </option>
+              <option value="IN">
+                Indiana
+              </option>
+              <option value="IA">
+                Iowa
+              </option>
+              <option value="KS">
+                Kansas
+              </option>
+              <option value="KY">
+                Kentucky
+              </option>
+              <option value="LA">
+                Louisiana
+              </option>
+              <option value="ME">
+                Maine
+              </option>
+              <option value="MD">
+                Maryland
+              </option>
+              <option value="MA">
+                Massachusetts
+              </option>
+              <option value="MI">
+                Michigan
+              </option>
+              <option value="MN">
+                Minnesota
+              </option>
+              <option value="MS">
+                Mississippi
+              </option>
+              <option value="MO">
+                Missouri
+              </option>
+              <option value="MT">
+                Montana
+              </option>
+              <option value="NE">
+                Nebraska
+              </option>
+              <option value="NV">
+                Nevada
+              </option>
+              <option value="NH">
+                New Hampshire
+              </option>
+              <option value="NJ">
+                New Jersey
+              </option>
+              <option value="NM">
+                New Mexico
+              </option>
+              <option value="NY">
+                New York
+              </option>
+              <option value="NC">
+                North Carolina
+              </option>
+              <option value="ND">
+                North Dakota
+              </option>
+              <option value="OH">
+                Ohio
+              </option>
+              <option value="OK">
+                Oklahoma
+              </option>
+              <option value="OR">
+                Oregon
+              </option>
+              <option value="PA">
+                Pennsylvania
+              </option>
+              <option value="RI">
+                Rhode Island
+              </option>
+              <option value="SC">
+                South Carolina
+              </option>
+              <option value="SD">
+                South Dakota
+              </option>
+              <option value="TN">
+                Tennessee
+              </option>
+              <option value="TX">
+                Texas
+              </option>
+              <option value="UT">
+                Utah
+              </option>
+              <option value="VT">
+                Vermont
+              </option>
+              <option value="VA">
+                Virginia
+              </option>
+              <option value="WA">
+                Washington
+              </option>
+              <option value="WV">
+                West Virginia
+              </option>
+              <option value="WI">
+                Wisconsin
+              </option>
+              <option value="WY">
+                Wyoming
+              </option>
+            </select> <small class="text-error">
+
+            </small></div>
+          <div class="col form-field"><label for="zipcode" class="required">
+              Zip Code
+            </label> <input type="text" id="zipcode" name="zipcode" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="emailAddress" class="required">
+              Email
+            </label> <input id="emailAddress" type="email" name="emailAddress" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="phoneNumber" class="required">
+              Phone Number
+            </label> <input type="tel" id="phoneNumber" name="phoneNumber" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <div class="row">
+          <div class="col"><button type="submit" value="submit" class="button">
+              Submit
+            </button></div>
+        </div>
+        <div class="form__debug">
+          <!---->
+          <!---->
+        </div>
+      </form>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`CoreBlockForm if form submission fails, fail div is present 1`] = `
+"<div class="block__body">
+  <div class="container">
+    <div class="form--fail"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" class="fail-icon">
+        <path d="M10.738 3.96274L2.26802 18.1027C2.09339 18.4052 2.00099 18.748 2.00001 19.0973C1.99903 19.4465 2.08951 19.7899 2.26245 20.0933C2.43538 20.3967 2.68474 20.6495 2.98573 20.8266C3.28671 21.0037 3.62882 21.0989 3.97802 21.1027H20.918C21.2672 21.0989 21.6093 21.0037 21.9103 20.8266C22.2113 20.6495 22.4607 20.3967 22.6336 20.0933C22.8065 19.7899 22.897 19.4465 22.896 19.0973C22.8951 18.748 22.8027 18.4052 22.628 18.1027L14.158 3.96274C13.9797 3.66885 13.7287 3.42586 13.4292 3.25723C13.1297 3.08859 12.7918 3 12.448 3C12.1043 3 11.7663 3.08859 11.4668 3.25723C11.1673 3.42586 10.9163 3.66885 10.738 3.96274V3.96274Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M12.448 9.10278V13.1028" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        <path d="M12.448 17.1028H12.458" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+      </svg>
+      <p>There was problem submitting your form.</p>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`CoreBlockForm if form submission succeeds, success div is present 1`] = `
+"<div class="block__body">
+  <div class="container">
+    <div class="form--success"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path fill-rule="evenodd" clip-rule="evenodd" d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22ZM18.7016 8.71257C19.0951 8.32508 19.1001 7.69194 18.7126 7.2984C18.3251 6.90486 17.6919 6.89995 17.2984 7.28743L9.88046 14.5912L6.70711 11.4179C6.31658 11.0274 5.68342 11.0274 5.29289 11.4179C4.90237 11.8084 4.90237 12.4416 5.29289 12.8321L9.16789 16.7071C9.55628 17.0955 10.1852 17.0979 10.5766 16.7126L18.7016 8.71257Z" fill="currentColor"></path>
+      </svg>
+      <p>
+        Thank you for reaching out. A member of our team will contact you soon.
+      </p>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`CoreBlockForm if form type is agentCustom, only first name, last name, phone, and email should be present 1`] = `
+"<div class="block__body">
+  <div class="container">
+    <div class="form">
+      <form>
+        <div class="row">
+          <div class="col form-field"><label for="first-name" class="required">
+              First Name
+            </label> <input id="first-name" type="text" name="first-name" required="required" autocomplete="off" class=""> <small class="text-error">
+
+            </small></div>
+          <div class="col form-field"><label for="last-name" class="required">
+              Last Name
+            </label> <input id="last-name" type="text" name="last-name" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <!---->
+        <div class="row">
+          <div class="col form-field"><label for="emailAddress" class="required">
+              Email
+            </label> <input id="emailAddress" type="email" name="emailAddress" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="phoneNumber" class="required">
+              Phone Number
+            </label> <input type="tel" id="phoneNumber" name="phoneNumber" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <div class="row">
+          <div class="col"><button type="submit" value="submit" class="button">
+              Submit
+            </button></div>
+        </div>
+        <div class="form__debug">
+          <!---->
+          <!---->
+        </div>
+      </form>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`CoreBlockForm if form type is goRecruiter, date of birth field is not present 1`] = `
+"<div class="block__body">
+  <div class="container">
+    <div class="form">
+      <form>
+        <div class="row">
+          <div class="col form-field"><label for="first-name" class="required">
+              First Name
+            </label> <input id="first-name" type="text" name="first-name" required="required" autocomplete="off" class=""> <small class="text-error">
+
+            </small></div>
+          <div class="col form-field"><label for="last-name" class="required">
+              Last Name
+            </label> <input id="last-name" type="text" name="last-name" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="street-address" class="required">
+              Street Address
+            </label> <input id="street-address" type="text" name="street-address" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col-6 form-field"><label for="city" class="required">
+              City
+            </label> <input id="city" type="text" name="city" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+          <div class="col-2 form-field"><label for="state" class="required">
+              State
+            </label> <select id="state" name="state" required="required" autocomplete="off" class="form-select">
+              <option value="">--</option>
+              <option value="AL">
+                Alabama
+              </option>
+              <option value="AK">
+                Alaska
+              </option>
+              <option value="AZ">
+                Arizona
+              </option>
+              <option value="AR">
+                Arkansas
+              </option>
+              <option value="CA">
+                California
+              </option>
+              <option value="CO">
+                Colorado
+              </option>
+              <option value="CT">
+                Connecticut
+              </option>
+              <option value="DC">
+                District of Columbia
+              </option>
+              <option value="DE">
+                Delaware
+              </option>
+              <option value="FL">
+                Florida
+              </option>
+              <option value="GA">
+                Georgia
+              </option>
+              <option value="HI">
+                Hawaii
+              </option>
+              <option value="ID">
+                Idaho
+              </option>
+              <option value="IL">
+                Illinois
+              </option>
+              <option value="IN">
+                Indiana
+              </option>
+              <option value="IA">
+                Iowa
+              </option>
+              <option value="KS">
+                Kansas
+              </option>
+              <option value="KY">
+                Kentucky
+              </option>
+              <option value="LA">
+                Louisiana
+              </option>
+              <option value="ME">
+                Maine
+              </option>
+              <option value="MD">
+                Maryland
+              </option>
+              <option value="MA">
+                Massachusetts
+              </option>
+              <option value="MI">
+                Michigan
+              </option>
+              <option value="MN">
+                Minnesota
+              </option>
+              <option value="MS">
+                Mississippi
+              </option>
+              <option value="MO">
+                Missouri
+              </option>
+              <option value="MT">
+                Montana
+              </option>
+              <option value="NE">
+                Nebraska
+              </option>
+              <option value="NV">
+                Nevada
+              </option>
+              <option value="NH">
+                New Hampshire
+              </option>
+              <option value="NJ">
+                New Jersey
+              </option>
+              <option value="NM">
+                New Mexico
+              </option>
+              <option value="NY">
+                New York
+              </option>
+              <option value="NC">
+                North Carolina
+              </option>
+              <option value="ND">
+                North Dakota
+              </option>
+              <option value="OH">
+                Ohio
+              </option>
+              <option value="OK">
+                Oklahoma
+              </option>
+              <option value="OR">
+                Oregon
+              </option>
+              <option value="PA">
+                Pennsylvania
+              </option>
+              <option value="RI">
+                Rhode Island
+              </option>
+              <option value="SC">
+                South Carolina
+              </option>
+              <option value="SD">
+                South Dakota
+              </option>
+              <option value="TN">
+                Tennessee
+              </option>
+              <option value="TX">
+                Texas
+              </option>
+              <option value="UT">
+                Utah
+              </option>
+              <option value="VT">
+                Vermont
+              </option>
+              <option value="VA">
+                Virginia
+              </option>
+              <option value="WA">
+                Washington
+              </option>
+              <option value="WV">
+                West Virginia
+              </option>
+              <option value="WI">
+                Wisconsin
+              </option>
+              <option value="WY">
+                Wyoming
+              </option>
+            </select> <small class="text-error">
+
+            </small></div>
+          <div class="col form-field"><label for="zipcode" class="required">
+              Zip Code
+            </label> <input type="text" id="zipcode" name="zipcode" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="emailAddress" class="required">
+              Email
+            </label> <input id="emailAddress" type="email" name="emailAddress" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="phoneNumber" class="required">
+              Phone Number
+            </label> <input type="tel" id="phoneNumber" name="phoneNumber" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <div class="row">
+          <div class="col"><button type="submit" value="submit" class="button">
+              Submit
+            </button></div>
+        </div>
+        <div class="form__debug">
+          <!---->
+          <!---->
+        </div>
+      </form>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`CoreBlockForm if interests value is set, interests checkbox group is present 1`] = `
+"<div class="block__body">
+  <div class="container">
+    <div class="form">
+      <form>
+        <div class="row">
+          <div class="col form-field"><label for="first-name" class="required">
+              First Name
+            </label> <input id="first-name" type="text" name="first-name" required="required" autocomplete="off" class=""> <small class="text-error">
+
+            </small></div>
+          <div class="col form-field"><label for="last-name" class="required">
+              Last Name
+            </label> <input id="last-name" type="text" name="last-name" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="street-address" class="required">
+              Street Address
+            </label> <input id="street-address" type="text" name="street-address" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col-6 form-field"><label for="city" class="required">
+              City
+            </label> <input id="city" type="text" name="city" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+          <div class="col-2 form-field"><label for="state" class="required">
+              State
+            </label> <select id="state" name="state" required="required" autocomplete="off" class="form-select">
+              <option value="">--</option>
+              <option value="AL">
+                Alabama
+              </option>
+              <option value="AK">
+                Alaska
+              </option>
+              <option value="AZ">
+                Arizona
+              </option>
+              <option value="AR">
+                Arkansas
+              </option>
+              <option value="CA">
+                California
+              </option>
+              <option value="CO">
+                Colorado
+              </option>
+              <option value="CT">
+                Connecticut
+              </option>
+              <option value="DC">
+                District of Columbia
+              </option>
+              <option value="DE">
+                Delaware
+              </option>
+              <option value="FL">
+                Florida
+              </option>
+              <option value="GA">
+                Georgia
+              </option>
+              <option value="HI">
+                Hawaii
+              </option>
+              <option value="ID">
+                Idaho
+              </option>
+              <option value="IL">
+                Illinois
+              </option>
+              <option value="IN">
+                Indiana
+              </option>
+              <option value="IA">
+                Iowa
+              </option>
+              <option value="KS">
+                Kansas
+              </option>
+              <option value="KY">
+                Kentucky
+              </option>
+              <option value="LA">
+                Louisiana
+              </option>
+              <option value="ME">
+                Maine
+              </option>
+              <option value="MD">
+                Maryland
+              </option>
+              <option value="MA">
+                Massachusetts
+              </option>
+              <option value="MI">
+                Michigan
+              </option>
+              <option value="MN">
+                Minnesota
+              </option>
+              <option value="MS">
+                Mississippi
+              </option>
+              <option value="MO">
+                Missouri
+              </option>
+              <option value="MT">
+                Montana
+              </option>
+              <option value="NE">
+                Nebraska
+              </option>
+              <option value="NV">
+                Nevada
+              </option>
+              <option value="NH">
+                New Hampshire
+              </option>
+              <option value="NJ">
+                New Jersey
+              </option>
+              <option value="NM">
+                New Mexico
+              </option>
+              <option value="NY">
+                New York
+              </option>
+              <option value="NC">
+                North Carolina
+              </option>
+              <option value="ND">
+                North Dakota
+              </option>
+              <option value="OH">
+                Ohio
+              </option>
+              <option value="OK">
+                Oklahoma
+              </option>
+              <option value="OR">
+                Oregon
+              </option>
+              <option value="PA">
+                Pennsylvania
+              </option>
+              <option value="RI">
+                Rhode Island
+              </option>
+              <option value="SC">
+                South Carolina
+              </option>
+              <option value="SD">
+                South Dakota
+              </option>
+              <option value="TN">
+                Tennessee
+              </option>
+              <option value="TX">
+                Texas
+              </option>
+              <option value="UT">
+                Utah
+              </option>
+              <option value="VT">
+                Vermont
+              </option>
+              <option value="VA">
+                Virginia
+              </option>
+              <option value="WA">
+                Washington
+              </option>
+              <option value="WV">
+                West Virginia
+              </option>
+              <option value="WI">
+                Wisconsin
+              </option>
+              <option value="WY">
+                Wyoming
+              </option>
+            </select> <small class="text-error">
+
+            </small></div>
+          <div class="col form-field"><label for="zipcode" class="required">
+              Zip Code
+            </label> <input type="text" id="zipcode" name="zipcode" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="emailAddress" class="required">
+              Email
+            </label> <input id="emailAddress" type="email" name="emailAddress" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="phoneNumber" class="required">
+              Phone Number
+            </label> <input type="tel" id="phoneNumber" name="phoneNumber" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <div class="row">
+          <div class="col"><button type="submit" value="submit" class="button">
+              Submit
+            </button></div>
+        </div>
+        <div class="form__debug">
+          <!---->
+          <!---->
+        </div>
+      </form>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`CoreBlockForm if language value is set, language preference field is present 1`] = `
+"<div class="block__body">
+  <div class="container">
+    <div class="form">
+      <form>
+        <div class="row">
+          <div class="col form-field"><label for="first-name" class="required">
+              First Name
+            </label> <input id="first-name" type="text" name="first-name" required="required" autocomplete="off" class=""> <small class="text-error">
+
+            </small></div>
+          <div class="col form-field"><label for="last-name" class="required">
+              Last Name
+            </label> <input id="last-name" type="text" name="last-name" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="street-address" class="required">
+              Street Address
+            </label> <input id="street-address" type="text" name="street-address" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col-6 form-field"><label for="city" class="required">
+              City
+            </label> <input id="city" type="text" name="city" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+          <div class="col-2 form-field"><label for="state" class="required">
+              State
+            </label> <select id="state" name="state" required="required" autocomplete="off" class="form-select">
+              <option value="">--</option>
+              <option value="AL">
+                Alabama
+              </option>
+              <option value="AK">
+                Alaska
+              </option>
+              <option value="AZ">
+                Arizona
+              </option>
+              <option value="AR">
+                Arkansas
+              </option>
+              <option value="CA">
+                California
+              </option>
+              <option value="CO">
+                Colorado
+              </option>
+              <option value="CT">
+                Connecticut
+              </option>
+              <option value="DC">
+                District of Columbia
+              </option>
+              <option value="DE">
+                Delaware
+              </option>
+              <option value="FL">
+                Florida
+              </option>
+              <option value="GA">
+                Georgia
+              </option>
+              <option value="HI">
+                Hawaii
+              </option>
+              <option value="ID">
+                Idaho
+              </option>
+              <option value="IL">
+                Illinois
+              </option>
+              <option value="IN">
+                Indiana
+              </option>
+              <option value="IA">
+                Iowa
+              </option>
+              <option value="KS">
+                Kansas
+              </option>
+              <option value="KY">
+                Kentucky
+              </option>
+              <option value="LA">
+                Louisiana
+              </option>
+              <option value="ME">
+                Maine
+              </option>
+              <option value="MD">
+                Maryland
+              </option>
+              <option value="MA">
+                Massachusetts
+              </option>
+              <option value="MI">
+                Michigan
+              </option>
+              <option value="MN">
+                Minnesota
+              </option>
+              <option value="MS">
+                Mississippi
+              </option>
+              <option value="MO">
+                Missouri
+              </option>
+              <option value="MT">
+                Montana
+              </option>
+              <option value="NE">
+                Nebraska
+              </option>
+              <option value="NV">
+                Nevada
+              </option>
+              <option value="NH">
+                New Hampshire
+              </option>
+              <option value="NJ">
+                New Jersey
+              </option>
+              <option value="NM">
+                New Mexico
+              </option>
+              <option value="NY">
+                New York
+              </option>
+              <option value="NC">
+                North Carolina
+              </option>
+              <option value="ND">
+                North Dakota
+              </option>
+              <option value="OH">
+                Ohio
+              </option>
+              <option value="OK">
+                Oklahoma
+              </option>
+              <option value="OR">
+                Oregon
+              </option>
+              <option value="PA">
+                Pennsylvania
+              </option>
+              <option value="RI">
+                Rhode Island
+              </option>
+              <option value="SC">
+                South Carolina
+              </option>
+              <option value="SD">
+                South Dakota
+              </option>
+              <option value="TN">
+                Tennessee
+              </option>
+              <option value="TX">
+                Texas
+              </option>
+              <option value="UT">
+                Utah
+              </option>
+              <option value="VT">
+                Vermont
+              </option>
+              <option value="VA">
+                Virginia
+              </option>
+              <option value="WA">
+                Washington
+              </option>
+              <option value="WV">
+                West Virginia
+              </option>
+              <option value="WI">
+                Wisconsin
+              </option>
+              <option value="WY">
+                Wyoming
+              </option>
+            </select> <small class="text-error">
+
+            </small></div>
+          <div class="col form-field"><label for="zipcode" class="required">
+              Zip Code
+            </label> <input type="text" id="zipcode" name="zipcode" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="emailAddress" class="required">
+              Email
+            </label> <input id="emailAddress" type="email" name="emailAddress" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="phoneNumber" class="required">
+              Phone Number
+            </label> <input type="tel" id="phoneNumber" name="phoneNumber" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <!---->
+        <div class="row">
+          <div class="col form-field"><label for="language">
+              Language Preference:
+            </label> <select id="language" autocomplete="off" class="select-small">
+              <option value="">--</option>
+              <option value="English">
+                English
+              </option>
+              <option value="Cantonese">
+                Cantonese
+              </option>
+              <option value="Farsi">
+                Farsi
+              </option>
+              <option value="French">
+                French
+              </option>
+              <option value="Fukienese">
+                Fukienese
+              </option>
+              <option value="German">
+                German
+              </option>
+              <option value="Gujarati">
+                Gujarati
+              </option>
+              <option value="Hebrew">
+                Hebrew
+              </option>
+              <option value="Hindi">
+                Hindi
+              </option>
+              <option value="Japanese">
+                Japanese
+              </option>
+              <option value="Korean">
+                Korean
+              </option>
+              <option value="Lao">
+                Lao
+              </option>
+              <option value="Mandarin">
+                Mandarin
+              </option>
+              <option value="Polish">
+                Polish
+              </option>
+              <option value="Portuguese">
+                Portuguese
+              </option>
+              <option value="Punjabi">
+                Punjabi
+              </option>
+              <option value="Russian">
+                Russian
+              </option>
+              <option value="Shanghainese">
+                Shanghainese
+              </option>
+              <option value="Spanish">
+                Spanish
+              </option>
+              <option value="Tagalog">
+                Tagalog
+              </option>
+              <option value="Taiwanese">
+                Taiwanese
+              </option>
+              <option value="Urdu">
+                Urdu
+              </option>
+              <option value="Vietnamese">
+                Vietnamese
+              </option>
+            </select></div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <div class="row">
+          <div class="col"><button type="submit" value="submit" class="button">
+              Submit
+            </button></div>
+        </div>
+        <div class="form__debug">
+          <!---->
+          <!---->
+        </div>
+      </form>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`CoreBlockForm if linkedIn value is set, LinkedIn field is present 1`] = `
+"<div class="block__body">
+  <div class="container">
+    <div class="form">
+      <form>
+        <div class="row">
+          <div class="col form-field"><label for="first-name" class="required">
+              First Name
+            </label> <input id="first-name" type="text" name="first-name" required="required" autocomplete="off" class=""> <small class="text-error">
+
+            </small></div>
+          <div class="col form-field"><label for="last-name" class="required">
+              Last Name
+            </label> <input id="last-name" type="text" name="last-name" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="street-address" class="required">
+              Street Address
+            </label> <input id="street-address" type="text" name="street-address" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col-6 form-field"><label for="city" class="required">
+              City
+            </label> <input id="city" type="text" name="city" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+          <div class="col-2 form-field"><label for="state" class="required">
+              State
+            </label> <select id="state" name="state" required="required" autocomplete="off" class="form-select">
+              <option value="">--</option>
+              <option value="AL">
+                Alabama
+              </option>
+              <option value="AK">
+                Alaska
+              </option>
+              <option value="AZ">
+                Arizona
+              </option>
+              <option value="AR">
+                Arkansas
+              </option>
+              <option value="CA">
+                California
+              </option>
+              <option value="CO">
+                Colorado
+              </option>
+              <option value="CT">
+                Connecticut
+              </option>
+              <option value="DC">
+                District of Columbia
+              </option>
+              <option value="DE">
+                Delaware
+              </option>
+              <option value="FL">
+                Florida
+              </option>
+              <option value="GA">
+                Georgia
+              </option>
+              <option value="HI">
+                Hawaii
+              </option>
+              <option value="ID">
+                Idaho
+              </option>
+              <option value="IL">
+                Illinois
+              </option>
+              <option value="IN">
+                Indiana
+              </option>
+              <option value="IA">
+                Iowa
+              </option>
+              <option value="KS">
+                Kansas
+              </option>
+              <option value="KY">
+                Kentucky
+              </option>
+              <option value="LA">
+                Louisiana
+              </option>
+              <option value="ME">
+                Maine
+              </option>
+              <option value="MD">
+                Maryland
+              </option>
+              <option value="MA">
+                Massachusetts
+              </option>
+              <option value="MI">
+                Michigan
+              </option>
+              <option value="MN">
+                Minnesota
+              </option>
+              <option value="MS">
+                Mississippi
+              </option>
+              <option value="MO">
+                Missouri
+              </option>
+              <option value="MT">
+                Montana
+              </option>
+              <option value="NE">
+                Nebraska
+              </option>
+              <option value="NV">
+                Nevada
+              </option>
+              <option value="NH">
+                New Hampshire
+              </option>
+              <option value="NJ">
+                New Jersey
+              </option>
+              <option value="NM">
+                New Mexico
+              </option>
+              <option value="NY">
+                New York
+              </option>
+              <option value="NC">
+                North Carolina
+              </option>
+              <option value="ND">
+                North Dakota
+              </option>
+              <option value="OH">
+                Ohio
+              </option>
+              <option value="OK">
+                Oklahoma
+              </option>
+              <option value="OR">
+                Oregon
+              </option>
+              <option value="PA">
+                Pennsylvania
+              </option>
+              <option value="RI">
+                Rhode Island
+              </option>
+              <option value="SC">
+                South Carolina
+              </option>
+              <option value="SD">
+                South Dakota
+              </option>
+              <option value="TN">
+                Tennessee
+              </option>
+              <option value="TX">
+                Texas
+              </option>
+              <option value="UT">
+                Utah
+              </option>
+              <option value="VT">
+                Vermont
+              </option>
+              <option value="VA">
+                Virginia
+              </option>
+              <option value="WA">
+                Washington
+              </option>
+              <option value="WV">
+                West Virginia
+              </option>
+              <option value="WI">
+                Wisconsin
+              </option>
+              <option value="WY">
+                Wyoming
+              </option>
+            </select> <small class="text-error">
+
+            </small></div>
+          <div class="col form-field"><label for="zipcode" class="required">
+              Zip Code
+            </label> <input type="text" id="zipcode" name="zipcode" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="emailAddress" class="required">
+              Email
+            </label> <input id="emailAddress" type="email" name="emailAddress" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <div class="row">
+          <div class="col form-field"><label for="phoneNumber" class="required">
+              Phone Number
+            </label> <input type="tel" id="phoneNumber" name="phoneNumber" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <div class="row">
+          <div class="col form-field"><label for="linkin-url">LinkedIn:</label> <input id="linkin-url" name="linkedin-url" type="text" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <!---->
+        <!---->
+        <div class="row">
+          <div class="col"><button type="submit" value="submit" class="button">
+              Submit
+            </button></div>
+        </div>
+        <div class="form__debug">
+          <!---->
+          <!---->
+        </div>
+      </form>
+    </div>
+  </div>
+</div>"
+`;
+
+exports[`CoreBlockForm if newsletter value is set, only name fields and email field are present 1`] = `
+"<div class="block__body">
+  <div class="container">
+    <div class="form">
+      <form>
+        <div class="row">
+          <div class="col form-field"><label for="first-name" class="required">
+              First Name
+            </label> <input id="first-name" type="text" name="first-name" required="required" autocomplete="off" class=""> <small class="text-error">
+
+            </small></div>
+          <div class="col form-field"><label for="last-name" class="required">
+              Last Name
+            </label> <input id="last-name" type="text" name="last-name" required="required" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <!---->
+        <div class="row">
+          <div class="col form-field"><label for="emailAddress" class="required">
+              Email
+            </label> <input id="emailAddress" type="email" name="emailAddress" autocomplete="off" class="form-input"> <small class="text-error">
+
+            </small></div>
+        </div>
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <!---->
+        <div class="row">
+          <div class="col"><button type="submit" value="submit" class="button">
+              Sign Up For My Newsletter
+            </button></div>
+        </div>
+        <div class="form__debug">
+          <!---->
+          <!---->
+        </div>
+      </form>
+    </div>
+  </div>
+</div>"
+`;

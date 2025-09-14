@@ -1,0 +1,1 @@
+global.Mustache = require("mustache");

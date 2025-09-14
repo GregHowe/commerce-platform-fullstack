@@ -1,0 +1,111 @@
+name: Tests
+on:
+  push:
+    branches: ["main", "development"]
+    paths:
+      - "Core.Builder/**"
+      - "Core.Backend/**"
+      - "Core.DotnetFunctions/**"
+      - "Core.Generator/**"
+      - "Core.Library/**"
+  pull_request:
+    branches: ["main", "development"]
+    paths:
+      - "Core.Builder/**"
+      - "Core.Backend/**"
+      - "Core.CoreLib/**"
+      - "Core.DotnetFunctions/**"
+      - "Core.Generator/**"
+      - "Core.Library/**"
+env:
+  GeneratorUsername: "generator@fusion92core.com"
+  GeneratorPassword: ${{ secrets.GENERATORPASSWORD }}
+  generatorSiteId: 25
+  generatorBrandId: 3
+  NUXT_ENV_API_BASE_URL: "https://nyl-integration.fusion92core.com/api"
+  NUXT_ENV_GOOGLE_RECAPTCHA_SITE_KEY: "6LdhkRklAAAAACikikgABh155ITdV4-svXxa_l0M"
+
+jobs:
+  builder-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./Core.Builder
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.16.0"
+          cache: "yarn"
+      - name: Install modules
+        run: yarn
+      - name: Run tests
+        run: yarn test
+
+  backend-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        dotnet-version: ["6.0.x"]
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup .NET Core SDK ${{ matrix.dotnet-version }}
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: ${{ matrix.dotnet-version }}
+      - name: Install dependencies
+        run: dotnet restore
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+      - name: Test
+        run: dotnet test --no-restore --verbosity normal
+  library-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./Core.Library
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.16.0"
+          cache: "yarn"
+      - name: Install modules
+        run: yarn
+      - name: Run tests
+        run: yarn test
+
+  generator-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./Core.Generator
+    steps:
+      - uses: actions/checkout@v3
+      - name: Install NodeJS
+        uses: actions/setup-node@v3
+        with:
+          node-version: "16.16.0"
+          cache: "yarn"
+      - name: Install modules
+        run: yarn
+      - name: Generate test site
+        run: yarn generate
+        env:
+          timestamp: "test"
+      - name: List files
+        run: |
+          cd dist
+          ls
+      - shell: bash
+        name: Check if index.html was generated
+        run: |
+          FILE=./dist/Brand-3-Site-25-test/index.html
+          if [ -f "$FILE" ]; then
+              echo "$FILE exists."
+          else 
+              echo "$FILE does not exist."
+              exit 1
+          fi

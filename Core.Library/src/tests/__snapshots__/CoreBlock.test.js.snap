@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreBlock rich-text component rich text component is shown if settings type is rich-text 1`] = `
+<div>
+  <div
+    class="block block_rich-text block_rich-text_base"
+    target="_blank"
+  >
+    <div
+      class="block__body"
+      index="0"
+      nested-level="0"
+    >
+      hahaha hahahaha HAHAHAHA
+    </div>
+      
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlock text component text component is shown if settings type is text 1`] = `
+<div>
+  <div
+    class="block block_text block_text_base"
+    target="_blank"
+  >
+    <div
+      class="block__body"
+      index="0"
+      nested-level="0"
+    >
+      
+	hahaha hahahaha HAHAHAHA
+
+    </div>
+      
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlock text component text component size variants adjust classes 1`] = `
+<div>
+  <div
+    class="block block_text block_text_center block_text_title block_text_italic block_text_bold"
+    target="_blank"
+  >
+    <div
+      class="block__body"
+      index="0"
+      nested-level="0"
+    >
+      
+	hahaha hahahaha HAHAHAHA
+
+    </div>
+      
+    <!---->
+  </div>
+</div>
+`;

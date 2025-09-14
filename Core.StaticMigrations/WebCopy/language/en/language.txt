@@ -1,0 +1,370 @@
+; English
+; Generated Tue, 28 Dec 2021 15:40:59 GMT
+
+CsvExportDialog.Title:                   CSV Export
+CsvExportDialog.FileNameLabel:           CSV File Name:
+CsvExportDialog.AdvancedLabel:           Advanced
+CsvExportDialog.HeaderLabel:             Include header row
+CsvExportDialog.SeparatorLabel:          Separator:
+CsvExportDialog.ColumnsLabel:            Columns:
+CsvExportDialog.NoSeparatorError:        No separator entered.
+CsvExportDialog.NoColumnsError:          No columns selected.
+
+ListView.SizeColumnToFit:                Size Column To Fit
+ListView.SizeAllColumnsToFit:            Size All Columns To Fit
+ListView.ConfigureColumns:               More...
+
+;LVChooseDetailsDialog.Title:            Choose Details
+;LVChooseDetailsDialog.InfoLabel:        Select the details that you want to display for the items in this list.
+;LVChooseDetailsDialog.DetailsLabel:     Details:
+;LVChooseDetailsDialog.WidthLabel:       Width of selected column (in pixels):
+
+Exception.ReportLink:                    Report this error
+
+Dialog.OkButton:                         OK
+Dialog.CancelButton:                     Cancel
+Dialog.ApplyButton:                      Apply
+Dialog.HelpButton:                       Help
+Dialog.CloseButton:                      Close
+Dialog.BrowseButton:                     Browse...
+Dialog.YesButton:                        Yes
+Dialog.NoButton:                         No
+Dialog.CopyButton:                       Copy
+Dialog.BackButton:                       Back
+Dialog.NextButton:                       Next
+Dialog.Reset:                            Reset
+Dialog.AddButton:                        Add
+Dialog.RemoveButton:                     Remove
+Dialog.PreviewButton:                    Preview
+Dialog.EditButton:                       Edit
+Dialog.RunButton:                        Run
+Dialog.DeleteButton:                     Delete
+Dialog.SubmitButton:                     Submit
+Dialog.OpenFolderButton:                 Open Folder
+Dialog.DeleteButton2:                    Delete...
+Dialog.EditButton2:                      Edit...
+Dialog.CopyButton2:                      Copy...
+Dialog.OpenButton:                       Open
+Dialog.ExportButton:                     Export
+Dialog.MoveUpButton:                     Move Up
+Dialog.MoveDownButton:                   Move Down
+Dialog.MoveButton:                       Move
+Dialog.RenameButton:                     Rename
+Dialog.ShowButton:                       Show
+Dialog.HideButton:                       Hide
+
+Dialog.PrivacyPolicy:                    Privacy Policy
+
+Dialog.LeftLabel:                        Left:
+Dialog.TopLabel:                         Top:
+Dialog.WidthLabel:                       Width:
+Dialog.HeightLabel:                      Height:
+
+Dialog.DefaultValue:                     (Default)
+
+Dialog.ResetToolTip:                     Reset To Default
+
+; message
+Generic.SaveChanges:                     Do you want to save the changes to {0}?
+Generic.FileAlreadyExists:               File \'{0}\' already exists.
+Generic.FileAlreadyExists2:              A file with this name already exists.
+Generic.ConfirmFileOverwrite:            Are you sure you want to overwrite this file?
+Generic.ConfirmFilesOverwrite:           Are you sure you want to overwrite these files?
+Generic.FilesAlreadyExist:               The following files already exist:\n\n{0}
+Generic.RemoveFromMru:                   Do you want to remove this file from the recent files list?
+
+Error.FileNotSpecified:                  File name not specified.
+Error.FileNotFound:                      Cannot find file \'{0}\'
+Error.FileNotFound2:                     File not found.
+Error.FailedToOpen:                      Failed to open file.
+Error.FailedToSave:                      Failed to save file.
+Error.FailedToCreate:                    Failed to create file.
+Error.OpenFileTitle:                     Open File
+Error.NewFileTitle:                      New File
+Error.SaveFileTitle:                     Save File
+Error.FolderNotSpecified:                Folder not specified.
+Error.NoRelativePaths:                   Relative paths are not supported. Please enter a full path.
+Error.InvalidFileName:                   \'{0}\' is not a valid filename.
+
+Error.ToolNeedsTitle:                    Please ensure all tools have a title.
+Error.ToolNeedsCommand:                  Please ensure all tools have a command.
+
+Status.CreateFile:                       Creating...
+Status.OpenFile:                         Opening \'{0}\'...
+Status.SaveFile:                         Saving \'{0}\'...
+
+Document.UntitledName:                   Untitled
+
+CustomerFeedbackOptions.Title:           Customer Feedback Options
+CustomerFeedbackOptions.Header:          Please help us improve our products
+CustomerFeedbackOptions.Body:            You can submit anonymous usage statistics to help us make better releases and refine the most important areas of our product.\n\nIf you agree to participate in the program, the following will be anonymously sent\n* Information about which product features you use\n* General statistics (number of files, file types) of the projects you’re working on\n* General information about your hardware configuration (for example, amount of RAM, CPU speed and number of cores)\n* General information about your software configuration (for example, OS version)\n\nWe WILL NOT send\n* Any personally identifiable information (such as user name, license, e-mail address etc.)\n* Any information identifying your projects (such as file names, document contents etc.)\n\nParticipating in this program will help us better define the most/least used features and configurations in which the product is used.\n\nCollecting this information will not affect performance.
+CustomerFeedbackOptions.Yes:             Yes, I want to participate anonymously in the Feedback program
+CustomerFeedbackOptions.No:              No, I would not like to participate.
+CustomerFeedbackOptions.CheckBox:        Participate anonymously in the Feedback program
+
+Donate.Title:                            Support this product
+Donate.Header:                           Thank you for using {0}
+Donate.Body:                             As free software, this program is solely funded via donations from end users. Cyotek supports and maintains this software as a labour of love, but time and costs mount up and we need your help to keep this project alive.\n\nIf you wish to express your appreciation for the time and resources we have expended developing and supporting this software and its services please consider donating - Cyotek appreciates your support!
+Donate.Link:                             Yes, I want to support this product
+Donate.NoThanks:                         No Thanks
+Donate.NoHeader:                         Please tell us what we\'re doing wrong
+Donate.NoMessage:                        We\'re sorry you don\'t feel this product is worth supporting. If you can spare a few moments, we would really like to hear your views on any issues you have with {0}, such as bugs, lack of features, difficult to use - anything that would help us to improve.\n\nPlease send your comments to support@cyotek.com and help us to improve this product.
+
+PrivacyPolicy.View:                      Privacy Policy
+  
+;Shareware.Title:                        {0}
+;Shareware.ThankYou:                     THANK YOU FOR TRYING {0}!
+;Shareware.About:                        This is a fully functional unregistered version for evaluation use only.\nThe registered version does not display this notice.
+;Shareware.Order:                        You can order the registered version online.\nImmediate online delivery is available from www.cyotek.com.
+;Shareware.LicenseButton:                View Evaluation License
+;Shareware.RegisterButton:               Enter Registration Code...
+;Shareware.Agreement:                    I understand that I may use {0} only for evaluation purposes, subject to the terms of the Evaluation License, and that any other use requires payment of the registration fee.
+;Shareware.QuitButton:                   Quit
+;Shareware.ContinueButton:               I Agree
+;Shareware.OrderInfoButton:              Ordering Info
+
+Arguments.ArgumentsLabel:                Arguments:
+Arguments.CommandLineLabel:              Command Line:
+
+; controls
+ImagePreviewControl.PreviewLabel:        Preview
+ImagePreviewControl.ModifiedLabel:       Modified
+
+; dialogs
+ExternalTools.Title:                     External Tools
+ExternalTools.ListLabel:                 Menu Contents:
+ExternalTools.AddButton:                 Add
+ExternalTools.DeleteButton:              Delete
+ExternalTools.MoveUpButton:              Move Up
+ExternalTools.MoveDownButton:            Move Down
+ExternalTools.TitleLabel:                Title:
+ExternalTools.CommandLabel:              Command:
+ExternalTools.ArgumentsLabel:            Arguments:
+ExternalTools.InitialDirectoryLabel:     Initial directory:
+ExternalTools.PromptCheckBox:            Prompt for arguments
+ExternalTools.TestButton:                Test
+
+ImportExport.Title:                      Import and Export Wizard
+ImportExport.ActionLabel:                Choose an action to perform:
+ImportExport.DescriptionLabel:           Description
+
+Update.Title:                            A new version is available
+Update.Header:                           Update to the latest version of {0} now!
+Update.Version:                          Version {0} is now available for download.
+Update.UpdateButton:                     Update
+Update.UpdateAvailable:                  Update Available {0}
+
+;Statistics.Title:                      Statistics
+;Statistics.GroupTitle:                 Statistics
+
+PrintDialog.Title:                       Print
+PrintDialog.PrintButton:                 Print
+PrintDialog.PageSetupButton:             Setup
+PrintDialog.PageLabel:                   Page:
+PrintDialog.PageCountLabel:              of {0}
+PrintDialog.ScaleLabel:                  Scale:
+PrintDialog.NextLabel:                   Next
+PrintDialog.PreviousLabel:               Previous
+PrintDialog.Zoom25:                      25%
+PrintDialog.Zoom50:                      50%
+PrintDialog.Zoom75:                      75%
+PrintDialog.Zoom100:                     100%
+PrintDialog.Zoom150:                     150%
+PrintDialog.Zoom200:                     200%
+PrintDialog.ZoomPageWidth:               Page Width
+PrintDialog.ZoomWholePage:               Whole Page
+PrintDialog.ZoomCustom:                  Custom
+
+CpuArchitecture.32bit:                   32bit
+CpuArchitecture.64bit:                   64bit
+
+About.Title:                             About {0}
+About.ComponentVersionsLabel:            Component Versions
+About.VersionFormat:                     Version {0} {1} ({2})
+About.Legal:                             Warning: This computer program is protected by copyright law and international treaties. Unauthorised reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties, and will be prosecuted to the maximum extent possible under the law.
+About.CopyInfo:                          Copy Info
+
+Versions.Title:                          Component Versions
+Versions.Label:                          Versions:
+;rss
+RSS.AutomaticUpdate:                     Automatic Update
+RSS.ReadOnline:                          Read Latest News Online...
+RSS.UpdateNow:                           Update Now
+RSS.MarkAllAsRead:                       Mark All As Read
+
+RSS.Error.UpdateFailure:                 Failed to update item status.
+; feedback
+Feedback.Title:                          Send Feedback
+Feedback.Header:                         We appreciate your feedback
+Feedback.Label:                          Please describe your feedback below.
+
+Feedback.SmileTitle:                     Send a Smile
+Feedback.SmileHeader:                    {0} did something I liked
+Feedback.SmileLabel:                     Please describe what you liked.
+
+Feedback.FrownTitle:                     Send a Frown
+Feedback.FrownHeader:                    {0} did something I did not like
+Feedback.FrownLabel:                     Please describe the problem below.
+
+Feedback.SupportTitle:                   Send a Support Request
+Feedback.SupportHeader:                  I need help or have a question about {0}
+Feedback.SupportLabel:                   Please describe the problem or question below.
+
+Feedback.SystemInfoCheckbox:             Include system information
+Feedback.ScreenshotCheckbox:             Include a screenshot
+
+Feedback.EmailLabel:                     Your email address (optional):
+
+Feedback.ContentValidationError:         Please enter your feedback.
+
+Feedback.SuccessBody:                    Thank you for your feedback! If you have provided an email address, the Cyotek Team may be in touch.
+Feedback.FailedBody:                     Failed to submit feedback. If this problem persists, please email support@cyotek.com.
+
+Feedback.GdprConsent:                    I agree to the above and give my consent to submitting this report
+Feedback.GdprHeader:                     You can use this submission tool to provide feedback or report a problem you\'ve experienced with this product.\n\nThis report does not contain any information other than the product name, version and any information you provide below. {0}\n\nBy submitting this report, you agree to allow Cyotek Ltd to securely store and use its contents for the sole purpose of providing support for this product.\n\n{1}
+Feedback.GdprHelp:                       Learn more about what the report contains.
+Feedback.GdprLink:                       View our privacy policy.
+
+Tools.Feedback:                          Send Feedback...
+Tools.SmileFeedback:                     Send a Smile...
+Tools.FrownFeedback:                     Send a Frown...
+Tools.SupportFeedback:                   Send a Support Request...
+  
+Tools.Macros:                            Macros...
+
+Macros.ScriptEditor:                     Script Editor...
+
+; extensions
+Menu.Macros:                             Macros
+
+; windows
+Immediate.Title:                         Immediate
+
+; menus and toolbars
+Menu.File:                               File
+Menu.Edit:                               Edit
+Menu.View:                               View
+Menu.Toolbars:                           Toolbars
+Menu.Tools:                              Tools
+Menu.Help:                               Help
+Menu.Feedback:                           Feedback
+      
+Toolbar.Standard:                        Standard
+
+; commands
+File.New:                                New
+File.Open:                               Open...
+File.SaveAs:                             Save As...
+File.SaveCopyAs:                         Save a Copy As...
+File.Save:                               Save
+File.RecentFiles:                        Recent Files
+File.Exit:                               Exit
+File.Print:                              Print...
+File.PageSetup:                          Page Setup...
+File.PrintPreview:                       Print Preview...
+File.MinimizeToTray:                     Close
+
+Edit.Redo:                               Redo
+Edit.Undo:                               Undo
+Edit.NamedRedo:                          Redo {0}
+Edit.NamedUndo:                          Undo {0}
+Edit.Cut:                                Cut
+Edit.Copy:                               Copy
+Edit.Delete:                             Delete
+Edit.Paste:                              Paste
+Edit.SelectAll:                          Select All
+Edit.ClearSelection:                     Clear Selection
+Edit.InvertSelection:                    Invert Selection
+Edit.Rename:                             Rename
+
+Tools.AddinManager:                      Manage Extensions...
+Tools.ConfigureExternalTools:            External Tools...
+Tools.Options:                           Options...
+;Tools.ViewStatistics:                   Statistics
+
+View.ActualSize:                         Actual Size
+View.Details:                            Details
+View.LargeIcons:                         Large Icons
+View.List:                               List
+View.SizeToFit:                          Size to Fit
+View.SmallIcons:                         Small Icons
+View.Tiles:                              Tiles
+View.Zoom:                               Zoom
+View.StatusBar:                          Status Bar
+View.Theme:                              Theme
+View.AlwaysOnTop:                        Always on Top
+
+Help.About:                              About {0}
+Help.Contents:                           View Help
+Help.ContentsToolTip:                    Help
+Help.CreateIssue:                        Report a Bug
+Help.CustomerFeedbackOptions:            Customer Feedback Options...
+Help.Donate:                             Donate
+Help.Forums:                             Forums
+Help.KnowledgeBase:                      Knowledge Base
+Help.Search:                             Search
+Help.SearchToolTip:                      Search Help
+Help.TechnicalSupport:                   Technical Support
+Help.UpdateCheck:                        Check for Updates
+Help.WelcomeDialog:                      Show Welcome Dialog...
+Help.PrivacyPolicy:                      Privacy Statement...
+
+; dialogs
+AddinManager.Title:                      Manage Extensions
+
+; message
+Error.ActiveViewTitle:                   Activate view
+Error.FailedToActivateView:              Failed to activate view \'{0}\'.
+
+; settings
+Settings.AppearancePage:                 Appearance
+Settings.NotificationsPage:              Notifications
+Settings.GeneralPage:                    General
+Settings.ProductFeedbackPage:            Product Feedback
+
+Settings.FontsGroup:                     Fonts
+Settings.WindowFontLabel:                Window Font:
+Settings.FixedFontLabel:                 Fixed Font:
+
+Settings.LanguageGroup:                  Language
+Settings.LanguageLabel:                  Language (Requires Restart)
+Settings.AutomaticLanguageLabel:         Automatic
+Settings.LanguageHint:                   Languages flagged with * are machine translated and may not be accurate
+
+Settings.StartupGroup:                   Start up options
+Settings.ReopenLastDocumentLabel:        Automatically reopen last document
+Settings.ShowSplashScreenLabel:          Show splash screen
+
+Settings.BackupsGroup:                   Backups
+Settings.SaveBackupsLabel:               Save Backups
+Settings.MaxBackupsLabel:                Maximum number of backups to keep:
+
+Settings.UpdateCheckGroup:               Check for updates
+Settings.CheckForUpdatesLabel:           Automatically check for newer versions of {0}
+Settings.IncludeBetaUpdatesLabel:        Also check for pre-release (beta) versions of {0}
+
+Settings.SoundsGroup:                    Sounds
+Settings.PlaySoundsLabel:                Play Sounds
+
+Settings.TempFilesGroup:                 Temporary Files
+Settings.TempPathLabel:                  Store temporary files in:
+
+Settings.MiscGeneralGroup:               Miscellaneous
+Settings.MruEntriesLabel:                Items to show in recently used files list:
+
+; dialogs
+Welcome.Title:                           Welcome to {0}
+Welcome.WhatsNew:                        What\'s New
+Welcome.GettingHelp:                     Getting Help
+Welcome.Documentation:                   Getting Started
+Welcome.Footer:                          You can always open this dialogue again through the Help menu.
+Welcome.WhatsNewLink:                    New features and improvements in {0}
+Welcome.ForumLink:                       Asking questions in the {0} Forums
+Welcome.BugLink:                         Reporting bugs and feature requests
+Welcome.SimpleHelp:                      Basic usage instructions
+Welcome.DocumentationLink:               Further documentation
+Welcome.SampleLink:                      Open a sample file
+
+ProjectDiagnostics.Confirm:              One or more issues have been identified with this project. May we send a summary of these issues to Cyotek for investigation?\n\nThe report includes the URI of each issue, along with a diagnostic description. No personal information is included in the report.
+ProjectDiagnostics.SuccessBody:          Thank you for your submission!
+ProjectDiagnostics.FailedBody:           Failed to submit diagnostics. If this problem persists, please email support@cyotek.com.

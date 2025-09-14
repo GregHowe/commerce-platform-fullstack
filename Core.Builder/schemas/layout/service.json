@@ -1,0 +1,576 @@
+{
+	"key": "service",
+	"label": "Service Layouts",
+	"presets": [
+		{
+			"key": "services",
+			"label": "Services Page",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "rows",
+							"variants": {
+								"padding-bottom": "pb-huge"
+							},
+							"blocks": [
+								{
+									"type": "hero",
+									"variants": {
+										"breadcrumbVariant": null,
+										"hidden": false,
+										"text-align": null,
+										"image-align": null,
+										"vertical-align": null
+									},
+									"showBreadcrumb": true,
+									"overline": "Overline",
+									"headline": "Headline lorem ipsum dolor sit",
+									"subline": "Subline Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+									"bodyText": "Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+									"button-primary-label": "Primary Button",
+									"button-secondary-label": "Secondary Button",
+									"button-tertiary-label": "Tertiary Button",
+									"showKeepScrolling": true,
+									"sideMediaSrc": null,
+									"backgroundMediaSrc": null,
+									"button-primary-url": null,
+									"button-primary-newTab": null,
+									"button-secondary-url": null,
+									"button-secondary-newTab": null,
+									"button-tertiary-url": null,
+									"button-tertiary-newTab": null,
+									"disclosure": null
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "columns",
+							"variants": {
+								"vertical-alignment": null,
+								"hidden": false,
+								"order": null,
+								"offset": null,
+								"padding-bottom": "pb-huge"
+							},
+							"blocks": [
+								{
+									"type": "rows",
+									"variants": {
+										"bg-color": null,
+										"hidden": false,
+										"layout": null
+									},
+									"blocks": [
+										{
+											"type": "text",
+											"variants": {
+												"size": "subtitle",
+												"hidden": false,
+												"weight": "bold",
+												"style": null,
+												"align": null
+											},
+											"text": "Headline Lorem Ipsum Dolor Sit"
+										},
+										{
+											"type": "rich-text",
+											"variants": {
+												"size": null,
+												"hidden": false,
+												"align": null
+											},
+											"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+										}
+									],
+									"locked": null,
+									"allowTypes": null,
+									"restrictTypes": null
+								},
+								{
+									"type": "rows",
+									"variants": {
+										"bg-color": null,
+										"hidden": false,
+										"layout": null
+									},
+									"blocks": [
+										{
+											"type": "text",
+											"variants": {
+												"size": "subtitle",
+												"hidden": false,
+												"weight": "bold",
+												"style": null,
+												"align": null
+											},
+											"text": "Headline Lorem Ipsum Dolor Sit"
+										},
+										{
+											"type": "rich-text",
+											"variants": {
+												"size": null,
+												"hidden": false,
+												"align": null
+											},
+											"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+										}
+									],
+									"locked": null,
+									"allowTypes": null,
+									"restrictTypes": null
+								},
+								{
+									"type": "rows",
+									"variants": {
+										"bg-color": null,
+										"hidden": false,
+										"layout": null
+									},
+									"blocks": [
+										{
+											"type": "text",
+											"variants": {
+												"size": "subtitle",
+												"hidden": false,
+												"weight": "bold",
+												"style": null,
+												"align": null
+											},
+											"text": "Headline Lorem Ipsum Dolor Sit"
+										},
+										{
+											"type": "rich-text",
+											"variants": {
+												"size": null,
+												"hidden": false,
+												"align": null
+											},
+											"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+										}
+									],
+									"locked": null,
+									"allowTypes": null,
+									"restrictTypes": null
+								}
+							],
+							"locked": null,
+							"allowTypes": null,
+							"restrictTypes": null,
+							"column-count": 3
+						}
+					]
+				},
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "text",
+							"variants": {
+								"size": "title",
+								"hidden": false,
+								"weight": "bold",
+								"style": null,
+								"align": null,
+								"padding-bottom": "pb-large"
+							},
+							"text": "Headline Lorem Ipsum"
+						}
+					]
+				},
+				{
+					"type": "columns",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"column-count": 2,
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "image",
+									"variants": {
+										"sizing": null,
+										"hidden": false
+									},
+									"src": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/176/uploads/image%202%20%281%29.png",
+									"width": null,
+									"height": null,
+									"alt": null
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Overline"
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": "subtitle",
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Headline lorem ipsum dolor sit Amit"
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "link",
+										"hidden": false,
+										"icon-placement": "icon-right",
+										"invert": null,
+										"outline": null,
+										"padding-x": null
+									},
+									"label": "Tertiary",
+									"icon": "right-arrow",
+									"url": null,
+									"newTab": null
+								}
+							]
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "image",
+									"variants": {
+										"sizing": null,
+										"hidden": false
+									},
+									"src": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/176/uploads/image%202%20%281%29.png",
+									"width": null,
+									"height": null,
+									"alt": null
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Overline"
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": "subtitle",
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Headline lorem ipsum dolor sit Amit"
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "link",
+										"hidden": false,
+										"icon-placement": "icon-right",
+										"invert": null,
+										"outline": null
+									},
+									"label": "Tertiary",
+									"icon": "right-arrow",
+									"url": null,
+									"newTab": null
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "columns",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"column-count": 2,
+					"blocks": [
+						{
+							"type": "form",
+							"blocks": [
+								{
+									"type": null,
+									"variants": {}
+								}
+							],
+							"variants": {},
+							"formType": "agentConsumer",
+							"interestsFieldset": true
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"key": "image",
+									"label": "Background Image",
+									"type": "image",
+									"hint": "Choose background image",
+									"rules": {
+										"mimes": [
+											"image/jpeg",
+											"image/png",
+											"image/svg",
+											"image/gif",
+											"image/bmp"
+										],
+										"maxSize": 2000
+									},
+									"src": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/28/uploads/image%202%20%281%29.png"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "text",
+							"variants": {
+								"size": "title",
+								"hidden": false,
+								"weight": "bold",
+								"style": null,
+								"align": null,
+								"padding-bottom": "pb-huge"
+							},
+							"text": "FAQ"
+						}
+					]
+				},
+				{
+					"type": "accordion",
+					"variants": {
+						"padding-bottom": "pb-medium"
+					},
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Overline"
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": "subtitle",
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Headline lorem ipsum dolor sit Amit"
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": "disclosure",
+										"hidden": false,
+										"align": "left"
+									},
+									"richText": "<p>Disclosure Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+								}
+							]
+						}
+					],
+					"accordionText": "Accordion",
+					"hasAccordion": true
+				},
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "accordion",
+							"variants": {
+								"padding-bottom": "pb-medium"
+							},
+							"text": "FAQ",
+							"blocks": [
+								{
+									"type": "rows",
+									"blocks": [
+										{
+											"type": "text",
+											"variants": {
+												"size": null,
+												"hidden": false,
+												"weight": null,
+												"style": null,
+												"align": "left"
+											},
+											"text": "Overline"
+										},
+										{
+											"type": "text",
+											"variants": {
+												"size": "subtitle",
+												"hidden": false,
+												"weight": null,
+												"style": null,
+												"align": "left"
+											},
+											"text": "Headline lorem ipsum dolor sit Amit"
+										},
+										{
+											"type": "text",
+											"variants": {
+												"size": null,
+												"hidden": false,
+												"weight": null,
+												"style": null,
+												"align": "left"
+											},
+											"text": "Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing"
+										},
+										{
+											"type": "rich-text",
+											"variants": {
+												"size": "disclosure",
+												"hidden": false,
+												"align": "left"
+											},
+											"richText": "<p>Disclosure Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+										}
+									]
+								}
+							],
+							"accordionText": "Accordion",
+							"hasAccordion": true
+						}
+					]
+				},
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "accordion",
+							"variants": {
+								"padding-bottom": "pb-medium"
+							},
+							"text": "FAQ",
+							"blocks": [
+								{
+									"type": "rows",
+									"blocks": [
+										{
+											"type": "text",
+											"variants": {
+												"size": null,
+												"hidden": false,
+												"weight": null,
+												"style": null,
+												"align": "left"
+											},
+											"text": "Overline"
+										},
+										{
+											"type": "text",
+											"variants": {
+												"size": "subtitle",
+												"hidden": false,
+												"weight": null,
+												"style": null,
+												"align": "left"
+											},
+											"text": "Headline lorem ipsum dolor sit Amit"
+										},
+										{
+											"type": "text",
+											"variants": {
+												"size": null,
+												"hidden": false,
+												"weight": null,
+												"style": null,
+												"align": "left"
+											},
+											"text": "Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing"
+										},
+										{
+											"type": "rich-text",
+											"variants": {
+												"size": "disclosure",
+												"hidden": false,
+												"align": "left"
+											},
+											"richText": "<p>Disclosure Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>"
+										}
+									]
+								}
+							],
+							"accordionText": "Accordion",
+							"hasAccordion": true
+						}
+					]
+				}
+			]
+		}
+	]
+}

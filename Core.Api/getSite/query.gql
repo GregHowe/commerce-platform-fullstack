@@ -1,0 +1,25 @@
+query GetSite($siteId: String) {
+	frontend_sites(_doc: $siteId) {
+		_doc
+		brand_id
+		user_id
+		title
+		isHome
+		theme
+		seo {
+			title
+			description
+			isHidden
+		}
+		pages {
+			_doc
+			title
+			slug
+			blocks
+			parentPageId
+			titleNav
+		}
+		navigation
+		footer
+	}
+}

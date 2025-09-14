@@ -1,0 +1,28 @@
+{
+	"key": "pencil-banner",
+	"label": "Pencil Banner Sections",
+	"presets": [
+		{
+			"key": "default",
+			"label": "Pencil Banner",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "pencil-banner",
+							"variants": {
+								"alignment": "left",
+								"hidden": false
+							},
+							"newTab": null,
+							"closeButton": null
+						}
+					]
+				}
+			]
+		}
+	]
+}

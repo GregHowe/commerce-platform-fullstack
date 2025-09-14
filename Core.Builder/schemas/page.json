@@ -1,0 +1,65 @@
+{
+	"fields": [
+		{
+			"key": "id",
+			"label": "ID",
+			"type": "string",
+			"readonly": true,
+			"hidden": true
+		},
+		{
+			"key": "title",
+			"label": "Title",
+			"type": "string",
+			"rules": { "max": 255 }
+		},
+		{
+			"key": "titleNav",
+			"label": "Navigation Title",
+			"type": "string",
+			"rules": { "max": 255 }
+		},
+		{
+			"key": "handle",
+			"label": "URL Slug",
+			"type": "string",
+			"rules": {
+				"max": 255,
+				"alpha_dash": true,
+				"lowercase": true
+			}
+		},
+		{
+			"key": "parentPageId",
+			"label": "Add Parent Page",
+			"type": "select-parent-page"
+		},
+		{
+			"key": "isPrivate",
+			"label": "Page is Private",
+			"type": "boolean"
+		},
+		{
+			"key": "seoTitle",
+			"label": "SEO Title",
+			"type": "string",
+			"rules": { "max": 255 }
+		},
+		{
+			"key": "seoDescription",
+			"label": "SEO Description",
+			"type": "string",
+			"rules": { "max": 255 }
+		},
+		{
+			"key": "seoIsPrivate",
+			"label": "Hide Page from Search Engines",
+			"type": "boolean"
+		},
+		{
+			"key": "blocks",
+			"label": "Blocks",
+			"type": "json"
+		}
+	]
+}

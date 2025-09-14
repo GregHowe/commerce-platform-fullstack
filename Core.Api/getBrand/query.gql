@@ -1,0 +1,13 @@
+query GetBrand($brandId: String) {
+	core_brands(_doc: $brandId) {
+		_doc
+		code
+		title
+		sso_providers {
+			title
+			url
+			failure
+			issuer
+		}
+	}
+}

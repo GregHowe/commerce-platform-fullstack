@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CoreBlockFooterDisclosures a numeric state returns as Florida for registered representative and selling insurance 1`] = `
+<div>
+  <div
+    class="disclosures block block_accordion block_accordion_base"
+    target="_blank"
+  >
+    <div
+      class="block__body"
+    >
+      <!---->
+       
+      <!---->
+       
+      <div
+        class="block__control block__control_accordion"
+      >
+        
+	Disclosure
+	
+        <span
+          icon="circle-plus"
+        />
+      </div>
+       
+      <div
+        class="block__section_main"
+        style="display: none;"
+      >
+        <div
+          class="block block_rich-text block_rich-text_disclosure"
+          is-first-child="true"
+          target="_blank"
+        >
+          <div
+            class="block__body"
+            index="0"
+            nested-level="1"
+          >
+            <p>
+              test mustache Florida state stuff even works for selling insurance
+            </p>
+          </div>
+            
+          <!---->
+        </div>
+        <div
+          class="block block_rich-text block_rich-text_disclosure"
+          is-last-child="true"
+          target="_blank"
+        >
+          <div
+            class="block__body"
+            index="1"
+            nested-level="1"
+          >
+            <p>
+              test mustache Florida state stuff even works for registered agents
+            </p>
+          </div>
+            
+          <!---->
+        </div>
+      </div>
+       
+      <!---->
+    </div>
+      
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockFooterDisclosures disclosure shows eagle financial states and text 1`] = `
+<div>
+  <div
+    class="disclosures block block_accordion block_accordion_base"
+    target="_blank"
+  >
+    <div
+      class="block__body"
+    >
+      <!---->
+       
+      <!---->
+       
+      <div
+        class="block__control block__control_accordion"
+      >
+        
+	Disclosure
+	
+        <span
+          icon="circle-plus"
+        />
+      </div>
+       
+      <div
+        class="block__section_main"
+        style="display: none;"
+      >
+        <div
+          class="block block_rich-text block_rich-text_disclosure"
+          is-first-child="true"
+          is-last-child="true"
+          target="_blank"
+        >
+          <div
+            class="block__body"
+            index="0"
+            nested-level="1"
+          >
+            <p>
+              test mustache AL, and AR (AR Insurance License #1234) states stuff even works for eagle financial
+            </p>
+          </div>
+            
+          <!---->
+        </div>
+      </div>
+       
+      <!---->
+    </div>
+      
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockFooterDisclosures multiple selling licenses show comma seperated states in alphabetical order, with CA and AR including license number 1`] = `
+<div>
+  <div
+    class="disclosures block block_accordion block_accordion_base"
+    target="_blank"
+  >
+    <div
+      class="block__body"
+    >
+      <!---->
+       
+      <!---->
+       
+      <div
+        class="block__control block__control_accordion"
+      >
+        
+	Disclosure
+	
+        <span
+          icon="circle-plus"
+        />
+      </div>
+       
+      <div
+        class="block__section_main"
+        style="display: none;"
+      >
+        <div
+          class="block block_rich-text block_rich-text_disclosure"
+          is-first-child="true"
+          target="_blank"
+        >
+          <div
+            class="block__body"
+            index="0"
+            nested-level="1"
+          >
+            <p>
+              test mustache AR (AR Insurance License #AR1234), CA (CA Insurance License #CA1234), FL, ND, and WA states stuff even works for selling insurance
+            </p>
+          </div>
+            
+          <!---->
+        </div>
+        <div
+          class="block block_rich-text block_rich-text_disclosure"
+          target="_blank"
+        >
+          <div
+            class="block__body"
+            index="1"
+            nested-level="1"
+          >
+            <p>
+              test mustache AR (AR Insurance License #AR1234), and ND states stuff even works for registered agents
+            </p>
+          </div>
+            
+          <!---->
+        </div>
+        <div
+          class="block block_rich-text block_rich-text_disclosure"
+          is-last-child="true"
+          target="_blank"
+        >
+          <div
+            class="block__body"
+            index="2"
+            nested-level="1"
+          >
+            <p>
+              test mustache AL, and AR (AR Insurance License #1234) states stuff even works for eagle financial
+            </p>
+          </div>
+            
+          <!---->
+        </div>
+      </div>
+       
+      <!---->
+    </div>
+      
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockFooterDisclosures only licenses within timeframe are analyzed 1`] = `
+<div>
+  <div
+    class="disclosures block block_accordion block_accordion_base"
+    target="_blank"
+  >
+    <div
+      class="block__body"
+    >
+      <!---->
+       
+      <!---->
+       
+      <div
+        class="block__control block__control_accordion"
+      >
+        
+	Disclosure
+	
+        <span
+          icon="circle-plus"
+        />
+      </div>
+       
+      <div
+        class="block__section_main"
+        style="display: none;"
+      >
+        <div
+          class="block block_rich-text block_rich-text_disclosure"
+          is-first-child="true"
+          target="_blank"
+        >
+          <div
+            class="block__body"
+            index="0"
+            nested-level="1"
+          >
+            <p>
+              test mustache CA (CA Insurance License #CA1234), FL, ND, and WA states stuff even works for selling insurance
+            </p>
+          </div>
+            
+          <!---->
+        </div>
+        <div
+          class="block block_rich-text block_rich-text_disclosure"
+          is-last-child="true"
+          target="_blank"
+        >
+          <div
+            class="block__body"
+            index="1"
+            nested-level="1"
+          >
+            <p>
+              test mustache North Dakota state stuff even works for registered agents
+            </p>
+          </div>
+            
+          <!---->
+        </div>
+      </div>
+       
+      <!---->
+    </div>
+      
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockFooterDisclosures shows a single licensed state of CA with the full name of the state 1`] = `
+<div>
+  <div
+    class="disclosures block block_accordion block_accordion_base"
+    target="_blank"
+  >
+    <div
+      class="block__body"
+    >
+      <!---->
+       
+      <!---->
+       
+      <div
+        class="block__control block__control_accordion"
+      >
+        
+	Disclosure
+	
+        <span
+          icon="circle-plus"
+        />
+      </div>
+       
+      <div
+        class="block__section_main"
+        style="display: none;"
+      >
+        <div
+          class="block block_rich-text block_rich-text_disclosure"
+          is-first-child="true"
+          is-last-child="true"
+          target="_blank"
+        >
+          <div
+            class="block__body"
+            index="0"
+            nested-level="1"
+          >
+            <p>
+              test mustache California (California Insurance License #CA1234) state stuff even works for selling insurance
+            </p>
+          </div>
+            
+          <!---->
+        </div>
+      </div>
+       
+      <!---->
+    </div>
+      
+    <!---->
+  </div>
+</div>
+`;
+
+exports[`CoreBlockFooterDisclosures state text is singular if one registered license 1`] = `
+<div>
+  <div
+    class="disclosures block block_accordion block_accordion_base"
+    target="_blank"
+  >
+    <div
+      class="block__body"
+    >
+      <!---->
+       
+      <!---->
+       
+      <div
+        class="block__control block__control_accordion"
+      >
+        
+	Disclosure
+	
+        <span
+          icon="circle-plus"
+        />
+      </div>
+       
+      <div
+        class="block__section_main"
+        style="display: none;"
+      >
+        <div
+          class="block block_rich-text block_rich-text_disclosure"
+          is-first-child="true"
+          is-last-child="true"
+          target="_blank"
+        >
+          <div
+            class="block__body"
+            index="0"
+            nested-level="1"
+          >
+            <p>
+              test mustache Alabama state stuff even works for selling insurance
+            </p>
+          </div>
+            
+          <!---->
+        </div>
+      </div>
+       
+      <!---->
+    </div>
+      
+    <!---->
+  </div>
+</div>
+`;

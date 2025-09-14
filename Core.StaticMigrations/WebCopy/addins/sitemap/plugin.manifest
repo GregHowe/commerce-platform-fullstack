@@ -1,0 +1,10 @@
+﻿
+{
+  "id": "e9ff0ed4718049a68b0edcf313752d41",
+  "type": "Cyotek.WebCopy.Extensions.Sitemap.SitemapExtension, Cyotek.WebCopy.Extensions.Sitemap, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d164292f52c48c9",
+  "author": "Cyotek",
+  "copyright": "Copyright © 2016-2017 Cyotek Ltd. All Rights Reserved.",
+  "description": "Generates simple sitemaps of downloaded content",
+  "displayName": "Sitemap Extension",
+  "websiteUri": "https://www.cyotek.com/"
+}

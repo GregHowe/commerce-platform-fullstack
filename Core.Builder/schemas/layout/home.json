@@ -1,0 +1,640 @@
+{
+	"key": "home",
+	"label": "Home Layouts",
+	"presets": [
+		{
+			"key": "home",
+			"label": "Home Page",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "container",
+					"variants": {
+						"layout": "carousel",
+						"padding-bottom": "pb-huge"
+					},
+					"blocks": [
+						{
+							"type": "hero",
+							"variants": {
+								"breadcrumbVariant": null,
+								"hidden": false,
+								"text-align": "text-left",
+								"image-align": "image-right",
+								"vertical-align": null
+							},
+							"showBreadcrumb": true,
+							"overline": "Overline",
+							"headline": "Headline lorem ipsum dolor sit",
+							"subline": "Subline Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"bodyText": "Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+							"button-primary-label": "Primary Button",
+							"button-secondary-label": "Secondary Button",
+							"button-tertiary-label": "Tertiary Button",
+							"showKeepScrolling": true,
+							"sideMediaSrc": null,
+							"backgroundMediaSrc": null,
+							"button-primary-url": null,
+							"button-primary-newTab": null,
+							"button-secondary-url": null,
+							"button-secondary-newTab": null,
+							"button-tertiary-url": null,
+							"button-tertiary-newTab": null,
+							"disclosure": null
+						},
+						{
+							"type": "hero",
+							"variants": {
+								"breadcrumbVariant": null,
+								"hidden": false,
+								"text-align": "text-left",
+								"image-align": "image-right",
+								"vertical-align": null
+							},
+							"showBreadcrumb": true,
+							"overline": "Overline",
+							"headline": "Headline lorem ipsum dolor sit",
+							"subline": "Subline Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"bodyText": "Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+							"button-primary-label": "Primary Button",
+							"button-secondary-label": "Secondary Button",
+							"button-tertiary-label": "Tertiary Button",
+							"showKeepScrolling": true,
+							"sideMediaSrc": null,
+							"backgroundMediaSrc": null,
+							"button-primary-url": null,
+							"button-primary-newTab": null,
+							"button-secondary-url": null,
+							"button-secondary-newTab": null,
+							"button-tertiary-url": null,
+							"button-tertiary-newTab": null,
+							"disclosure": null
+						},
+						{
+							"type": "hero",
+							"variants": {
+								"breadcrumbVariant": null,
+								"hidden": false,
+								"text-align": "text-left",
+								"image-align": "image-right",
+								"vertical-align": null
+							},
+							"showBreadcrumb": true,
+							"overline": "Overline",
+							"headline": "Headline lorem ipsum dolor sit",
+							"subline": "Subline Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor",
+							"bodyText": "Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.",
+							"button-primary-label": "Primary Button",
+							"button-secondary-label": "Secondary Button",
+							"button-tertiary-label": "Tertiary Button",
+							"showKeepScrolling": true,
+							"sideMediaSrc": null,
+							"backgroundMediaSrc": null,
+							"button-primary-url": null,
+							"button-primary-newTab": null,
+							"button-secondary-url": null,
+							"button-secondary-newTab": null,
+							"button-tertiary-url": null,
+							"button-tertiary-newTab": null,
+							"disclosure": null
+						}
+					]
+				},
+				{
+					"type": "columns",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"column-count": 2,
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "image",
+									"variants": {
+										"sizing": null,
+										"hidden": false
+									},
+									"src": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/176/uploads/image%202%20%281%29.png",
+									"width": null,
+									"height": null,
+									"alt": null
+								}
+							]
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "title",
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Headline lorem ipsum dolor sit Amit"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": "left"
+									},
+									"richText": "<p>Lörem ipsum pygagt astrona öng biotyrad trerat kask eusk. Miskade donas anteplan pekabelt, men dirade kagt. Hemiss sodägt stenona, multirade det vill säga kun. Subida ganivis sisösade dosofaliga mil. Kovide or. Mingen kosm faling jåd hilade. Are divis mihil: mirat om porat rel nyrat. Dins hint en decil esam, och olada. </p><p>Kan nipeling av sipel om fåst osat regt. Pobiska kadongar syktigt pseudode kroning plar tills des trese. Hyposat ditint delig. Pobingar afoll tir, antiling. Sad bisade dogon oll. Dins ponde pimisat dilyns jinese inklusive trick nymide. Mik ojiv hingen jåsam: prer vagt av föjolingar. Biongar satisade därför att retina behira. </p>"
+								},
+								{
+									"type": "columns",
+									"variants": {
+										"vertical-alignment": null,
+										"hidden": false,
+										"order": null,
+										"offset": "offset-right"
+									},
+									"blocks": [
+										{
+											"type": "button",
+											"variants": {
+												"style": "link",
+												"hidden": false,
+												"icon-placement": null,
+												"invert": null,
+												"outline": null
+											},
+											"label": "Tertiary",
+											"icon": "right-arrow",
+											"url": null,
+											"newTab": null
+										},
+										{
+											"type": "button",
+											"variants": {
+												"style": "link",
+												"hidden": false,
+												"icon-placement": null,
+												"invert": null,
+												"outline": null
+											},
+											"label": "Tertiary",
+											"icon": "right-arrow",
+											"url": null,
+											"newTab": null
+										}
+									],
+									"locked": null,
+									"allowTypes": null,
+									"restrictTypes": null,
+									"column-count": 2
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "columns",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"column-count": 3,
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "overline",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": null
+									},
+									"text": "Overline"
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": "title",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": null
+									},
+									"text": "Headline Lorem Ipsum"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": null
+									},
+									"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "primary",
+										"hidden": false,
+										"icon-placement": null,
+										"invert": null,
+										"outline": null
+									},
+									"label": "Primary",
+									"icon": null,
+									"url": null,
+									"newTab": null
+								}
+							]
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "overline",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": null
+									},
+									"text": "Overline"
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": "title",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": null
+									},
+									"text": "Headline Lorem Ipsum"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": null
+									},
+									"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "primary",
+										"hidden": false,
+										"icon-placement": null,
+										"invert": null,
+										"outline": null
+									},
+									"label": "Primary",
+									"icon": null,
+									"url": null,
+									"newTab": null
+								}
+							]
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "overline",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": null
+									},
+									"text": "Overline"
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": "title",
+										"hidden": false,
+										"weight": "bold",
+										"style": null,
+										"align": null
+									},
+									"text": "Headline Lorem Ipsum"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": null
+									},
+									"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "primary",
+										"hidden": false,
+										"icon-placement": null,
+										"invert": null,
+										"outline": null
+									},
+									"label": "Primary",
+									"icon": null,
+									"url": null,
+									"newTab": null
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "columns",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"column-count": 2,
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "image",
+									"variants": {
+										"sizing": null,
+										"hidden": false
+									},
+									"src": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/176/uploads/image%202%20%281%29.png",
+									"width": null,
+									"height": null,
+									"alt": null
+								}
+							]
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "overline",
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Overline"
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": "title",
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Calculators"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": "left"
+									},
+									"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+								},
+								{
+									"type": "columns",
+									"variants": {
+										"vertical-alignment": null,
+										"hidden": false,
+										"order": null,
+										"offset": "offset-right"
+									},
+									"blocks": [
+										{
+											"type": "button",
+											"variants": {
+												"style": "primary",
+												"hidden": false,
+												"icon-placement": null,
+												"invert": null,
+												"outline": null
+											},
+											"label": "Primary",
+											"icon": null,
+											"url": null,
+											"newTab": null
+										}
+									],
+									"locked": null,
+									"allowTypes": null,
+									"restrictTypes": null,
+									"column-count": null
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "rows",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"blocks": [
+						{
+							"type": "text",
+							"variants": {
+								"size": "title",
+								"hidden": false,
+								"weight": "bold",
+								"style": null,
+								"align": null
+							},
+							"text": "Newsletters"
+						},
+						{
+							"type": "rich-text",
+							"variants": {
+								"size": null,
+								"hidden": false,
+								"align": null
+							},
+							"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+						}
+					]
+				},
+				{
+					"type": "container",
+					"variants": {
+						"layout": "carousel",
+						"child-width": "slim",
+						"padding-bottom": "pb-huge"
+					},
+					"blocks": [
+						{
+							"type": "content-card",
+							"variants": {
+								"align-content": "align-left",
+								"hidden": false,
+								"align-image": null,
+								"background": null,
+								"padding-x": "px-huge"
+							},
+							"primaryLabel": "Primary Button",
+							"secondaryLabel": "Secondary Button",
+							"media": null,
+							"overline": null,
+							"headline": null,
+							"richText": "<p>Whole Life vs Universal Life Insurance </p>",
+							"primaryButton": true,
+							"primaryUrl": null,
+							"primaryBtnNewTab": null,
+							"secondaryButton": null,
+							"secondaryUrl": null,
+							"secondaryBtnNewTab": null,
+							"disclosure": null
+						},
+						{
+							"type": "content-card",
+							"variants": {
+								"align-content": "align-left",
+								"hidden": false,
+								"align-image": null,
+								"background": null,
+								"padding-x": "px-huge"
+							},
+							"primaryLabel": "Primary Button",
+							"secondaryLabel": "Secondary Button",
+							"media": null,
+							"overline": null,
+							"headline": null,
+							"richText": "<p>Whole Life vs Universal Life Insurance </p>",
+							"primaryButton": true,
+							"primaryUrl": null,
+							"primaryBtnNewTab": null,
+							"secondaryButton": null,
+							"secondaryUrl": null,
+							"secondaryBtnNewTab": null,
+							"disclosure": null
+						},
+						{
+							"type": "content-card",
+							"variants": {
+								"align-content": "align-left",
+								"hidden": false,
+								"align-image": null,
+								"background": null,
+								"padding-x": "px-huge"
+							},
+							"primaryLabel": "Primary Button",
+							"secondaryLabel": "Secondary Button",
+							"media": null,
+							"overline": null,
+							"headline": null,
+							"richText": "<p>Whole Life vs Universal Life Insurance </p>",
+							"primaryButton": true,
+							"primaryUrl": null,
+							"primaryBtnNewTab": null,
+							"secondaryButton": null,
+							"secondaryUrl": null,
+							"secondaryBtnNewTab": null,
+							"disclosure": null
+						},
+						{
+							"type": "content-card",
+							"variants": {
+								"align-content": "align-left",
+								"hidden": false,
+								"align-image": null,
+								"background": null,
+								"padding-x": "px-huge"
+							},
+							"primaryLabel": "Primary Button",
+							"secondaryLabel": "Secondary Button",
+							"media": null,
+							"overline": null,
+							"headline": null,
+							"richText": "<p>Whole Life vs Universal Life Insurance </p>",
+							"primaryButton": true,
+							"primaryUrl": null,
+							"primaryBtnNewTab": null,
+							"secondaryButton": null,
+							"secondaryUrl": null,
+							"secondaryBtnNewTab": null,
+							"disclosure": null
+						},
+						{
+							"type": "content-card",
+							"variants": {
+								"align-content": "align-left",
+								"hidden": false,
+								"align-image": null,
+								"background": null,
+								"padding-x": "px-huge"
+							},
+							"primaryLabel": "Primary Button",
+							"secondaryLabel": "Secondary Button",
+							"media": null,
+							"overline": null,
+							"headline": null,
+							"richText": "<p>Whole Life vs Universal Life Insurance </p>",
+							"primaryButton": true,
+							"primaryUrl": null,
+							"primaryBtnNewTab": null,
+							"secondaryButton": null,
+							"secondaryUrl": null,
+							"secondaryBtnNewTab": null,
+							"disclosure": null
+						}
+					]
+				},
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "map",
+							"variants": {
+								"padding-bottom": "pb-huge"
+							}
+						}
+					]
+				},
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "text",
+							"variants": {
+								"size": "overline",
+								"hidden": false,
+								"weight": null,
+								"style": null,
+								"align": "left",
+								"padding-top": "pt-huge"
+							},
+							"text": "Disclosure"
+						},
+						{
+							"type": "rich-text",
+							"variants": {
+								"size": "disclosure",
+								"hidden": false,
+								"align": "left"
+							},
+							"richText": "<p> *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Text Link</p>"
+						}
+					]
+				}
+			]
+		}
+	]
+}

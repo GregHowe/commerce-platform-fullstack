@@ -1,0 +1,231 @@
+/* sets the defaults */
+:root {
+	/* font pairing */
+	--core__font_primary: "Work+Sans", Arial, sans-serif;
+	--core__font_secondary: "Lora", Arial, sans-serif;
+
+	/* palette */
+
+	--core__color_dark-alt: #565656;
+	--core__color_medium: #989898;
+	--core__color_medium-alt: #bcbcbc;
+	--core__color_light: #dcdcdc;
+	--core__color_light-alt: #f2f2f2;
+	--core__color_lightest: #f8f8f8;
+
+	--core__color_error: #de0d0d;
+	--core__color_success: #2e8540;
+	--core__color_fpo: #e30e8e;
+	--core__color_focus: #2b9ce0;
+	--core__color_inactive-light: #c2c2c2;
+	--core__color_inactive-dark: #757575;
+	--core__color_warning: #f17b00;
+
+	/* colors: primary */
+	--core__color_primary: #0079c2;
+	--core__color_white: #fff;
+	--core__color_black: #000;
+
+	/* colors: secondary */
+	--core__color_secondary--lightest: #3a7ca6;
+	--core__color_secondary--light: #23648c;
+	--core__color_secondary: #1d5273;
+	--core__color_secondary--dark: #0d3c59;
+	--core__color_secondary--darkest: #002840;
+
+	/* colors: tertiary */
+	--core__color_rose--light: #ecc2cf;
+	--core__color_rose: #b56f85;
+	--core__color_rose--dark: #754a62;
+	--core__color_twilight--light: #c1c2d6;
+	--core__color_twilight: #5a5c8e;
+	--core__color_twilight--dark: #313372;
+	--core__color_pine--light: #bbddd2;
+	--core__color_pine: #4b8b7f;
+	--core__color_pine--dark: #264640;
+	--core__color_palm--light: #ccd8bf;
+	--core__color_palm: #6b9160;
+	--core__color_palm--dark: #364432;
+
+	/* colors: functional */
+	--core__color_error: #c02321;
+	--core__color_success: #24882d;
+	--core__color_visited: #5c4c79;
+	--core__color_focus: #ef7000;
+	--core__color_inactive: #747474;
+
+	/* colors: third party */
+	--core__color_facebook: #3b5998;
+	--core__color_linkedin: #0077b5;
+	--core__color_twitter: #55acee;
+
+	/* colors: greys */
+	--core__color_grey--10: #f5f8fa;
+	--core__color_grey--20: #e7ecef;
+	--core__color_grey--30: #dae1e5;
+	--core__color_grey--40: #bdc5ca;
+	--core__color_grey--50: #a8b1b7;
+	--core__color_grey--60: #939da4;
+	--core__color_grey--70: #6c787f;
+	--core__color_grey--80: #58656d;
+	--core__color_grey--90: #3e4d57;
+	--core__color_grey--100: #243641;
+
+	/* main body */
+	--_core__body_background: linear-gradient(
+		var(--core__color_light),
+		var(--core__color_light-alt)
+	);
+
+	/* navbar defaults */
+	--_core__navbar_background: var(--_core__container_background);
+	--_core__navbar_color: var(--_core__container_color);
+
+	/* content links */
+	--_core__link_color: var(--core__color_primary);
+	--_core__link_text-decoration: underline;
+
+	/* content container */
+	--_core__container_background: var(--core__color_grey--20);
+	--_core__container_border: 2px solid var(--core__color_light);
+	--_core__container_color: var(--core__color_dark);
+	--_core__container_font-family: var(--core__font_primary);
+	--_core__container_font-size: 1.2rem;
+	--_core__container_line-height: 1.4;
+	--_core__container_max-width: 1024px;
+	--_core__container_gutter: 2rem;
+	--_core__container_padding-top: 0;
+	--_core__container_padding-right: 0;
+	--_core__container_padding-bottom: 0;
+	--_core__container_padding-left: 0;
+	--_core__container_text-align: center;
+
+	/* content headers */
+	--_core__header_color: var(--core__color_primary);
+	--_core__header_font-family: var(--core__font_secondary);
+	--_core__header_font-size: 2.4rem;
+	--_core__header_line-height: 1.1;
+	--_core__header_text-transform: none;
+
+	/* content overline */
+	--_core__overline_color: var(--_core__header_color);
+	--_core__overline_font-family: var(--core__font_primary);
+	--_core__overline_font-size: 0.9rem;
+	--_core__overline_line-height: 1.1;
+	--_core__overline_text-transform: uppercase;
+
+	/* content subline */
+	--_core__subline_color: var(--_core__header_color);
+	--_core__subline_font-family: var(--_core__header_font-family);
+	--_core__subline_font-size: 1.8rem;
+	--_core__subline_line-height: 1.2;
+	--_core__subline_text-transform: none;
+
+	/* content disclosure */
+	--_core__disclosure_color: var(--_core__container_color);
+	--_core__disclosure_font-family: var(--core__font_primary);
+	--_core__disclosure_font-size: 0.8rem;
+	--_core__disclosure_font-style: italic;
+	--_core__disclosure_line-height: 1.4;
+	--_core__disclosure_text-transform: none;
+
+	/* content dividers */
+	--_core__divider_color: var(--core__color_light);
+
+	/* button defaults */
+
+	--_core__button-primary_background: var(--core__color_primary);
+	--_core__button-primary_border-radius: 3rem;
+	--_core__button-primary_color: var(--core__color_light-alt);
+	--_core__button-primary_font-family: var(--core__font_primary);
+
+	--_core__button-secondary_background: var(--core__color_secondary);
+	--_core__button-secondary_color: var(--core__color_primary);
+
+	/* form defaults */
+	--_core__input_background: var(--core__color_light-alt);
+	--_core__input-border-radus: var(--_core__button_border-radius);
+	--_core__input_color: var(--core__color_primary);
+	--_core__input-font-family: var(--core__font_primary);
+}
+
+@font-face {
+	font-family: "Effra Pro";
+	src: url("https://f92core-nylwebsites.azureedge.net/3/uploads/fonts/EffraPro_Rg.ttf")
+		format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Effra Pro";
+	src: url("https://f92core-nylwebsites.azureedge.net/3/uploads/fonts/EffraPro_Md.ttf")
+		format("truetype");
+	font-weight: 300;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Effra Pro";
+	src: url("https://f92core-nylwebsites.azureedge.net/3/uploads/fonts/EffraPro_Bd.ttf")
+		format("truetype");
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Effra Pro";
+	src: url("https://f92core-nylwebsites.azureedge.net/3/uploads/fonts/EffraPro_It.ttf")
+		format("truetype");
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Effra Pro";
+	src: url("https://f92core-nylwebsites.azureedge.net/3/uploads/fonts/EffraPro_BdIt.ttf")
+		format("truetype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+/* Blokk Neue */
+
+@font-face {
+	font-family: "BlokkNeue";
+	src: url("https://f92core-nylwebsites.azureedge.net/3/uploads/fonts/BLOKKNeue-Regular.otf")
+		format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Alda Pro */
+
+@font-face {
+	font-family: "Alda Pro";
+	src: url("https://f92core-nylwebsites.azureedge.net/3/uploads/fonts/Alda Pro-Regular.otf")
+		format("opentype");
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Alda Pro";
+	src: url("https://f92core-nylwebsites.azureedge.net/3/uploads/fonts/Alda Pro-Bold.otf")
+		format("opentype");
+	font-weight: bold;
+	font-style: normal;
+}
+@font-face {
+	font-family: "Alda Pro";
+	src: url("https://f92core-nylwebsites.azureedge.net/3/uploads/fonts/Alda Pro-Regular Italic.otf")
+		format("opentype");
+	font-weight: normal;
+	font-style: italic;
+}
+@font-face {
+	font-family: "Alda Pro";
+	src: url("https://f92core-nylwebsites.azureedge.net/3/uploads/fonts/Alda Pro-Bold Italic.otf")
+		format("opentype");
+	font-weight: bold;
+	font-style: italic;
+}
+
+
+
+

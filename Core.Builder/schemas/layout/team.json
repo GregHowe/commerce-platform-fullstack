@@ -1,0 +1,283 @@
+{
+	"key": "team",
+	"label": "Team Layouts",
+	"presets": [
+		{
+			"key": "team",
+			"label": "Our Team Page",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "rows",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"blocks": [
+						{
+							"type": "hero",
+							"variants": {
+								"breadcrumbVariant": null,
+								"hidden": false,
+								"text-align": null,
+								"image-align": null,
+								"vertical-align": null
+							},
+							"showBreadcrumb": true,
+							"overline": "overline",
+							"headline": "Our Team",
+							"subline": "",
+							"bodyText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.</p>",
+							"button-primary-label": "Primary Button",
+							"button-secondary-label": "Secondary Button",
+							"button-tertiary-label": "Tertiary Button",
+							"showKeepScrolling": true,
+							"sideMediaSrc": null,
+							"backgroundMediaSrc": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/176/uploads/background-image.png",
+							"button-primary-url": null,
+							"button-primary-newTab": null,
+							"button-secondary-url": null,
+							"button-secondary-newTab": null,
+							"button-tertiary-url": null,
+							"button-tertiary-newTab": null,
+							"disclosure": ""
+						}
+					]
+				},
+				{
+					"type": "columns",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"column-count": 3,
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "contact-card",
+									"variants": {
+										"align-content": "align-left",
+										"hidden": false,
+										"photo-placement": "top",
+										"padding": "no-padding",
+										"bg-color": null
+									},
+									"photo": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/28/uploads/image%202%20%281%29.png",
+									"instagram": null,
+									"youtube": null,
+									"logo": null,
+									"description": "Enter Description"
+								}
+							]
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "contact-card",
+									"variants": {
+										"align-content": "align-left",
+										"hidden": false,
+										"photo-placement": "top",
+										"padding": "no-padding",
+										"bg-color": null
+									},
+									"photo": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/28/uploads/image%202%20%281%29.png",
+									"instagram": null,
+									"youtube": null,
+									"logo": null,
+									"description": "Enter Description"
+								}
+							]
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "contact-card",
+									"variants": {
+										"align-content": "align-left",
+										"hidden": false,
+										"photo-placement": "top",
+										"padding": "no-padding",
+										"bg-color": null
+									},
+									"photo": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/28/uploads/image%202%20%281%29.png",
+									"instagram": null,
+									"youtube": null,
+									"logo": null,
+									"description": "Enter Description"
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "rows",
+					"variants": {
+						"padding-bottom": "pb-huge"
+					},
+					"blocks": [
+						{
+							"type": "columns",
+							"variants": {},
+							"bodyCopy": "<p>Finra Banner Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>",
+							"buttonText": "Learn More",
+							"buttonLink": "https://brokercheck.finra.org/",
+							"newTab": null,
+							"closeButton": null,
+							"column-count": 3,
+							"blocks": [
+								{
+									"type": "rows",
+									"blocks": [
+										{
+											"type": "contact-card",
+											"variants": {
+												"align-content": "align-left",
+												"hidden": false,
+												"photo-placement": "top",
+												"padding": "no-padding",
+												"bg-color": null
+											},
+											"photo": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/28/uploads/image%202%20%281%29.png",
+											"instagram": null,
+											"youtube": null,
+											"logo": null,
+											"description": "Enter Description"
+										}
+									]
+								},
+								{
+									"type": "rows",
+									"blocks": [
+										{
+											"type": "contact-card",
+											"variants": {
+												"align-content": "align-left",
+												"hidden": false,
+												"photo-placement": "top",
+												"padding": "no-padding",
+												"bg-color": null
+											},
+											"photo": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/28/uploads/image%202%20%281%29.png",
+											"instagram": null,
+											"youtube": null,
+											"logo": null,
+											"description": "Enter Description"
+										}
+									]
+								},
+								{
+									"type": "rows",
+									"blocks": [
+										{
+											"type": "contact-card",
+											"variants": {
+												"align-content": "align-left",
+												"hidden": false,
+												"photo-placement": "top",
+												"padding": "no-padding",
+												"bg-color": null
+											},
+											"photo": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/28/uploads/image%202%20%281%29.png",
+											"instagram": null,
+											"youtube": null,
+											"logo": null,
+											"description": "Enter Description"
+										}
+									]
+								}
+							]
+						}
+					]
+				},
+				{
+					"type": "columns",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "rows",
+							"variants": {},
+							"blocks": [
+								{
+									"type": "image",
+									"variants": {
+										"sizing": null,
+										"hidden": false
+									},
+									"src": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/176/uploads/image%202%20%281%29.png",
+									"width": null,
+									"height": null,
+									"alt": null
+								}
+							]
+						},
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "overline",
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left"
+									},
+									"text": "Your text here."
+								},
+								{
+									"type": "text",
+									"variants": {
+										"size": "title",
+										"hidden": false,
+										"weight": null,
+										"style": null,
+										"align": "left",
+										"padding-bottom": "pb-small"
+									},
+									"text": "Contact Us"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": null,
+										"hidden": false,
+										"align": "left",
+										"padding-bottom": "pb-small"
+									},
+									"richText": "<p>Subline Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</p>"
+								},
+								{
+									"type": "button",
+									"variants": {
+										"style": "primary",
+										"hidden": false,
+										"icon-placement": null,
+										"invert": null,
+										"outline": null
+									},
+									"label": "Primary",
+									"icon": null,
+									"url": null,
+									"newTab": null
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"size": "disclosure",
+										"hidden": false,
+										"align": "left"
+									},
+									"richText": "<p></p>"
+								}
+							]
+						}
+					],
+					"column-count": 2
+				}
+			]
+		}
+	]
+}

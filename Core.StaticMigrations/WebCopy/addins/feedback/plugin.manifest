@@ -1,0 +1,9 @@
+﻿{
+  "id": "43ec75edba8b4142a8f42465288ded49",
+  "type": "Cyotek.Extensions.Feedback.FeedbackExtension, Cyotek.Extensions.Feedback, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d164292f52c48c9",
+  "author": "Cyotek",
+  "copyright": "Copyright © 2017-2021 Cyotek Ltd. All Rights Reserved.",
+  "description": "Provide a means of reporting feedback with this product directly to Cyotek",
+  "displayName": "Submit Feedback",
+  "websiteUri": "https://www.cyotek.com/"
+}

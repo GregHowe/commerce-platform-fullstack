@@ -1,0 +1,194 @@
+{
+	"key": "content",
+	"label": "Content Sections",
+	"presets": [
+		{
+			"key": "base",
+			"label": "Content with plain background",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "content-card"
+				}
+			]
+		},
+		{
+			"key": "column-headshot",
+			"label": "Two Column with Headshot and Content",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "columns",
+					"column-count": 2,
+					"blocks": [
+						{
+							"type": "image"
+						},
+						{
+							"type": "content-card",
+							"headline": "Headline lorem ipsum dolor sit amit",
+							"richText": "<p>Lörem ipsum pygagt astrona öng biotyrad trerat kask eusk. Miskade donas anteplan pekabelt, men dirade kagt. Hemiss sodägt stenona, multirade det vill säga kun. Subida ganivis sisösade dosofaliga mil. Kovide or. Mingen kosm faling jåd hilade. Are divis mihil: mirat om porat rel nyrat. Dins hint en decil esam, och olada.</p><p>Kan nipeling av sipel om fåst osat regt. Pobiska kadongar syktigt pseudode kroning plar tills des trese. Hyposat ditint delig. Pobingar afoll tir, antiling. Sad bisade dogon oll. Dins ponde pimisat dilyns jinese inklusive trick nymide. Mik ojiv hingen jåsam: prer vagt av föjolingar. Biongar satisade därför att retina behira.</p>",
+							"primaryButton": true,
+							"primaryLabel": "Primary Button"
+						}
+					]
+				}
+			]
+		},
+		{
+			"key": "color",
+			"label": "Content with color background",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "content-card",
+					"variants": {
+						"background": "bg-color"
+					}
+				}
+			]
+		},
+		{
+			"key": "dark",
+			"label": "Content with dark background",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "content-card",
+					"variants": {
+						"background": "bg-dark"
+					}
+				}
+			]
+		},
+		{
+			"key": "light",
+			"label": "Content with light background",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "content-card",
+					"variants": {
+						"background": "bg-light"
+					}
+				}
+			]
+		},
+		{
+			"key": "ddc-ccm",
+			"label": "Data Driven Component: Contact Card and Map",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "rows",
+					"variants": {
+						"bg-color": "light",
+						"layout": "contained"
+					},
+					"blocks": [
+						{
+							"type": "divider",
+							"variants": {
+								"style": "spacer",
+								"size": "large"
+							}
+						},
+						{
+							"type": "content-card",
+							"variants": {
+								"align-image": null,
+								"hidden": false,
+								"background": null,
+								"align-content": "align-left"
+							},
+							"primaryLabel": "Primary Button",
+							"secondaryLabel": "Secondary Button",
+							"media": null,
+							"overline": "",
+							"headline": "Data Driven Components Test",
+							"richText": "<p>This page is automatically populated with user data from the NYL feed. The intention is to showcase how different values can be injected into pages to present unique experiences for each agent.</p>",
+							"primaryButton": null,
+							"primaryUrl": null,
+							"primaryBtnNewTab": null,
+							"secondaryButton": null,
+							"secondaryUrl": null,
+							"secondaryBtnNewTab": null,
+							"disclosure": null
+						},
+						{
+							"type": "divider",
+							"variants": {
+								"style": "spacer",
+								"size": "large"
+							}
+						}
+					]
+				},
+				{
+					"type": "pencil-banner",
+					"bodyCopy": "For more information about NYLIFE Securities LLC and its investment professionals,",
+					"buttonText": "Click here",
+					"buttonLink": "https://brokercheck.finra.org/",
+					"variants": {
+						"alignment": "center"
+					}
+				},
+				{
+					"type": "divider",
+					"variants": {
+						"style": "spacer",
+						"size": "large"
+					}
+				},
+				{
+					"type": "columns",
+					"variants": {
+						"offset": "offset-right"
+					},
+					"column-count": 2,
+					"blocks": [
+						{
+							"type": "rows",
+							"blocks": [
+								{
+									"type": "contact-card",
+									"variants": {
+										"align-content": null,
+										"hidden": false,
+										"photo-placement": "top",
+										"padding": null,
+										"bg-color": null
+									}
+								}
+							]
+						},
+						{
+							"type": "map",
+							"variants": {},
+							"blocks": [
+								{
+									"type": "divider",
+									"variants": {
+										"style": "spacer",
+										"size": "large"
+									}
+								}
+							],
+							"locked": null,
+							"allowTypes": null,
+							"restrictTypes": null,
+							"address": {
+								"line1": "{{{ user.ddcUserData.busLocAddrLn1tx }}}",
+								"line2": "{{{ user.ddcUserData.busLocAddrLn2Tx }}}",
+								"line3": "{{{ user.ddcUserData.busLocAddrLn3tx }}}",
+								"city": "{{{ user.ddcUserData.busLocAddrCityNm }}}",
+								"state": "{{{ user.ddcUserData.busLocAddrStateCode }}}",
+								"zip": "{{{ user.ddcUserData.busLocAddrZipCode }}}"
+							}
+						}
+					]
+				}
+			]
+		}
+	]
+}

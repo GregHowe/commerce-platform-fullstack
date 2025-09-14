@@ -1,0 +1,19 @@
+{
+	"bindings": [
+		{
+			"authLevel": "function",
+			"type": "httpTrigger",
+			"direction": "in",
+			"name": "req",
+			"route": "api/testgenerate",
+			"methods": ["get"]
+		},
+		{
+			"name": "sendPublishMessages",
+			"type": "serviceBus",
+			"topicName": "publishing",
+			"connection": "AzureWebJobsServiceBus",
+			"direction": "out"
+		}
+	]
+}

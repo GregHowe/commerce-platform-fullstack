@@ -1,0 +1,298 @@
+{
+	"key": "newsletter",
+	"label": "Newsletter Sections",
+	"presets": [
+		{
+			"key": "default",
+			"label": "Newsletter",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "text",
+							"variants": {
+								"size": "title",
+								"hidden": false,
+								"weight": null,
+								"style": null,
+								"align": "left",
+								"padding-bottom": "pb-small"
+							},
+							"text": "Newsletters"
+						},
+						{
+							"type": "rich-text",
+							"variants": {
+								"size": null,
+								"hidden": false,
+								"align": null,
+								"text-align": "align-left",
+								"padding-bottom": "pb-medium"
+							},
+							"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+						},
+						{
+							"type": "container",
+							"variants": {
+								"layout": "carousel",
+								"child-width": "slim"
+							},
+							"blocks": [
+								{
+									"type": "rows",
+									"blocks": [
+										{
+											"type": "content-card",
+											"variants": {
+												"align-content": "align-left",
+												"hidden": false,
+												"align-image": null,
+												"background": null,
+												"padding-x": "px-small"
+											},
+											"primaryLabel": "Primary Button",
+											"secondaryLabel": "Read More",
+											"media": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/227/uploads/placeholder.png",
+											"overline": "",
+											"headline": "5 Retirement Income Planning Tips",
+											"richText": null,
+											"primaryButton": false,
+											"primaryUrl": null,
+											"primaryBtnNewTab": null,
+											"secondaryButton": true,
+											"secondaryUrl": null,
+											"secondaryBtnNewTab": null,
+											"disclosure": null
+										}
+									]
+								},
+								{
+									"type": "content-card",
+									"blocks": [
+										{
+											"type": null,
+											"variants": {}
+										}
+									],
+									"variants": {
+										"align-content": "align-left",
+										"hidden": false,
+										"align-image": null,
+										"background": null,
+										"padding-x": "px-small"
+									},
+									"primaryLabel": "Primary Button",
+									"secondaryLabel": "Read More",
+									"media": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/227/uploads/placeholder.png",
+									"overline": "",
+									"headline": "5 Retirement Income Planning Tips",
+									"richText": null,
+									"primaryButton": false,
+									"primaryUrl": null,
+									"primaryBtnNewTab": null,
+									"secondaryButton": true,
+									"secondaryUrl": null,
+									"secondaryBtnNewTab": null,
+									"disclosure": null
+								},
+								{
+									"type": "content-card",
+									"variants": {
+										"align-content": "align-left",
+										"hidden": false,
+										"align-image": null,
+										"background": null,
+										"padding-x": "px-small"
+									},
+									"primaryLabel": "Primary Button",
+									"secondaryLabel": "Read More",
+									"media": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/227/uploads/placeholder.png",
+									"overline": "",
+									"headline": "5 Retirement Income Planning Tips",
+									"richText": null,
+									"primaryButton": false,
+									"primaryUrl": null,
+									"primaryBtnNewTab": null,
+									"secondaryButton": true,
+									"secondaryUrl": null,
+									"secondaryBtnNewTab": null,
+									"disclosure": null
+								},
+								{
+									"type": "content-card",
+									"variants": {
+										"align-content": "align-left",
+										"hidden": false,
+										"align-image": null,
+										"background": null,
+										"padding-x": "px-small"
+									},
+									"primaryLabel": "Primary Button",
+									"secondaryLabel": "Read More",
+									"media": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/227/uploads/placeholder.png",
+									"overline": "",
+									"headline": "5 Retirement Income Planning Tips",
+									"richText": null,
+									"primaryButton": false,
+									"primaryUrl": null,
+									"primaryBtnNewTab": null,
+									"secondaryButton": true,
+									"secondaryUrl": null,
+									"secondaryBtnNewTab": null,
+									"disclosure": null
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"key": "center",
+			"label": "Center Aligned",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "rows",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "text",
+							"variants": {
+								"size": "title",
+								"hidden": false,
+								"weight": null,
+								"style": null,
+								"align": "center",
+								"padding-bottom": "pb-small"
+							},
+							"text": "Newsletters"
+						},
+						{
+							"type": "rich-text",
+							"variants": {
+								"size": null,
+								"hidden": false,
+								"align": null,
+								"text-align": "align-center",
+								"padding-bottom": "pb-medium"
+							},
+							"richText": "<p>Body Copy Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. </p>"
+						},
+						{
+							"type": "container",
+							"variants": {
+								"layout": "carousel",
+								"child-width": "slim"
+							},
+							"blocks": [
+								{
+									"type": "rows",
+									"blocks": [
+										{
+											"type": "content-card",
+											"variants": {
+												"align-content": "align-left",
+												"hidden": false,
+												"align-image": null,
+												"background": null
+											},
+											"primaryLabel": "Primary Button",
+											"secondaryLabel": "Read More",
+											"media": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/227/uploads/placeholder.png",
+											"overline": "",
+											"headline": "5 Retirement Income Planning Tips",
+											"richText": null,
+											"primaryButton": false,
+											"primaryUrl": null,
+											"primaryBtnNewTab": null,
+											"secondaryButton": true,
+											"secondaryUrl": null,
+											"secondaryBtnNewTab": null,
+											"disclosure": null
+										}
+									]
+								},
+								{
+									"type": "content-card",
+									"blocks": [
+										{
+											"type": null,
+											"variants": {}
+										}
+									],
+									"variants": {
+										"align-content": "align-left",
+										"hidden": false,
+										"align-image": null,
+										"background": null
+									},
+									"primaryLabel": "Primary Button",
+									"secondaryLabel": "Read More",
+									"media": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/227/uploads/placeholder.png",
+									"overline": "",
+									"headline": "5 Retirement Income Planning Tips",
+									"richText": null,
+									"primaryButton": false,
+									"primaryUrl": null,
+									"primaryBtnNewTab": null,
+									"secondaryButton": true,
+									"secondaryUrl": null,
+									"secondaryBtnNewTab": null,
+									"disclosure": null
+								},
+								{
+									"type": "content-card",
+									"variants": {
+										"align-content": "align-left",
+										"hidden": false,
+										"align-image": null,
+										"background": null
+									},
+									"primaryLabel": "Primary Button",
+									"secondaryLabel": "Read More",
+									"media": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/227/uploads/placeholder.png",
+									"overline": "",
+									"headline": "5 Retirement Income Planning Tips",
+									"richText": null,
+									"primaryButton": false,
+									"primaryUrl": null,
+									"primaryBtnNewTab": null,
+									"secondaryButton": true,
+									"secondaryUrl": null,
+									"secondaryBtnNewTab": null,
+									"disclosure": null
+								},
+								{
+									"type": "content-card",
+									"variants": {
+										"align-content": "align-left",
+										"hidden": false,
+										"align-image": null,
+										"background": null
+									},
+									"primaryLabel": "Primary Button",
+									"secondaryLabel": "Read More",
+									"media": "https://agentdeployments.blob.core.windows.net/$web/brands/3/websites/227/uploads/placeholder.png",
+									"overline": "",
+									"headline": "5 Retirement Income Planning Tips",
+									"richText": null,
+									"primaryButton": false,
+									"primaryUrl": null,
+									"primaryBtnNewTab": null,
+									"secondaryButton": true,
+									"secondaryUrl": null,
+									"secondaryBtnNewTab": null,
+									"disclosure": null
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

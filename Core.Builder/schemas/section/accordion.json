@@ -1,0 +1,31 @@
+{
+	"key": "accordion",
+	"label": "Accordion Sections",
+	"presets": [
+		{
+			"key": "default",
+			"label": "Disclosure",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "accordion",
+					"variants": {},
+					"blocks": [
+						{
+							"type": "rich-text",
+							"variants": {
+								"size": "disclosure",
+								"hidden": false,
+								"align": "left"
+							},
+							"richText": "<p> *Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt. Text Link</p>"
+						}
+					],
+					"accordionText": "DISCLOSURES",
+					"hasAccordion": true,
+					"locked": null
+				}
+			]
+		}
+	]
+}

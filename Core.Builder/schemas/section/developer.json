@@ -1,0 +1,495 @@
+{
+	"key": "developer",
+	"label": "Developer Sections",
+	"presets": [
+		{
+			"key": "test-left",
+			"label": "Testing Text Align Left",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "rows",
+					"variants": {
+						"text-align": "align-left"
+					},
+					"blocks": [
+						{
+							"type": "rows",
+							"variants": {
+								"text-align": "align-left"
+							},
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "title",
+										"padding-top": "pt-huge",
+										"padding-bottom": "pb-huge"
+									},
+									"text": "Page tests that all content components align correctly within a row using \"align-left\"."
+								},
+								{
+									"type": "columns",
+									"blocks": [
+										{
+											"type": "content-card",
+											"primaryLabel": "Primary",
+											"secondaryLabel": "Secondary",
+											"overline": "over",
+											"headline": "headline",
+											"richText": "<p>body text</p>",
+											"primaryButton": true,
+											"secondaryButton": true,
+											"disclosure": "disclosure",
+											"variants": {}
+										},
+										{
+											"id": "fsh82n",
+											"type": "content-card",
+											"primaryLabel": "Primary",
+											"secondaryLabel": "Secondary",
+											"overline": "over",
+											"headline": "headline",
+											"richText": "<p>body text</p>",
+											"primaryButton": true,
+											"secondaryButton": true,
+											"disclosure": "disclosure",
+											"variants": {}
+										}
+									]
+								},
+								{
+									"id": "zn9rgb",
+									"type": "divider",
+									"variants": {
+										"padding-top": "pt-huge",
+										"padding-bottom": "pb-huge"
+									}
+								},
+								{
+									"type": "content-card",
+									"primaryLabel": "Primary",
+									"secondaryLabel": "Secondary",
+									"overline": "over",
+									"headline": "head",
+									"richText": "<p>body text</p>",
+									"primaryButton": true,
+									"secondaryButton": true,
+									"disclosure": "disclosure",
+									"variants": {}
+								},
+								{
+									"type": "contact-card",
+									"facebook": "https://facebook.com",
+									"linkedin": "https://facebook.com",
+									"twitter": "https://facebook.com",
+									"name": "My Name",
+									"title": "My Title",
+									"email": "email@address.com",
+									"landline": "541-555-5555",
+									"mobile": "541-555-5555",
+									"fax": "541-555-5555",
+									"address": {
+										"line1": "address line 1",
+										"line2": "address line 2",
+										"city": "springfield",
+										"state": "WA",
+										"zip": "12345"
+									},
+									"instagram": "https://facebook.com",
+									"youtube": "https://facebook.com",
+									"logo": null,
+									"description": "Description",
+									"variants": {}
+								},
+								{
+									"type": "social-links",
+									"facebook": "https://facebook.com",
+									"linkedin": "https://facebook.com",
+									"twitter": "https://facebook.com",
+									"headline": "headline",
+									"username": "username",
+									"instagram": "https://facebook.com",
+									"youtube": "https://facebook.com",
+									"variants": {}
+								},
+								{
+									"type": "text",
+									"text": "Your text here.",
+									"variants": {}
+								},
+								{
+									"type": "button",
+									"label": "Button Label",
+									"variants": {}
+								},
+								{
+									"type": "icon",
+									"variants": {
+										"size": "huge"
+									},
+									"icon": "news"
+								},
+								{
+									"type": "pencil-banner",
+									"variants": {
+										"alignment": "left"
+									},
+									"bodyCopy": "For more information about NYLIFE Securities LLC and its investment professionals,",
+									"buttonText": "Click here",
+									"buttonLink": "https://brokercheck.finra.org/"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"padding-top": "pt-medium",
+										"padding-bottom": "pb-medium"
+									},
+									"richText": "<p>some text goes here</p>"
+								},
+								{
+									"type": "form",
+									"variants": {}
+								},
+								{
+									"type": "calendly",
+									"displayType": "Button",
+									"buttonText": "some text",
+									"calendlyId": "1234mtgf",
+									"eventType": "Intro Appointment",
+									"variants": {}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"key": "test-center",
+			"label": "Testing Text Align Center",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "rows",
+					"variants": {
+						"text-align": "align-center"
+					},
+					"blocks": [
+						{
+							"type": "rows",
+							"variants": {
+								"text-align": "align-left"
+							},
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "title",
+										"padding-top": "pt-huge",
+										"padding-bottom": "pb-huge"
+									},
+									"text": "Page tests that all content components align correctly within a row using \"align-left\"."
+								},
+								{
+									"type": "columns",
+									"blocks": [
+										{
+											"type": "content-card",
+											"primaryLabel": "Primary",
+											"secondaryLabel": "Secondary",
+											"overline": "over",
+											"headline": "headline",
+											"richText": "<p>body text</p>",
+											"primaryButton": true,
+											"secondaryButton": true,
+											"disclosure": "disclosure",
+											"variants": {}
+										},
+										{
+											"id": "fsh82n",
+											"type": "content-card",
+											"primaryLabel": "Primary",
+											"secondaryLabel": "Secondary",
+											"overline": "over",
+											"headline": "headline",
+											"richText": "<p>body text</p>",
+											"primaryButton": true,
+											"secondaryButton": true,
+											"disclosure": "disclosure",
+											"variants": {}
+										}
+									]
+								},
+								{
+									"id": "zn9rgb",
+									"type": "divider",
+									"variants": {
+										"padding-top": "pt-huge",
+										"padding-bottom": "pb-huge"
+									}
+								},
+								{
+									"type": "content-card",
+									"primaryLabel": "Primary",
+									"secondaryLabel": "Secondary",
+									"overline": "over",
+									"headline": "head",
+									"richText": "<p>body text</p>",
+									"primaryButton": true,
+									"secondaryButton": true,
+									"disclosure": "disclosure",
+									"variants": {}
+								},
+								{
+									"type": "contact-card",
+									"facebook": "https://facebook.com",
+									"linkedin": "https://facebook.com",
+									"twitter": "https://facebook.com",
+									"name": "My Name",
+									"title": "My Title",
+									"email": "email@address.com",
+									"landline": "541-555-5555",
+									"mobile": "541-555-5555",
+									"fax": "541-555-5555",
+									"address": {
+										"line1": "address line 1",
+										"line2": "address line 2",
+										"city": "springfield",
+										"state": "WA",
+										"zip": "12345"
+									},
+									"instagram": "https://facebook.com",
+									"youtube": "https://facebook.com",
+									"logo": null,
+									"description": "Description",
+									"variants": {}
+								},
+								{
+									"type": "social-links",
+									"facebook": "https://facebook.com",
+									"linkedin": "https://facebook.com",
+									"twitter": "https://facebook.com",
+									"headline": "headline",
+									"username": "username",
+									"instagram": "https://facebook.com",
+									"youtube": "https://facebook.com",
+									"variants": {}
+								},
+								{
+									"type": "text",
+									"text": "Your text here.",
+									"variants": {}
+								},
+								{
+									"type": "button",
+									"label": "Button Label",
+									"variants": {}
+								},
+								{
+									"type": "icon",
+									"variants": {
+										"size": "huge"
+									},
+									"icon": "news"
+								},
+								{
+									"type": "pencil-banner",
+									"variants": {
+										"alignment": "left"
+									},
+									"bodyCopy": "For more information about NYLIFE Securities LLC and its investment professionals,",
+									"buttonText": "Click here",
+									"buttonLink": "https://brokercheck.finra.org/"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"padding-top": "pt-medium",
+										"padding-bottom": "pb-medium"
+									},
+									"richText": "<p>some text goes here</p>"
+								},
+								{
+									"type": "form",
+									"variants": {}
+								},
+								{
+									"type": "calendly",
+									"displayType": "Button",
+									"buttonText": "some text",
+									"calendlyId": "1234mtgf",
+									"eventType": "Intro Appointment",
+									"variants": {}
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"key": "test-right",
+			"label": "Testing Text Align Right",
+			"description": "Description lorem ipsum dolor sit amet consectetur elit",
+			"blocks": [
+				{
+					"type": "rows",
+					"variants": {
+						"text-align": "align-right"
+					},
+					"blocks": [
+						{
+							"type": "rows",
+							"variants": {
+								"text-align": "align-left"
+							},
+							"blocks": [
+								{
+									"type": "text",
+									"variants": {
+										"size": "title",
+										"padding-top": "pt-huge",
+										"padding-bottom": "pb-huge"
+									},
+									"text": "Page tests that all content components align correctly within a row using \"align-left\"."
+								},
+								{
+									"type": "columns",
+									"blocks": [
+										{
+											"type": "content-card",
+											"primaryLabel": "Primary",
+											"secondaryLabel": "Secondary",
+											"overline": "over",
+											"headline": "headline",
+											"richText": "<p>body text</p>",
+											"primaryButton": true,
+											"secondaryButton": true,
+											"disclosure": "disclosure",
+											"variants": {}
+										},
+										{
+											"id": "fsh82n",
+											"type": "content-card",
+											"primaryLabel": "Primary",
+											"secondaryLabel": "Secondary",
+											"overline": "over",
+											"headline": "headline",
+											"richText": "<p>body text</p>",
+											"primaryButton": true,
+											"secondaryButton": true,
+											"disclosure": "disclosure",
+											"variants": {}
+										}
+									]
+								},
+								{
+									"id": "zn9rgb",
+									"type": "divider",
+									"variants": {
+										"padding-top": "pt-huge",
+										"padding-bottom": "pb-huge"
+									}
+								},
+								{
+									"type": "content-card",
+									"primaryLabel": "Primary",
+									"secondaryLabel": "Secondary",
+									"overline": "over",
+									"headline": "head",
+									"richText": "<p>body text</p>",
+									"primaryButton": true,
+									"secondaryButton": true,
+									"disclosure": "disclosure",
+									"variants": {}
+								},
+								{
+									"type": "contact-card",
+									"facebook": "https://facebook.com",
+									"linkedin": "https://facebook.com",
+									"twitter": "https://facebook.com",
+									"name": "My Name",
+									"title": "My Title",
+									"email": "email@address.com",
+									"landline": "541-555-5555",
+									"mobile": "541-555-5555",
+									"fax": "541-555-5555",
+									"address": {
+										"line1": "address line 1",
+										"line2": "address line 2",
+										"city": "springfield",
+										"state": "WA",
+										"zip": "12345"
+									},
+									"instagram": "https://facebook.com",
+									"youtube": "https://facebook.com",
+									"logo": null,
+									"description": "Description",
+									"variants": {}
+								},
+								{
+									"type": "social-links",
+									"facebook": "https://facebook.com",
+									"linkedin": "https://facebook.com",
+									"twitter": "https://facebook.com",
+									"headline": "headline",
+									"username": "username",
+									"instagram": "https://facebook.com",
+									"youtube": "https://facebook.com",
+									"variants": {}
+								},
+								{
+									"type": "text",
+									"text": "Your text here.",
+									"variants": {}
+								},
+								{
+									"type": "button",
+									"label": "Button Label",
+									"variants": {}
+								},
+								{
+									"type": "icon",
+									"variants": {
+										"size": "huge"
+									},
+									"icon": "news"
+								},
+								{
+									"type": "pencil-banner",
+									"variants": {
+										"alignment": "left"
+									},
+									"bodyCopy": "For more information about NYLIFE Securities LLC and its investment professionals,",
+									"buttonText": "Click here",
+									"buttonLink": "https://brokercheck.finra.org/"
+								},
+								{
+									"type": "rich-text",
+									"variants": {
+										"padding-top": "pt-medium",
+										"padding-bottom": "pb-medium"
+									},
+									"richText": "<p>some text goes here</p>"
+								},
+								{
+									"type": "form",
+									"variants": {}
+								},
+								{
+									"type": "calendly",
+									"displayType": "Button",
+									"buttonText": "some text",
+									"calendlyId": "1234mtgf",
+									"eventType": "Intro Appointment",
+									"variants": {}
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

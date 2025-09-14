@@ -1,0 +1,10 @@
+﻿
+{
+  "id": "225fd6bb-9385-4e72-b86a-677b029d14db",
+  "type": "Cyotek.Addin.VisualLinkMap.VisualLinkMapAddin, Cyotek.Addin.VisualLinkMap, Version=1.0.0.0, Culture=neutral, PublicKeyToken=9d164292f52c48c9",
+  "author": "Cyotek",
+  "copyright": "Copyright © 2012-2016 Cyotek Ltd. All Rights Reserved.",
+  "description": "Allows visually displaying sitemaps via a tree diagram.",
+  "displayName": "Website Diagram",
+  "websiteUri": "https://www.cyotek.com/"
+}

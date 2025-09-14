@@ -1,0 +1,23 @@
+{
+	"bindings": [
+		{
+			"authLevel": "anonymous",
+			"type": "httpTrigger",
+			"route": "api/negotiate",
+			"direction": "in",
+			"name": "req"
+		},
+		{
+			"type": "http",
+			"direction": "out",
+			"name": "res"
+		},
+		{
+			"type": "webPubSubConnection",
+			"name": "connection",
+			"hub": "CORE",
+			"userId": "{query.user}",
+			"direction": "in"
+		}
+	]
+}

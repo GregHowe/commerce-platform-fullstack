@@ -1,0 +1,17 @@
+{
+	"bindings": [
+		{
+			"authLevel": "function",
+			"type": "httpTrigger",
+			"direction": "in",
+			"name": "req",
+			"route": "api/themes",
+			"methods": ["get", "options"]
+		},
+		{
+			"type": "http",
+			"direction": "out",
+			"name": "res"
+		}
+	]
+}

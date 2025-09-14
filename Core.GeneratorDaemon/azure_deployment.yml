@@ -1,0 +1,53 @@
+name: $(Date:yyyy-MM-dd-hhmmss)
+trigger:
+  batch: true
+  branches:
+    include:
+      - main
+  paths:
+    include:
+      - Core.Generator
+      - Core.Library
+      - Core.GeneratorDaemon
+    exclude:
+      - README.md
+pr: none
+
+variables:
+  - name: tagName
+    value: latest
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+  - task: Docker@2
+    displayName: Login to ACR
+    inputs:
+      command: login
+      containerRegistry: dockerRegistryServiceConnection
+
+  - task: Docker@2
+    displayName: Build and Push
+    inputs:
+      command: buildAndPush
+      Dockerfile: $(Build.SourcesDirectory)/Dockerfile_Generator
+      repository: generatordaemon
+      containerRegistry: dockerRegistryServiceConnection
+      tags: |
+        $(tagName)
+        $(Build.BuildNumber)
+
+  - task: Docker@2
+    displayName: Logout of ACR
+    inputs:
+      command: logout
+      containerRegistry: dockerRegistryServiceConnection
+  - task: AzureContainerAppsRC@0
+    displayName: 'Release container app revision'
+    inputs:
+      azureSubscription: dotnet
+      acrName: 'coresitebuilder'
+      containerAppName: 'f92core-generatordaemon'
+      resourceGroup: 'site-builder'
+      imageToDeploy: 'coresitebuilder.azurecr.io/generatordaemon:$(Build.BuildNumber)'

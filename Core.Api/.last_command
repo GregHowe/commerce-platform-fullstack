@@ -1,0 +1,11 @@
+{
+  "command": {
+    "name": "init"
+  },
+  "arguments": {
+    "ui": "https://fusion92.cloudcms.net",
+    "api": "https://api.cloudcms.com",
+    "username": "selliott",
+    "password": "BULbdm3Gm69U"
+  }
+}

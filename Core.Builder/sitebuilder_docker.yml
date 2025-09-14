@@ -1,0 +1,47 @@
+name: $(Date:yyyy-MM-dd-hhmmss)
+trigger:
+    batch: true
+    branches:
+        include:
+            - main
+    paths:
+        include:
+            - Core.Builder
+            - Core.Library
+        exclude:
+            - README.md
+pr: none
+
+variables:
+    - name: tagName
+      value: latest
+
+pool:
+    vmImage: ubuntu-latest
+
+steps:
+    - task: Docker@2
+      displayName: Login to ACR
+      inputs:
+          command: login
+          containerRegistry: dockerRegistryServiceConnection
+
+    - task: Docker@2
+      displayName: Build and Push
+      inputs:
+          command: buildAndPush
+          Dockerfile: $(Build.SourcesDirectory)/Dockerfile
+          repository: corebuilder
+          containerRegistry: dockerRegistryServiceConnection
+          tags: |
+              $(tagName)
+              $(Build.BuildNumber)
+
+    - task: Docker@2
+      displayName: Logout of ACR
+      inputs:
+          command: logout
+          containerRegistry: dockerRegistryServiceConnection
+
+    - publish: "$(Build.SourcesDirectory)/Core.E2E"
+      artifact: E2ETests

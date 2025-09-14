@@ -1,0 +1,73 @@
+trigger:
+    batch: true
+    branches:
+        include:
+            - main
+            - node-websockets
+    paths:
+        include:
+            - Core.Api/**/*
+
+pr: none
+
+pool:
+    vmImage: windows-latest
+
+variables:
+    CACHE_RESTORED: false
+
+steps:
+    - task: NodeTool@0
+      inputs:
+          versionSpec: "16.x"
+      displayName: "Install Node.js"
+
+    - task: Cache@2
+      inputs:
+          key: 'yarn | "$(Agent.OS)" | ./Core.Api/yarn.lock'
+          restoreKeys: |
+              yarn | "$(Agent.OS)"
+          path: $(Build.SourcesDirectory)/Core.Api/node_modules
+          cacheHitVar: CACHE_RESTORED
+      displayName: Cache yarn
+
+    - task: DownloadSecureFile@1
+      inputs:
+          secureFile: "gitana.json"
+
+    - task: CopyFiles@2
+      displayName: "Copy Secrets"
+      inputs:
+          SourceFolder: "$(Agent.TempDirectory)"
+          Contents: "gitana.json"
+          TargetFolder: "$(Build.ArtifactStagingDirectory)"
+          OverWrite: true
+
+    - script: |
+          yarn
+      displayName: "Yarn install"
+      workingDirectory: $(Build.SourcesDirectory)/Core.Api
+      condition: ne(variables.CACHE_RESTORED, 'true')
+    - task: CopyFiles@2
+      inputs:
+          SourceFolder: "$(Build.SourcesDirectory)/Core.Api"
+          Contents: "**"
+          TargetFolder: "$(Build.ArtifactStagingDirectory)"
+
+    - task: ArchiveFiles@2
+      inputs:
+          rootFolderOrFile: "$(Build.ArtifactStagingDirectory)"
+          archiveType: "zip"
+          archiveFile: "$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip"
+          replaceExistingArchive: true
+          includeRootFolder: false
+
+    - task: AzureFunctionApp@1
+      inputs:
+          azureSubscription: "New York Life (3420c08a-ba08-48d8-93f5-f139de540eec)"
+          appType: "functionApp"
+          appName: "nyl-function"
+          deployToSlotOrASE: true
+          slotName: "staging"
+          package: "$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip"
+          deploymentMethod: "auto"

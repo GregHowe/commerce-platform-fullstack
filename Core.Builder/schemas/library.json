@@ -1,0 +1,274 @@
+{
+	"fields": [
+		{
+			"key": "id",
+			"label": "ID",
+			"type": "string",
+			"readonly": true,
+			"hidden": true
+		},
+		{
+			"key": "type",
+			"label": "Type",
+			"type": "string",
+			"readonly": true,
+			"hidden": true
+		},
+		{
+			"key": "handle",
+			"label": "Handle",
+			"type": "string",
+			"rules": {
+        "max": 255,
+        "required": true
+      }
+		},
+		{
+			"key": "title",
+			"label": "Title",
+			"type": "string",
+			"rules": {
+        "max": 255,
+        "required": true
+      }
+		},
+		{
+			"key": "description",
+			"label": "Description",
+			"type": "string",
+			"rules": { "max": 255 }
+		},
+		{
+			"key": "category",
+			"label": "Choose a Category",
+			"type": "category"
+		},
+		{
+			"key": "keywords",
+			"label": "Keywords",
+			"type": "string"
+		},
+		{
+			"key": "clientCode",
+			"label": "SMRU Code",
+			"type": "string",
+			"rules": {
+				"max": 255,
+				"required": true
+			}
+		},
+		{
+			"key": "isPrivate",
+			"label": "Private",
+			"type": "boolean",
+			"default": false
+		}
+	],
+	"types": {
+		"image": {
+			"fields": [
+				{
+					"key": "file",
+					"label": "Image File",
+					"type": "image",
+					"rules": {
+						"mimes": [
+							"image/jpeg",
+							"image/png",
+							"image/svg",
+							"image/gif",
+							"image/bmp"
+						],
+						"maxSize": 2000,
+						"required": true
+					}
+				},
+				{
+					"key": "fileType",
+					"label": "File Type",
+					"type": "string",
+					"readonly": true
+				},
+				{
+					"key": "alt",
+					"label": "Alt Text",
+					"type": "string",
+					"rules": { "max": 255 }
+				}
+			]
+		},
+		"video": {
+			"fields": [
+				{
+					"key": "src",
+					"label": "Video Link",
+					"type": "video",
+					"rules": { "required": true }
+				},
+				{
+					"key": "platform",
+					"label": "Platform",
+					"type": "string",
+					"readonly": true
+				},
+				{
+					"key": "alt",
+					"label": "Alt Text",
+					"type": "string",
+					"rules": { "max": 255 }
+				}
+			]
+		},
+		"document": {
+			"fields": [
+				{
+					"key": "file",
+					"label": "File",
+					"type": "file",
+					"rules": {
+						"required": true,
+						"mimes": ["application/pdf", "text/plain", "text/csv"]
+					}
+				},
+				{
+					"key": "fileType",
+					"label": "File Type",
+					"type": "string",
+					"readonly": true
+				}
+			]
+		},
+		"background": {
+			"fields": [
+				{
+					"key": "src",
+					"label": "Image File",
+					"type": "image",
+					"rules": {
+						"mimes": [
+							"image/jpeg",
+							"image/png",
+							"image/svg",
+							"image/gif",
+							"image/bmp"
+						],
+						"maxSize": 2000
+					}
+				},
+				{
+					"key": "alt",
+					"label": "Alt Text",
+					"type": "string",
+					"rules": { "max": 255 }
+				}
+			]
+		},
+		"disclosure": {
+			"fields": [
+				{
+					"key": "text",
+					"label": "Body Text",
+					"type": "string"
+				},
+				{
+					"key": "action",
+					"label": "Call to Action",
+					"type": "url"
+				}
+			]
+		},
+		"disclaimer": {
+			"fields": [
+				{
+					"key": "text",
+					"label": "Body Text",
+					"type": "string"
+				},
+				{
+					"key": "action",
+					"label": "Call to Action",
+					"type": "url"
+				}
+			]
+		},
+		"blog": {
+			"fields": [
+				{
+					"key": "file",
+					"label": "File",
+					"type": "file",
+					"rules": { "max": 255 }
+				},
+				{
+					"key": "date-time",
+					"label": "Date and Time",
+					"type": "date-time"
+				},
+				{
+					"key": "date",
+					"label": "Date",
+					"type": "date"
+				},
+				{
+					"key": "time",
+					"label": "Time",
+					"type": "time"
+				},
+				{
+					"key": "author",
+					"label": "Author",
+					"type": "string"
+				},
+				{
+					"key": "source",
+					"label": "Source",
+					"type": "url"
+				},
+				{
+					"key": "rtf",
+					"label": "Rich Text",
+					"type": "content"
+				},
+				{
+					"key": "cover",
+					"label": "Cover Image",
+					"type": "image",
+					"rules": {
+						"mimes": [
+							"image/jpeg",
+							"image/png",
+							"image/svg",
+							"image/gif",
+							"image/bmp"
+						],
+						"maxSize": 2000
+					}
+				},
+				{
+					"key": "imageTitle",
+					"label": "Image Title",
+					"type": "string"
+				},
+				{
+					"key": "imageDescription",
+					"label": "Image Description",
+					"type": "string"
+				},
+				{
+					"key": "imageAlt",
+					"label": "Image Alt Text",
+					"type": "string"
+				}
+			]
+		},
+		"link": {
+			"fields": [
+				{
+					"key": "link",
+					"label": "Link",
+					"type": "url"
+				}
+			]
+		}
+	}
+}

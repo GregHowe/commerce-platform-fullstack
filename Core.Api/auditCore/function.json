@@ -1,0 +1,13 @@
+{
+	"bindings": [
+		{
+			"topicName": "core",
+			"subscriptionName": "Audit",
+			"connection": "AzureWebJobsServiceBus",
+			"name": "coreEvent",
+			"type": "serviceBusTrigger",
+			"direction": "in",
+			"autoCompleteMessages": "true"
+		}
+	]
+}

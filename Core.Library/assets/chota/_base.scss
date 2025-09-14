@@ -1,0 +1,231 @@
+.page {
+	/*
+		these are throwaway i just put them in to make
+		the lead form more presnetable to NYL
+	*/
+	.page__blocks > .block_content-card:first-child {
+		padding-top: 2rem;
+	}
+	.page__blocks > .block_content-card + .block_form {
+		padding-top: 2rem;
+	}
+	@include breakpoint_down(md) {
+		.page__blocks > .block:not([class*="full-bleed"]) {
+			padding: 12px;
+		}
+	}
+}
+
+.page {
+	--bg-secondary-color: var(--_core__container_background);
+	--color-primary: var(--core__color_primary);
+	--color-lightGrey: var(--core__color_light);
+	--color-grey: var(--core__color_medium);
+	--color-darkGrey: var(--core__color_dark);
+	--color-error: var(--core__color_error);
+	--color-success: var(--core__color_success);
+	--grid-maxWidth: var(--_core__container_max-width);
+	--grid-gutter: var(--_core__container_gutter);
+	--font-size: var(--_core__container_font-size);
+	--font-color: var(--_core__container_color);
+
+	// take a look at these at some point...
+	--font-family-sans: -apple-system, BlinkMacSystemFont, Avenir, "Avenir Next",
+		"Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
+		"Droid Sans", "Helvetica Neue", sans-serif;
+	--font-family-mono: monaco, "Consolas", "Lucida Console", monospace;
+
+	padding: 0;
+
+	.page__body {
+		overflow: hidden;
+		box-sizing: border-box;
+		-ms-text-size-adjust: 100%;
+		-webkit-text-size-adjust: 100%;
+		background: var(--_core__container_background);
+		color: var(--_core__container_color);
+		font-family: "Segoe UI", "Helvetica Neue", sans-serif; /*fallback*/
+		font-family: var(--_core__container_font-family);
+		font-size: var(--_core__container_font-size);
+		text-align: var(--_core__container_text-align);
+		line-height: var(--_core__container_line-height);
+		max-width: var(--_core__body_max-width);
+		margin: 0 auto;
+		padding: 0;
+		position: relative;
+		z-index: 3;
+		min-height: calc(100vh - (var(--_core__container_gutter) * 2));
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+	}
+
+	.footer {
+		margin-top: auto;
+	}
+
+	*,
+	*:before,
+	*:after {
+		box-sizing: inherit;
+	}
+	* {
+		scrollbar-width: thin;
+		scrollbar-color: var(--color-lightGrey) var(--bg-primary);
+	}
+
+	*::-webkit-scrollbar {
+		width: 8px;
+	}
+
+	*::-webkit-scrollbar-track {
+		background: var(--bg-primary);
+	}
+
+	*::-webkit-scrollbar-thumb {
+		background: var(--color-lightGrey);
+	}
+
+	h1,
+	h2,
+	h3,
+	h4,
+	h5,
+	h6 {
+		font-weight: 500;
+		margin: 0.35em 0 0.7em 0;
+	}
+
+	h1 {
+		font-size: 2em;
+	}
+
+	h2 {
+		font-size: 1.75em;
+	}
+
+	h3 {
+		font-size: 1.5em;
+	}
+
+	h4 {
+		font-size: 1.25em;
+	}
+
+	h5 {
+		font-size: 1em;
+	}
+
+	h6 {
+		font-size: 0.85em;
+	}
+
+	a {
+		color: var(--color-primary);
+		text-decoration: none;
+	}
+
+	a:hover:not(.button) {
+		opacity: 0.75;
+	}
+
+	.button {
+		font-family: inherit;
+	}
+
+	p {
+		margin-top: 0;
+	}
+
+	blockquote {
+		background-color: var(--bg-secondary-color);
+		padding: 1.5rem 2rem;
+		border-left: 3px solid var(--color-lightGrey);
+	}
+
+	dl dt {
+		font-weight: bold;
+	}
+
+	hr {
+		border: none;
+		background-color: var(--color-lightGrey);
+		height: 1px;
+		margin: 1rem 0;
+	}
+
+	table {
+		width: 100%;
+		border: none;
+		border-collapse: collapse;
+		border-spacing: 0;
+		text-align: left;
+	}
+
+	table.striped tr:nth-of-type(2n) {
+		background-color: var(--bg-secondary-color);
+	}
+
+	td,
+	th {
+		vertical-align: middle;
+		padding: 1.2rem 0.4rem;
+	}
+
+	thead {
+		border-bottom: 2px solid var(--color-lightGrey);
+	}
+
+	tfoot {
+		border-top: 2px solid var(--color-lightGrey);
+	}
+
+	code,
+	kbd,
+	pre,
+	samp,
+	tt {
+		font-family: var(--font-family-mono);
+	}
+
+	code,
+	kbd {
+		padding: 0 0.4rem;
+		font-size: 90%;
+		white-space: pre-wrap;
+		border-radius: 4px;
+		padding: 0.2em 0.4em;
+		background-color: var(--bg-secondary-color);
+		color: var(--color-error);
+	}
+
+	pre {
+		background-color: var(--bg-secondary-color);
+		font-size: 1em;
+		padding: 1rem;
+		overflow-x: auto;
+	}
+
+	pre code {
+		background: none;
+		padding: 0;
+	}
+
+	abbr[title] {
+		border-bottom: none;
+		text-decoration: underline;
+		text-decoration: underline dotted;
+	}
+
+	img {
+		max-width: 100%;
+	}
+
+	fieldset {
+		border: 1px solid var(--color-lightGrey);
+	}
+
+	iframe {
+		border: 0;
+	}
+}
